@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="finance_approval" table="x_grs_site_incntv_outageinfo" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>finance_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes, Approved with modifications</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cca3cabdb294b4065eff438bf9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:03:28</sys_updated_on>
+            <value>no_modifications</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>finance_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes, Approved without modifications</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dcca3cabdb294b4065eff438bf9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:03:28</sys_updated_on>
+            <value>with_modifications</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>finance_approval</element>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_id>f64c75a9db121300a98ff91ebf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>finance_approval</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_choice_x_grs_site_incntv_outageinfo_finance_approval</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:03:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

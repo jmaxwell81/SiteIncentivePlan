@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="margin_po_comments" label="Short Description" language="en" table="x_grs_site_incntv_additional_margin_po_list">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>margin_po_comments</element>
+            <help/>
+            <hint/>
+            <label>Short Description</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_additional_margin_po_list</name>
+            <plural>Short Descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-17 15:46:50</sys_created_on>
+            <sys_id>f26929cddb5587008a08f35aaf961906</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Short Description</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_documentation_x_grs_site_incntv_additional_margin_po_list_margin_po_comments_en</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-27 18:20:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

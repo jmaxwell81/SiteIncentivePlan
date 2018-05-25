@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Site Incentive Plan">29f04d95db0d8300ed28f209af961936</cat_item>
+        <cat_variable>IO:f9f009d5db0d8300ed28f209af96193b</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <messages/>
+        <name>Check Outage End date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+/*	   g_form.showFieldMsg('outage_end_date', 'Call-out workflow will trigger after 7 days of entered Outage End date', 'info'); */	
+
+	   return;
+   }
+	if (newValue < g_form.getValue('outage_start_date')){
+		g_form.hideFieldMsg('outage_end_date',true);
+		g_form.showFieldMsg('outage_end_date',"Outage End date should be later than Start date ",'error');
+		g_form.setValue('outage_end_date',"");
+	}
+	else {
+		g_form.hideFieldMsg('outage_end_date',true);
+/*		g_form.showFieldMsg('outage_end_date', 'Call-out will go to SIT team for initial review post 7 days of Outage End date', 'info'); */	
+	}
+		
+
+   //Type appropriate comment here, and begin script below
+  
+   
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2017-09-28 14:11:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f66cbd68dbe98b008a08f35aaf961926</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Check Outage End date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>catalog_script_client_f66cbd68dbe98b008a08f35aaf961926</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2017-10-02 14:35:21</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="fin_attach_uploaded" table="x_grs_site_incntv_outageinfo" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fin_attach_uploaded</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes, I uploaded</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>0</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50ca3cabdb294b4065eff438bf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:03:28</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fin_attach_uploaded</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not uploaded</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>2</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-17 21:32:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28810974db2a8300092efbf9af961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-17 21:32:28</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>fin_attach_uploaded</element>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_id>ba4c75a9db121300a98ff91ebf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>fin_attach_uploaded</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_choice_x_grs_site_incntv_outageinfo_fin_attach_uploaded</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:03:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

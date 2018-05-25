@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Performance Evaluation" section_id="c0fe63d9db9d87008a08f35aaf96191a" sys_domain="global" table="x_grs_site_incntv_outageinfo" version="3" view="Finance_Review">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>14bce87ddb6957c08a08f35aaf961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <text>&lt;table style="width:30%" border="1"&gt;&#13;
+  &lt;caption&gt;SM Survey&lt;/caption&gt;&#13;
+  &lt;tr&gt;&#13;
+    &lt;th &gt;Attainment&lt;/th&gt;&#13;
+    &lt;th&gt;Multiplier&lt;/th&gt;&#13;
+  &lt;/tr&gt;&#13;
+  &lt;tr&gt;&#13;
+    &lt;td&gt;Meet Expectation&lt;/td&gt;&#13;
+    &lt;td&gt;100%&lt;/td&gt;&#13;
+  &lt;/tr&gt;&#13;
+  &lt;tr&gt;&#13;
+    &lt;td&gt;Exceed Expectation&lt;/td&gt;&#13;
+    &lt;td&gt;120%&lt;/td&gt;&#13;
+  &lt;/tr&gt;&#13;
+  &lt;tr&gt;&#13;
+    &lt;td&gt;Exceptional&lt;/td&gt;&#13;
+    &lt;td&gt;140%&lt;/td&gt;&#13;
+  &lt;/tr&gt;&#13;
+&lt;/table&gt;</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>18bce87ddb6957c08a08f35aaf961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <text>&lt;html&gt;&#13;
+&lt;body&gt;&#13;
+&lt;h4&gt;1. How did the FE/team deliver the project milestones based on customer expectations?&lt;/h4&gt;&#13;
+&lt;ul&gt;&#13;
+  &lt;li&gt;1 = BELOW EXPECTATION - Failure to meet customer requirements.  Significant delay or inability to overcome scheduling challenges.&lt;/li&gt;&#13;
+  &lt;li&gt;2 = MET EXPECTATION - Mobilized, managed and delivered in timely and satisfactory manner.&lt;/li&gt;&#13;
+  &lt;li&gt;3 = EXCEEDED EXPECTATION - Mobilized, managed and delivered ahead of expected schedule.&lt;/li&gt;&#13;
+  &lt;li&gt;4 = EXCEPTIONAL - Strong management and active engagment demonstrated to deliver world-class and ahead of expected schedule.&lt;/li&gt;&#13;
+  &lt;/ul&gt;  &#13;
+&lt;/body&gt;&#13;
+&lt;/html&gt;</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>1cbce87ddb6957c08a08f35aaf961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <text>&lt;html&gt;&#13;
+&lt;body&gt;&#13;
+&lt;h4&gt;2. How would you rate the FE/team on Quality/Rework? &lt;/h4&gt;&#13;
+&lt;ul&gt;&#13;
+  &lt;li&gt;1 = BELOW EXPECTATION - Failure to meet customer requirements.  Significant delay or inability to overcome scheduling challenges.&lt;/li&gt;&#13;
+  &lt;li&gt;2 = MET EXPECTATION - Mobilized, managed and delivered in timely and satisfactory manner.&lt;/li&gt;&#13;
+  &lt;li&gt;3 = EXCEEDED EXPECTATION - Mobilized, managed and delivered ahead of expected schedule.&lt;/li&gt;&#13;
+  &lt;li&gt;4 = EXCEPTIONAL - Strong management and active engagment demonstrated to deliver world-class and ahead of expected schedule.&lt;/li&gt;&#13;
+  &lt;/ul&gt; &#13;
+&lt;/body&gt;&#13;
+&lt;/html&gt;</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>10bce87ddb6957c08a08f35aaf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <text>&lt;html&gt;&#13;
+&lt;body&gt;&#13;
+&lt;h4&gt;3. Please rate your overall satisfaction with the FE/team.&lt;/h4&gt;&#13;
+&lt;ul&gt;&#13;
+  &lt;li&gt;1 = BELOW EXPECTATION - Failure to meet customer requirements.  Significant delay or inability to overcome scheduling challenges.&lt;/li&gt;&#13;
+  &lt;li&gt;2 = MET EXPECTATION - Mobilized, managed and delivered in timely and satisfactory manner.&lt;/li&gt;&#13;
+  &lt;li&gt;3 = EXCEEDED EXPECTATION - Mobilized, managed and delivered ahead of expected schedule.&lt;/li&gt;&#13;
+  &lt;li&gt;4 = EXCEPTIONAL - Strong management and active engagment demonstrated to deliver world-class and ahead of expected schedule.&lt;/li&gt;&#13;
+&lt;/ul&gt; &#13;
+&lt;/body&gt;&#13;
+&lt;/html&gt;</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>14bce87ddb6957c08a08f35aaf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <text>The results of the average of the 3 questions for the team will be applied to each FE as 100% of the annual incentive total.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>14bce87ddb6957c08a08f35aaf961948</element>
+            <position>0</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>d4bce87ddb6957c08a08f35aaf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">c0fe63d9db9d87008a08f35aaf96191a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>18bce87ddb6957c08a08f35aaf961948</element>
+            <position>1</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>58bce87ddb6957c08a08f35aaf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">c0fe63d9db9d87008a08f35aaf96191a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rating_team_performance</element>
+            <position>2</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>d8bce87ddb6957c08a08f35aaf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">c0fe63d9db9d87008a08f35aaf96191a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rating_qty_rework_comments</element>
+            <position>3</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>5cbce87ddb6957c08a08f35aaf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">c0fe63d9db9d87008a08f35aaf96191a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1cbce87ddb6957c08a08f35aaf961948</element>
+            <position>4</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>dcbce87ddb6957c08a08f35aaf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">c0fe63d9db9d87008a08f35aaf96191a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rating_quality_rework</element>
+            <position>5</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>50bce87ddb6957c08a08f35aaf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">c0fe63d9db9d87008a08f35aaf96191a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rating_team_perf_comments</element>
+            <position>6</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>d0bce87ddb6957c08a08f35aaf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">c0fe63d9db9d87008a08f35aaf96191a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>10bce87ddb6957c08a08f35aaf961949</element>
+            <position>7</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>54bce87ddb6957c08a08f35aaf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">c0fe63d9db9d87008a08f35aaf96191a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rating_fe_unit_return</element>
+            <position>8</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>d4bce87ddb6957c08a08f35aaf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">c0fe63d9db9d87008a08f35aaf96191a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rating_fe_return_comments</element>
+            <position>9</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>58bce87ddb6957c08a08f35aaf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">c0fe63d9db9d87008a08f35aaf96191a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>14bce87ddb6957c08a08f35aaf961949</element>
+            <position>10</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>d8bce87ddb6957c08a08f35aaf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">c0fe63d9db9d87008a08f35aaf96191a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>add_margin_fe</element>
+            <position>11</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:43:49</sys_created_on>
+            <sys_id>5cbce87ddb6957c08a08f35aaf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">c0fe63d9db9d87008a08f35aaf96191a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:43:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Performance Evaluation</caption>
+            <header>false</header>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-18 20:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0fe63d9db9d87008a08f35aaf96191a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Performance Evaluation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_section_c0fe63d9db9d87008a08f35aaf96191a</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-29 21:03:32</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Finance Review" name="Finance_Review">ccfe63d9db9d87008a08f35aaf961918</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

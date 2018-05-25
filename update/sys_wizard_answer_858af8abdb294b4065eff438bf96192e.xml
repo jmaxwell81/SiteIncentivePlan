@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>OutageInfo</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>OutageInfo</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">b3f9bc66f822030059a64c78fda74ae9</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-10-07 17:02:26</sys_created_on>
+        <sys_id>858af8abdb294b4065eff438bf96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OutageInfo</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_wizard_answer_858af8abdb294b4065eff438bf96192e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-10-07 17:02:26</sys_updated_on>
+        <table/>
+        <target_url>x_grs_site_incntv_outageinfo.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_grs_site_incntv_outageinfo" version="2" view="RPTf80b6a3ddbd5c7008a08f35aaf961930">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>1cb06499db1e0b805559785e0f9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>outage_region</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>9cb06499db1e0b805559785e0f9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ehs_breach</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>10b0a499db1e0b805559785e0f961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>project_number</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>90b0a499db1e0b805559785e0f961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>esn</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>14b0a499db1e0b805559785e0f961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>site_comp_status</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>94b0a499db1e0b805559785e0f961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>service_manager_name</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>18b0a499db1e0b805559785e0f961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>outage_start_date</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>98b0a499db1e0b805559785e0f961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>outage_end_date</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>1cb0a499db1e0b805559785e0f961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>outage_comments</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>9cb0a499db1e0b805559785e0f961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>job_type</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>10b0a499db1e0b805559785e0f961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assign_st_date</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>90b0a499db1e0b805559785e0f961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rating_team_perf_comments</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>14b0a499db1e0b805559785e0f961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>long_term_standard</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>94b0a499db1e0b805559785e0f961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>equipment_type</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>18b0a499db1e0b805559785e0f961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>finance_comments</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>98b0a499db1e0b805559785e0f961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>non_stnd_gtmpo_5</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>1cb0a499db1e0b805559785e0f961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>job_type_standard_exists</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>9cb0a499db1e0b805559785e0f961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>outage_planned_start_date</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>10b0a499db1e0b805559785e0f961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>po_entered</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>90b0a499db1e0b805559785e0f961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rating_fe_unit_return</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>20</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>14b0a499db1e0b805559785e0f961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>outage_event_type</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>21</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>94b0a499db1e0b805559785e0f961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>outage_event_sub_type</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>22</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>18b0a499db1e0b805559785e0f961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>outage_type</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>23</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>98b0a499db1e0b805559785e0f961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>outage_productivity_multipliers</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>24</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>1cb0a499db1e0b805559785e0f961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>outage_planned_end_date</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>25</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>9cb0a499db1e0b805559785e0f961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>outage_notification_date</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>26</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>10b0a499db1e0b805559785e0f961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>job_type_transactional</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>27</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>90b0a499db1e0b805559785e0f961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_longer_6mnths</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>28</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>14b0a499db1e0b805559785e0f961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>non_stnd_gtmpo_4</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>29</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>94b0a499db1e0b805559785e0f961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>non_stnd_gtmpo_3</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>30</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>18b0a499db1e0b805559785e0f961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>non_stnd_gtmpo_2</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>31</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>98b0a499db1e0b805559785e0f961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>non_stnd_gtmpo_1</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>32</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>1cb0a499db1e0b805559785e0f961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>proj_man_weeks</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>33</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>9cb0a499db1e0b805559785e0f961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tot_proj_hours</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>34</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>10b0a499db1e0b805559785e0f961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>proj_cost</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>35</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>90b0a499db1e0b805559785e0f961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>non_stnd_gtmpo_cnt</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>36</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>14b0a499db1e0b805559785e0f961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>gtm_po_stnd_scope</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>37</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>94b0a499db1e0b805559785e0f961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ehs_comments</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>38</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>18b0a499db1e0b805559785e0f961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>jce_approved</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>39</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>98b0a499db1e0b805559785e0f961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reviewed_with_pteam</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>40</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>1cb0a499db1e0b805559785e0f961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>add_margin_fe</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>41</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>9cb0a499db1e0b805559785e0f961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>callout_to_outage</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>42</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>10b0a499db1e0b805559785e0f961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rating_qty_rework_comments</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>43</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>90b0a499db1e0b805559785e0f961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rating_fe_return_comments</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>44</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>14b0a499db1e0b805559785e0f961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assign_tentative_end_date</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>45</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>94b0a499db1e0b805559785e0f961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>attached_required_documents</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>46</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>18b0a499db1e0b805559785e0f961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>productivity_team_member</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>47</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>98b0a499db1e0b805559785e0f961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tdi_transactional</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>48</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>1cb0a499db1e0b805559785e0f961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ce_uploaded</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>49</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>9cb0a499db1e0b805559785e0f961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tot_stnd_scope_hrs</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>50</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>10b0a499db1e0b805559785e0f961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tot_stnd_scope_cost</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>51</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>90b0a499db1e0b805559785e0f961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rating_team_performance</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>52</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>14b0a499db1e0b805559785e0f961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>job_category</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>53</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>94b0a499db1e0b805559785e0f961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>project_type</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>54</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>18b0a499db1e0b805559785e0f961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rating_quality_rework</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>55</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>98b0a499db1e0b805559785e0f961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reassignment_count</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>56</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>1cb0a499db1e0b805559785e0f961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>scl_final_comments</element>
+            <list_id display_value="x_grs_site_incntv_outageinfo" element="NULL" name="x_grs_site_incntv_outageinfo" parent="NULL" relationship="NULL" sys_domain="global" view="3c0be27ddbd5c7008a08f35aaf961926">18b06499db1e0b805559785e0f9619ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>57</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_id>9cb0a499db1e0b805559785e0f961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-06 22:10:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18b06499db1e0b805559785e0f9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_grs_site_incntv_outageinfo</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_list_x_grs_site_incntv_outageinfo_RPTf80b6a3ddbd5c7008a08f35aaf961930</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-06 22:10:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptf80b6a3ddbd5c7008a08f35aaf961930" name="RPTf80b6a3ddbd5c7008a08f35aaf961930">3c0be27ddbd5c7008a08f35aaf961926</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

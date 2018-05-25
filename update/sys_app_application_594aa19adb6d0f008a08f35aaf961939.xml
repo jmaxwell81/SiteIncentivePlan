@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>GoTo PO for the scope</name>
+        <order>100</order>
+        <roles>x_grs_site_incntv_goto_po_for_the_scope_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2017-10-03 23:18:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>594aa19adb6d0f008a08f35aaf961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GoTo PO for the scope</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_app_application_594aa19adb6d0f008a08f35aaf961939</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2017-10-03 23:18:39</sys_updated_on>
+        <title>GoTo PO for the scope</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

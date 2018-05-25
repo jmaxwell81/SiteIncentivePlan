@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2018-05-24 15:27:32</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2018-05-24 00:48:47</sys_created_on>
+        <sys_id>23bf6cc1dbd6db00ed28f209af96197f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>c8161025c801f9d766a1cee330115e00e6b0cc0f0956f3798a7134dce45f0390</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</sys_push_application_id>
+        <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_23bf6cc1dbd6db00ed28f209af96197f</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2018-05-24 15:27:32</sys_updated_on>
+        <sys_user_id display_value="">1f919424dba926009fb3f2f9af96195f</sys_user_id>
+        <token>c8161025c801f9d766a1cee330115e00e6b0cc0f0956f3798a7134dce45f0390</token>
+    </sys_push_notif_app_install>
+</record_update>

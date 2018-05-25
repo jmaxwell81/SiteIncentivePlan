@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_grs_site_incntv_jis_and_site_incentive" version="2" view="RPT9cc6e031db511b80ed28f209af96195f">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opt_cart_item</element>
+            <list_id display_value="x_grs_site_incntv_jis_and_site_incentive" element="NULL" name="x_grs_site_incntv_jis_and_site_incentive" parent="NULL" relationship="NULL" sys_domain="global" view="e0c6e031db511b80ed28f209af961965">29da6113db95db80ed28f209af9619f8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Raghu.Kumar</sys_created_by>
+            <sys_created_on>2018-04-11 11:50:31</sys_created_on>
+            <sys_id>adda6113db95db80ed28f209af9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Raghu.Kumar</sys_updated_by>
+            <sys_updated_on>2018-04-11 11:50:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opt_value</element>
+            <list_id display_value="x_grs_site_incntv_jis_and_site_incentive" element="NULL" name="x_grs_site_incntv_jis_and_site_incentive" parent="NULL" relationship="NULL" sys_domain="global" view="e0c6e031db511b80ed28f209af961965">29da6113db95db80ed28f209af9619f8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Raghu.Kumar</sys_created_by>
+            <sys_created_on>2018-04-11 11:50:31</sys_created_on>
+            <sys_id>21da6113db95db80ed28f209af9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Raghu.Kumar</sys_updated_by>
+            <sys_updated_on>2018-04-11 11:50:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opt_item_option_new</element>
+            <list_id display_value="x_grs_site_incntv_jis_and_site_incentive" element="NULL" name="x_grs_site_incntv_jis_and_site_incentive" parent="NULL" relationship="NULL" sys_domain="global" view="e0c6e031db511b80ed28f209af961965">29da6113db95db80ed28f209af9619f8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Raghu.Kumar</sys_created_by>
+            <sys_created_on>2018-04-11 11:50:31</sys_created_on>
+            <sys_id>a1da6113db95db80ed28f209af9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Raghu.Kumar</sys_updated_by>
+            <sys_updated_on>2018-04-11 11:50:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_grs_site_incntv_jis_and_site_incentive</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Raghu.Kumar</sys_created_by>
+            <sys_created_on>2018-04-11 11:50:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29da6113db95db80ed28f209af9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_grs_site_incntv_jis_and_site_incentive</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_list_x_grs_site_incntv_jis_and_site_incentive_RPT9cc6e031db511b80ed28f209af96195f</sys_update_name>
+            <sys_updated_by>Raghu.Kumar</sys_updated_by>
+            <sys_updated_on>2018-04-11 11:50:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt9cc6e031db511b80ed28f209af96195f" name="RPT9cc6e031db511b80ed28f209af96195f">e0c6e031db511b80ed28f209af961965</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

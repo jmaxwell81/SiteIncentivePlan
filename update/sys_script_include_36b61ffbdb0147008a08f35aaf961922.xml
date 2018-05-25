@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_grs_site_incntv.getSubCat</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getSubCat</name>
+        <script><![CDATA[var getSubCat = Class.create();
+getSubCat.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+getSubCat:function() {
+	var options='';
+    var gr = new GlideRecord('sys_choice');
+    gr.addQuery('name','x_grs_site_incntv_outageinfo');
+    gr.addQuery('dependent_value',this.getParameter('sysparm_cat'));
+    gr.addQuery('element','frame_subtech_type');
+    gr.query();
+    while(gr.next()) {
+         options=options+gr.label+'^'+gr.value+',';
+    }
+    return options;
+}
+//    type: 'getSubCat'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2017-09-14 02:34:41</sys_created_on>
+        <sys_id>36b61ffbdb0147008a08f35aaf961922</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>getSubCat</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_script_include_36b61ffbdb0147008a08f35aaf961922</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2017-09-14 02:58:49</sys_updated_on>
+    </sys_script_include>
+</record_update>

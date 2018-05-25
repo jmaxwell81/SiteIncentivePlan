@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="SIT Review" section_id="cdf8af97db554b008a08f35aaf961903" sys_domain="global" table="x_grs_site_incntv_outageinfo" version="3" view="EHS_Evaluation">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:44:11</sys_created_on>
+            <sys_id>f5cc2c7ddb6957c08a08f35aaf9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:44:11</sys_updated_on>
+            <text>Please validate and correct, if required, the names, skillsets, and duration of FEs at the job/outage below.</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>callout_to_outage</element>
+            <position>0</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:44:11</sys_created_on>
+            <sys_id>b9cc2c7ddb6957c08a08f35aaf9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SIT Review" display_value="SIT Review" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="01f8af97db554b008a08f35aaf961903">cdf8af97db554b008a08f35aaf961903</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:44:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gtm_full_outage_project_number</element>
+            <position>1</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:44:11</sys_created_on>
+            <sys_id>3dcc2c7ddb6957c08a08f35aaf9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SIT Review" display_value="SIT Review" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="01f8af97db554b008a08f35aaf961903">cdf8af97db554b008a08f35aaf961903</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:44:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>f5cc2c7ddb6957c08a08f35aaf9619fd</element>
+            <position>2</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:44:11</sys_created_on>
+            <sys_id>bdcc2c7ddb6957c08a08f35aaf9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SIT Review" display_value="SIT Review" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="01f8af97db554b008a08f35aaf961903">cdf8af97db554b008a08f35aaf961903</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:44:11</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sm_validation_status</element>
+            <position>3</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:44:11</sys_created_on>
+            <sys_id>31cc2c7ddb6957c08a08f35aaf9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SIT Review" display_value="SIT Review" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="01f8af97db554b008a08f35aaf961903">cdf8af97db554b008a08f35aaf961903</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:44:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>SIT Review</caption>
+            <header>false</header>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-25 00:50:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdf8af97db554b008a08f35aaf961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SIT Review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_section_cdf8af97db554b008a08f35aaf961903</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-25 00:50:22</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="EHS Evaluation" name="EHS_Evaluation">01f8af97db554b008a08f35aaf961903</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

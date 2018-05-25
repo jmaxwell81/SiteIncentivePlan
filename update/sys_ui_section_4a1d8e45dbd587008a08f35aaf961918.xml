@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="SIT Final Approval" section_id="4a1d8e45dbd587008a08f35aaf961918" sys_domain="global" table="x_grs_site_incntv_outageinfo" version="3" view="SIT_Final_Review">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:41:18</sys_created_on>
+            <sys_id>e71ca07ddb6957c08a08f35aaf9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:41:18</sys_updated_on>
+            <text>&lt;html&gt;&#13;
+&lt;body&gt;&#13;
+&lt;h4&gt;Acknowledge that the following items were completed&lt;/h4&gt;&#13;
+&lt;ul&gt;&#13;
+  &lt;li&gt;Entered Outage Productivity Muliplier&lt;/li&gt;&#13;
+  &lt;li&gt;Enter any applicable additional margin by FE&lt;/li&gt;&#13;
+  &lt;li&gt;Attach backup documentation for values provided&lt;/li&gt;&#13;
+  &lt;/ul&gt;  &#13;
+&lt;/body&gt;&#13;
+&lt;/html&gt;</text>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>scl_approval</element>
+            <position>0</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:41:18</sys_created_on>
+            <sys_id>ab1ca07ddb6957c08a08f35aaf9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SIT Final Approval" display_value="SIT Final Approval" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="0af24e81dbd587008a08f35aaf9619e6">4a1d8e45dbd587008a08f35aaf961918</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:41:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e71ca07ddb6957c08a08f35aaf9619f1</element>
+            <position>1</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:41:18</sys_created_on>
+            <sys_id>2f1ca07ddb6957c08a08f35aaf9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SIT Final Approval" display_value="SIT Final Approval" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="0af24e81dbd587008a08f35aaf9619e6">4a1d8e45dbd587008a08f35aaf961918</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:41:18</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outage_productivity_multipliers</element>
+            <position>2</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:41:18</sys_created_on>
+            <sys_id>af1ca07ddb6957c08a08f35aaf9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SIT Final Approval" display_value="SIT Final Approval" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="0af24e81dbd587008a08f35aaf9619e6">4a1d8e45dbd587008a08f35aaf961918</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:41:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attached_required_documents</element>
+            <position>3</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:41:18</sys_created_on>
+            <sys_id>231ca07ddb6957c08a08f35aaf9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SIT Final Approval" display_value="SIT Final Approval" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="0af24e81dbd587008a08f35aaf9619e6">4a1d8e45dbd587008a08f35aaf961918</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:41:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>scl_final_comments</element>
+            <position>4</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-04-19 01:41:18</sys_created_on>
+            <sys_id>a31ca07ddb6957c08a08f35aaf9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SIT Final Approval" display_value="SIT Final Approval" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="0af24e81dbd587008a08f35aaf9619e6">4a1d8e45dbd587008a08f35aaf961918</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:41:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>SIT Final Approval</caption>
+            <header>false</header>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-17 18:22:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a1d8e45dbd587008a08f35aaf961918</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>SIT Final Approval</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_section_4a1d8e45dbd587008a08f35aaf961918</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-20 02:39:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="SIT Final Review" name="SIT_Final_Review">0af24e81dbd587008a08f35aaf9619e6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_grs_site_incntv_outageinfo" version="2" view="SIT_Review">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="OutageInfo - SIT Review" name="x_grs_site_incntv_outageinfo" related_list="NULL" sys_domain="global" view="7b234fc4db5547008a08f35aaf96196f">917c1740db9547008a08f35aaf961923</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_grs_site_incntv_field_engineers.outage_ref</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-14 21:35:31</sys_created_on>
+            <sys_id>d57c1740db9547008a08f35aaf961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-14 21:35:31</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>OutageInfo - SIT Review</calculated_name>
+            <filter/>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-14 21:35:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>917c1740db9547008a08f35aaf961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>OutageInfo - SIT Review</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_related_x_grs_site_incntv_outageinfo_SIT_Review</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-14 21:35:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="SIT Review" name="SIT_Review">7b234fc4db5547008a08f35aaf96196f</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

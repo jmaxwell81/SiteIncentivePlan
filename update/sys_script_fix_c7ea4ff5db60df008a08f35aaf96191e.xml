@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <before>false</before>
+        <description>Site Comp Outage Info Updates to Performance Average</description>
+        <flush_cache>false</flush_cache>
+        <name>SiteComp - Performance Avg field update </name>
+        <run_once>true</run_once>
+        <script><![CDATA[//Script for background task for updating the Performance Values in the database.
+var gr = new GlideRecord('x_grs_site_incntv_outageinfo');
+//gr.addQuery('performance_average', " ");
+gr.query();
+while(gr.next())
+{
+	//var a = gr.getValue('rating_fe_unit_return');
+//	var b = gr.getValue('rating_team_performance');
+//	var c = gr.getValue('rating_quality_rework');
+	gr.performance_average = 6;
+		//parseInt(a) + parseInt(b) + parseInt(c);
+//gr.setForceUpdate(true);
+		gr.setWorkflow(false);
+		gr.update();
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2018-02-28 20:16:22</sys_created_on>
+        <sys_id>c7ea4ff5db60df008a08f35aaf96191e</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>SiteComp - Performance Avg field update </sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_script_fix_c7ea4ff5db60df008a08f35aaf96191e</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2018-03-05 19:10:51</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

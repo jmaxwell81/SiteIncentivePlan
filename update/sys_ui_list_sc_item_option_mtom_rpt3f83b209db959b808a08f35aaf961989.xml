@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sc_item_option_mtom" version="2" view="RPT3f83b209db959b808a08f35aaf961989">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sc_item_option.value</element>
+            <list_id display_value="sc_item_option_mtom" element="NULL" name="sc_item_option_mtom" parent="NULL" relationship="NULL" sys_domain="global" view="0493b209db959b808a08f35aaf96198e">faad6291db11db808a08f35aaf9619b5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>abhinav.nishant</sys_created_by>
+            <sys_created_on>2018-04-05 11:34:40</sys_created_on>
+            <sys_id>b2ad6291db11db808a08f35aaf9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhinav.nishant</sys_updated_by>
+            <sys_updated_on>2018-04-05 11:34:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request_item.request.number</element>
+            <list_id display_value="sc_item_option_mtom" element="NULL" name="sc_item_option_mtom" parent="NULL" relationship="NULL" sys_domain="global" view="0493b209db959b808a08f35aaf96198e">faad6291db11db808a08f35aaf9619b5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>abhinav.nishant</sys_created_by>
+            <sys_created_on>2018-04-05 11:34:40</sys_created_on>
+            <sys_id>36ad6291db11db808a08f35aaf9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhinav.nishant</sys_updated_by>
+            <sys_updated_on>2018-04-05 11:34:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sc_item_option_mtom</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>abhinav.nishant</sys_created_by>
+            <sys_created_on>2018-04-05 11:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>faad6291db11db808a08f35aaf9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sc_item_option_mtom</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_list_sc_item_option_mtom_RPT3f83b209db959b808a08f35aaf961989</sys_update_name>
+            <sys_updated_by>abhinav.nishant</sys_updated_by>
+            <sys_updated_on>2018-04-05 11:34:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt3f83b209db959b808a08f35aaf961989" name="RPT3f83b209db959b808a08f35aaf961989">0493b209db959b808a08f35aaf96198e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

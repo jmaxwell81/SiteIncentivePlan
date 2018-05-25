@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Grs Site Incntv Field Engineers" max_length="40" name="u_imp_tmpl_x_grs_site_incntv_field_engineers" type="collection">
+        <element attributes="import_attribute_name=Additional Margin Contribution" label="Additional Margin Contribution " max_length="15" name="u_additional_m_n_contribution" type="currency"/>
+        <element attributes="import_attribute_name=Addnl Margin Contribution" label="Addnl Margin Contribution" max_length="20" name="u_addnl_margin_contribution" type="decimal"/>
+        <element attributes="import_attribute_name=Event End Date" label="Event End Date" max_length="40" name="u_event_end_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Event Start Date" label="Event Start Date" max_length="40" name="u_event_start_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="32" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Number,edge_encryption_enabled=true" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="import_attribute_name=Skill Set,edge_encryption_enabled=true" label="Skill Set" max_length="40" name="u_skill_set" type="string"/>
+        <element attributes="import_attribute_name=Sys ID,edge_encryption_enabled=true" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+    </element>
+</database>

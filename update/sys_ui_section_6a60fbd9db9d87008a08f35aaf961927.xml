@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Finance Approval" section_id="6a60fbd9db9d87008a08f35aaf961927" sys_domain="global" table="x_grs_site_incntv_outageinfo" version="3" view="SIT_Final_Review">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>finance_approval</element>
+            <position>0</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-20 18:24:17</sys_created_on>
+            <sys_id>ea3a294adbd9c7008a08f35aaf9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Approval" display_value="Finance Approval" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="0af24e81dbd587008a08f35aaf9619e6">6a60fbd9db9d87008a08f35aaf961927</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-20 18:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>finance_addnl_margin</element>
+            <position>1</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-20 18:24:17</sys_created_on>
+            <sys_id>6e3a294adbd9c7008a08f35aaf9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Approval" display_value="Finance Approval" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="0af24e81dbd587008a08f35aaf9619e6">6a60fbd9db9d87008a08f35aaf961927</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-20 18:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>finance_comments</element>
+            <position>2</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-20 18:24:17</sys_created_on>
+            <sys_id>ee3a294adbd9c7008a08f35aaf9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Approval" display_value="Finance Approval" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="0af24e81dbd587008a08f35aaf9619e6">6a60fbd9db9d87008a08f35aaf961927</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-20 18:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fin_attach_uploaded</element>
+            <position>3</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-20 18:24:17</sys_created_on>
+            <sys_id>623a294adbd9c7008a08f35aaf9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Approval" display_value="Finance Approval" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="0af24e81dbd587008a08f35aaf9619e6">6a60fbd9db9d87008a08f35aaf961927</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-20 18:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Finance Approval</caption>
+            <header>false</header>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-18 20:15:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a60fbd9db9d87008a08f35aaf961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Finance Approval</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_section_6a60fbd9db9d87008a08f35aaf961927</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:15:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="SIT Final Review" name="SIT_Final_Review">0af24e81dbd587008a08f35aaf9619e6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

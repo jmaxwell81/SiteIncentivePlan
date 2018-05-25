@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Pre-Outage Info section" section_id="08820cafdb554b008a08f35aaf96190a" sys_domain="global" table="x_grs_site_incntv_outageinfo" version="3" view="Full_Outage">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>e8b4ef0bdbed4f008a08f35aaf9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_manager_name</element>
+            <position>1</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>6cb4ef0bdbed4f008a08f35aaf9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_category</element>
+            <position>2</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>ecb4ef0bdbed4f008a08f35aaf9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_number</element>
+            <position>3</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>60b4ef0bdbed4f008a08f35aaf9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_type</element>
+            <position>4</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>e0b4ef0bdbed4f008a08f35aaf9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>frame_subtech_type</element>
+            <position>5</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>64b4ef0bdbed4f008a08f35aaf9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>proj_man_weeks</element>
+            <position>6</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>e4b4ef0bdbed4f008a08f35aaf9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>proj_cost</element>
+            <position>7</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>68b4ef0bdbed4f008a08f35aaf9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outage_comments</element>
+            <position>8</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>e8b4ef0bdbed4f008a08f35aaf9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sip_comments</element>
+            <position>9</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>6cb4ef0bdbed4f008a08f35aaf9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>ecb4ef0bdbed4f008a08f35aaf9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site_comp_status</element>
+            <position>11</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>60b4ef0bdbed4f008a08f35aaf9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outage_region</element>
+            <position>12</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>e0b4ef0bdbed4f008a08f35aaf9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_type</element>
+            <position>13</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>64b4ef0bdbed4f008a08f35aaf9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tdi_transactional</element>
+            <position>14</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>e4b4ef0bdbed4f008a08f35aaf9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>esn</element>
+            <position>15</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>68b4ef0bdbed4f008a08f35aaf9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outage_start_date</element>
+            <position>16</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>e8b4ef0bdbed4f008a08f35aaf9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outage_end_date</element>
+            <position>17</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>6cb4ef0bdbed4f008a08f35aaf9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outage_notification_date</element>
+            <position>18</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-06 16:08:59</sys_created_on>
+            <sys_id>ecb4ef0bdbed4f008a08f35aaf9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="8c820cafdb554b008a08f35aaf961909">08820cafdb554b008a08f35aaf96190a</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 16:08:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Pre-Outage Info section</caption>
+            <header>false</header>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-25 02:41:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08820cafdb554b008a08f35aaf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Pre-Outage Info section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_section_08820cafdb554b008a08f35aaf96190a</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-25 02:41:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Full Outage" name="Full_Outage">8c820cafdb554b008a08f35aaf961909</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="721a67c4db9547008a08f35aaf9619a8" sys_domain="global" table="x_grs_site_incntv_outageinfo" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-14 22:35:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f61a67c4db9547008a08f35aaf9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_grs_site_incntv_outageinfo" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="3e1a67c4db9547008a08f35aaf9619a6">721a67c4db9547008a08f35aaf9619a8</sys_ui_form>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="3e1a67c4db9547008a08f35aaf9619a6">b61a67c4db9547008a08f35aaf9619a7</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-14 22:35:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-14 22:35:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a1a67c4db9547008a08f35aaf9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_grs_site_incntv_outageinfo" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="3e1a67c4db9547008a08f35aaf9619a6">721a67c4db9547008a08f35aaf9619a8</sys_ui_form>
+            <sys_ui_section caption="Eligible FEs from ServiceMax" display_value="Eligible FEs from ServiceMax" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="3e1a67c4db9547008a08f35aaf9619a6">fa1a67c4db9547008a08f35aaf9619a7</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-14 22:35:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-14 22:38:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7eaabc4db9547008a08f35aaf96198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_grs_site_incntv_outageinfo" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="3e1a67c4db9547008a08f35aaf9619a6">721a67c4db9547008a08f35aaf9619a8</sys_ui_form>
+            <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="3e1a67c4db9547008a08f35aaf9619a6">23eaabc4db9547008a08f35aaf96198f</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-14 22:38:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-02-02 15:33:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9b15caddb8c5f00ed28f209af961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_grs_site_incntv_outageinfo" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="3e1a67c4db9547008a08f35aaf9619a6">721a67c4db9547008a08f35aaf9619a8</sys_ui_form>
+            <sys_ui_section caption="Finance Review Comments (If ANY)" display_value="Finance Review Comments (If ANY)" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="3e1a67c4db9547008a08f35aaf9619a6">a9b15caddb8c5f00ed28f209af961995</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-02-02 15:33:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_grs_site_incntv_outageinfo</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-14 22:35:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>721a67c4db9547008a08f35aaf9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_grs_site_incntv_outageinfo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_form_sections_721a67c4db9547008a08f35aaf9619a8</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-14 22:35:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="SM Validation" name="SM_Validation">3e1a67c4db9547008a08f35aaf9619a6</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

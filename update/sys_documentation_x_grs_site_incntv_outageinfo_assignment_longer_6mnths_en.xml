@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="assignment_longer_6mnths" label="Is Assignment longer than 6 Months?" language="en" table="x_grs_site_incntv_outageinfo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>assignment_longer_6mnths</element>
+            <help/>
+            <hint/>
+            <label>Is Assignment longer than 6 Months?</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <plural>Is Assignment longer than 6 Months?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-26 14:36:45</sys_created_on>
+            <sys_id>c4bfa373dbdd4b008a08f35aaf9619cd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Is Assignment longer than 6 Months?</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_documentation_x_grs_site_incntv_outageinfo_assignment_longer_6mnths_en</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-27 18:11:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

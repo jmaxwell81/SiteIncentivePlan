@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Send reminder email for outageinfo</name>
+        <run_as display_value="">a627ab10dbd91b808a08f35aaf9619a6</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-05-03 11:12:32</run_start>
+        <run_time>1970-01-01 05:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[//new global.ScriptlessScheduledJobUtils(current).updateRecords();
+/*
+var gr = new GlideRecord('sysapproval_approver'); 
+    
+    gr.addEncodedQuery('sysapproval.sys_class_name=x_grs_site_incntv_outageinfo^state=requested');
+gr.query('sys_id','fb28328cdb39dbc08a08f35aaf961935');
+
+     gr.query(); 
+gs.info('mmm//'+gr.getRowCount());
+    while (gr.next()) { 
+		var sit = new GlideRecord('x_grs_site_incntv_outageinfo');
+		sit.get(gr.sysapproval);
+		gs.info('mmm2//'+sit.site_comp_status);
+		if(sit.site_comp_status == 'sm_review' || sit.site_comp_status == 'jce_review'){
+			var startDate =  new GlideDateTime().getDisplayValue() ;
+
+
+var endDate = new GlideDateTime(gr.sys_created_on.getDisplayValue());
+			gs.info('mmm3//'+startDate+'//'+endDate);
+			var dur = GlideDateTime.subtract(startDate, endDate);
+//var schedule = new GlideSchedule('090eecae0a0a0b260077e1dfa71da828');
+
+//var duration = schedule.duration(startDate, endDate);
+
+	//	var dc = new DurationCalculator(); 
+			gs.info('mmm3//'+dur);
+  //dc.setSchedule('090eecae0a0a0b260077e1dfa71da828');  //put in the sys_id of the schedule in your instance like 8-5 weekdays excluding holidays
+ // var dur = dc.calcScheduleDuration(gr.sys_created_on.getDisplayValue(), gs.nowDateTime());
+		//gs.info('mmm4//'+dur);
+			if(dur>144000){
+		gs.eventQueue("x_grs_site_incntv.reminder.notification",gr, gs.getUserID(), gs.userName()); 
+		}
+		}
+	}
+	*/
+
+var gr = new GlideRecord('sysapproval_approver'); 
+    
+    gr.addEncodedQuery('sysapproval.sys_class_name=x_grs_site_incntv_outageinfo^state=requested^sys_created_on<javascript:gs.beginningOfLast7Days()');
+//gr.query('sysapproval','d4ba3b39dbb30b008a08f35aaf9619b9');
+     gr.query(); 
+
+//gs.info(gr.getRowCount());
+var count = 0;
+while(gr.next()){
+var sit = new GlideRecord('x_grs_site_incntv_outageinfo');
+		sit.get(gr.sysapproval);
+		//gs.info('mmm2//'+sit.site_comp_status);
+		if(sit.site_comp_status == 'sm_review' || sit.site_comp_status == 'jce_review'){
+			count++;
+gs.eventQueue("x_grs_site_incntv.reminder.notification",gr, gs.getUserID(), sit.number);
+
+}
+
+}
+gs.info(count);
+
+
+
+
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>Raghu.Kumar</sys_created_by>
+        <sys_created_on>2018-05-03 11:13:14</sys_created_on>
+        <sys_id>77157a9adbfd13048a08f35aaf96194c</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>Send reminder email for outageinfo</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sysauto_script_77157a9adbfd13048a08f35aaf96194c</sys_update_name>
+        <sys_updated_by>ashok.kumar</sys_updated_by>
+        <sys_updated_on>2018-05-10 15:13:03</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_grs_site_incntv.check_dependent_exists</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>check_dependent_exists</name>
+        <script><![CDATA[var check_dependent_exists = Class.create();
+check_dependent_exists.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+ DoesFEExist: function()
+  {
+	var answer ='';
+//  var cursysid = this.getParameter('sysparm_currentsysid');
+	var curNo = this.getParameter('sysparm_currentNo');
+	var gr = new GlideRecord('x_grs_site_incntv_field_engineers');
+	gr.addQuery('outage_ref.number',curNo);
+	gr.query();
+	  if(!gr.next())
+		  answer = "Not Exist";
+	  else
+		  answer = "Exist";
+	  return answer;
+  }	,
+ DoesPOExist: function()
+  {
+	var answer ='';
+//  var cursysid = this.getParameter('sysparm_currentsysid');
+	var curNo = this.getParameter('sysparm_currentNo');
+	var gr = new GlideRecord('x_grs_site_incntv_additional_margin_po_list');
+	gr.addQuery('outage_ref.number',curNo);
+	gr.query();
+	  if(!gr.next())
+		  answer = "Not Exist";
+	  else
+		  answer = "Exist";
+	  return answer;
+  }		
+	
+	
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2017-10-03 17:32:23</sys_created_on>
+        <sys_id>28b9905edbe90f008a08f35aaf961986</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>check_dependent_exists</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_script_include_28b9905edbe90f008a08f35aaf961986</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2017-10-03 20:16:05</sys_updated_on>
+    </sys_script_include>
+</record_update>

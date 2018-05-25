@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="finance_addnl_margin" label="If NO, Please provide approved additional margin" language="en" table="x_grs_site_incntv_outageinfo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>finance_addnl_margin</element>
+            <help/>
+            <hint/>
+            <label>If NO, Please provide approved additional margin</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <plural>If NO, Please provide approved additional margins</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-20 01:24:09</sys_created_on>
+            <sys_id>5bb042fddb95c7008a08f35aaf9619fa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>If NO, Please provide approved additional margin</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_documentation_x_grs_site_incntv_outageinfo_finance_addnl_margin_en</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-20 01:26:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

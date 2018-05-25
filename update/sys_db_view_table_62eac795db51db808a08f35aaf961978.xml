@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>true</left_join>
+        <order>80</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>abhinav.nishant</sys_created_by>
+        <sys_created_on>2018-04-05 13:43:17</sys_created_on>
+        <sys_id>62eac795db51db808a08f35aaf961978</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_grs_site_incntv_outageinfo</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_db_view_table_62eac795db51db808a08f35aaf961978</sys_update_name>
+        <sys_updated_by>abhinav.nishant</sys_updated_by>
+        <sys_updated_on>2018-04-09 10:55:02</sys_updated_on>
+        <table>x_grs_site_incntv_outageinfo</table>
+        <variable_prefix>oinfo</variable_prefix>
+        <view display_value="x_grs_site_incntv_jis_and_site_incentive_combined">56b4adfadb0157808a08f35aaf961981</view>
+        <where_clause>oinfo_project_number=opt_value</where_clause>
+    </sys_db_view_table>
+</record_update>

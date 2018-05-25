@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="tdi_transactional" label="Transactional SubType" language="en" table="x_grs_site_incntv_outageinfo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tdi_transactional</element>
+            <help/>
+            <hint/>
+            <label>Transactional SubType</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <plural>Transactional SubTypes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-10-03 23:30:55</sys_created_on>
+            <sys_id>c11de1dadb6d0f008a08f35aaf96198c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Transactional SubType</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_documentation_x_grs_site_incntv_outageinfo_tdi_transactional_en</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-10-06 14:04:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>new</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>krishna.tangeti</sys_created_by>
+        <sys_created_on>2018-05-25 19:40:21</sys_created_on>
+        <sys_id>455c79a9db121300a98ff91ebf961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_ui_view_455c79a9db121300a98ff91ebf961947</sys_update_name>
+        <sys_updated_by>krishna.tangeti</sys_updated_by>
+        <sys_updated_on>2018-05-25 19:40:21</sys_updated_on>
+        <title>New</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

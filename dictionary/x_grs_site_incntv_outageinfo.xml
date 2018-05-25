@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="OutageInfo" max_length="40" name="x_grs_site_incntv_outageinfo" type="collection">
+        <element label="Addnl Margin POs" max_length="40" name="addnl_margin_po" type="string"/>
+        <element choice="1" label="Did the FE/site team drive Parts/Repairs/Services Addnl margin for this event?" mandatory="true" max_length="40" name="add_margin_fe" type="choice">
+            <choice>
+                <element label="Yes" sequence="1" value="yes"/>
+                <element label="No" sequence="2" value="no"/>
+            </choice>
+        </element>
+        <element label="Apprvd Cost Est PO Number" max_length="40" name="apprvd_cost_est_po_number" type="string"/>
+        <element choice="1" label="Is Assignment longer than 6 Months?" max_length="40" name="assignment_longer_6mnths" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Assignment Start Date" max_length="40" name="assign_st_date" type="glide_date"/>
+        <element label="Assignment Tentative End Date" max_length="40" name="assign_tentative_end_date" type="glide_date"/>
+        <element choice="1" label="As Sold value used in the total Additional Contribution Margin approved?" max_length="40" name="as_sold_value_approved" type="choice">
+            <choice>
+                <element label="Yes" sequence="1" value="yes"/>
+                <element label="No" sequence="2" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="Attached required documents?" mandatory="true" max_length="40" name="attached_required_documents" type="choice">
+            <choice>
+                <element label="Yes" value="yes, I uploaded"/>
+            </choice>
+        </element>
+        <element choice="1" label="Did the Callout evolve into a full outage?" mandatory="true" max_length="40" name="callout_to_outage" type="choice">
+            <choice>
+                <element label="Yes – All FE(s) moved onto Full outage" value="yes_all"/>
+                <element label="Yes – Some team members moved onto Full Outage" sequence="1" value="yes_some"/>
+                <element label="No – FE(s) did not move onto Full Outage" sequence="2" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="Upload Approved Cost Estimate" max_length="40" name="ce_uploaded" type="choice">
+            <choice>
+                <element label="No, Not uploaded" value="no"/>
+                <element label="Yes, Uploaded" value="yes"/>
+            </choice>
+        </element>
+        <element label="Defect Track" max_length="1500" name="defect_track" type="glide_list"/>
+        <element choice="1" label="Was there an EHS breach?" mandatory="true" max_length="40" name="ehs_breach" type="choice">
+            <choice>
+                <element label="No" value="no"/>
+                <element label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element label="EHS Comments" max_length="5000" name="ehs_comments" type="string_full_utf8"/>
+        <element choice="1" label="Enter No. of PO's for Standard Turbine scope (PO-1)" max_length="40" name="enter_no_of_standard_scope_pos" type="choice">
+            <choice>
+                <element label="0" sequence="0" value="0"/>
+                <element label="1" sequence="1" value="1"/>
+                <element label="2" sequence="2" value="2"/>
+                <element label="3" sequence="3" value="3"/>
+                <element label="4" sequence="4" value="4"/>
+                <element label="5" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element choice="1" label="Equipment Type" max_length="40" name="equipment_type" type="choice">
+            <choice>
+                <element label="Aero" value="Aero"/>
+                <element label="Boiler" value="Boiler"/>
+                <element label="Gas Turbine (GT)" value="Gas Turbine (GT)"/>
+                <element label="Generator" value="generator"/>
+                <element label="Nuclear" value="Nuclear"/>
+                <element label="O&amp;G" value="O&amp;G"/>
+                <element label="Steam Turbine (ST)" value="Steam Turbine (ST)"/>
+            </choice>
+        </element>
+        <element hint="Provide the Equipment Serial Number (ESN)" label="Serial Number/Tower Number" max_length="40" name="esn" type="string"/>
+        <element label="Field Engineers" max_length="4000" name="field_engineers" type="glide_list"/>
+        <element label="FieldEngrsCount" max_length="40" name="field_engrs_count" type="longint"/>
+        <element label="If NO, Please provide approved additional margin" max_length="40" name="finance_addnl_margin" type="string"/>
+        <element choice="1" label="Confirm you have reviewed and approved in the Addnl Margin PO List" mandatory="true" max_length="40" name="finance_approval" type="choice">
+            <choice>
+                <element label="Yes, Approved with modifications" value="no_modifications"/>
+                <element label="Yes, Approved without modifications" value="with_modifications"/>
+            </choice>
+        </element>
+        <element label="Finance Review Comments" max_length="5000" name="finance_comments" type="string_full_utf8"/>
+        <element choice="1" label="Upload margin confirmation by PO using the attachment icon at the top." mandatory="true" max_length="40" name="fin_attach_uploaded" type="choice" use_dependent_field="true">
+            <choice>
+                <element label="Yes, I uploaded" sequence="0" value="yes"/>
+                <element label="Not uploaded" sequence="2" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="equipment_type" dependent_on_field="equipment_type" hint="Provide the Frame/Sub-Tech Type" label="Technology/Product Line" max_length="40" name="frame_subtech_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Gas Turbine (GT)" label="5" value="5"/>
+                <element dependent_value="Gas Turbine (GT)" label="6B" value="6B"/>
+                <element dependent_value="Gas Turbine (GT)" label="6F" value="6F"/>
+                <element dependent_value="Gas Turbine (GT)" label="7B" value="7B"/>
+                <element dependent_value="Gas Turbine (GT)" label="7E" value="7E"/>
+                <element dependent_value="Gas Turbine (GT)" label="7F" value="7F"/>
+                <element dependent_value="Gas Turbine (GT)" label="7H" value="7H"/>
+                <element dependent_value="Gas Turbine (GT)" label="9E" value="9E"/>
+                <element dependent_value="Gas Turbine (GT)" label="9F" value="9F"/>
+                <element dependent_value="Gas Turbine (GT)" label="9H" value="9H"/>
+                <element dependent_value="Steam Turbine (ST)" label="A-Class" value="A-Class"/>
+                <element dependent_value="Steam Turbine (ST)" label="C-Class" value="C-Class"/>
+                <element dependent_value="Steam Turbine (ST)" label="D-Class" value="D-Class"/>
+                <element dependent_value="Steam Turbine (ST)" label="G-Class" value="G-Class"/>
+                <element dependent_value="Gas Turbine (GT)" label="GT11" value="GT11"/>
+                <element dependent_value="Gas Turbine (GT)" label="GT13" value="GT13"/>
+                <element dependent_value="Gas Turbine (GT)" label="GT24" value="GT24"/>
+                <element dependent_value="Gas Turbine (GT)" label="GT26" value="GT26"/>
+                <element dependent_value="Aero" label="LM2500" value="LM2500"/>
+                <element dependent_value="Aero" label="LM6000" value="LM6000"/>
+                <element dependent_value="Aero" label="LMS" value="LMS"/>
+                <element dependent_value="Steam Turbine (ST)" label="LST &lt;500MW" value="LST &lt;500MW"/>
+                <element dependent_value="Steam Turbine (ST)" label="LST &gt;500MW" value="LST &gt;500MW"/>
+                <element dependent_value="Steam Turbine (ST)" label="LST Nuclear" value="LST Nuclear"/>
+                <element dependent_value="Steam Turbine (ST)" label="MDT" value="MDT"/>
+                <element dependent_value="Steam Turbine (ST)" label="MST &lt;100MW" value="MST &lt;100MW"/>
+                <element dependent_value="Steam Turbine (ST)" label="MST &gt;100MW" value="MST &gt;100MW"/>
+                <element dependent_value="Steam Turbine (ST)" label="N-Class" value="N-Class"/>
+                <element dependent_value="Steam Turbine (ST)" label="Non-GE Large Steam" value="Non-GE Large Steam"/>
+                <element dependent_value="Gas Turbine (GT)" label="Other" value="Other"/>
+                <element dependent_value="O&amp;G" label="Other" value="Other"/>
+                <element dependent_value="Nuclear" label="Other" value="Other"/>
+                <element dependent_value="Steam Turbine (ST)" label="Other" value="Other"/>
+                <element dependent_value="Aero" label="Other" value="Other"/>
+                <element dependent_value="Boiler" label="CFBs" sequence="1" value="CFBs"/>
+                <element dependent_value="generator" label="Gas" sequence="1" value="Gas"/>
+                <element dependent_value="Boiler" label="Coal" sequence="2" value="Coal"/>
+                <element dependent_value="generator" label="Steam" sequence="2" value="Steam"/>
+                <element dependent_value="Boiler" label="Critical" sequence="3" value="Critical"/>
+                <element dependent_value="generator" label="Other" sequence="3" value="Other"/>
+                <element dependent_value="Boiler" label="Gas" sequence="4" value="Gas"/>
+                <element dependent_value="Boiler" label="Oil" sequence="5" value="Oil"/>
+                <element dependent_value="Boiler" label="Supercritical" sequence="6" value="Supercritical"/>
+                <element dependent_value="Boiler" label="HRSG" sequence="7" value="HRSG"/>
+                <element label="HSRG" sequence="7" value="HSRG"/>
+                <element dependent_value="Boiler" label="Other" sequence="8" value="Other"/>
+            </choice>
+        </element>
+        <element label="GTM Full Outage Project Number" max_length="100" name="gtm_full_outage_project_number" type="string"/>
+        <element default="--Ignore--Chose GTM count field below" label="Enter GE GTM PO for Standard Scope" max_length="40" name="gtm_po_stnd_scope" read_only="true" type="string"/>
+        <element choice="1" label="Do you approve the JCE/Cost Estimate?" max_length="40" name="jce_approved" type="choice">
+            <choice>
+                <element label="Yes" sequence="1" value="yes"/>
+                <element label="Yes - with modifications" sequence="1" value="yes-With modifications"/>
+                <element label="No" sequence="2" value="no"/>
+                <element label="Yes - without modifications" sequence="2" value="yes-Without modifications"/>
+            </choice>
+        </element>
+        <element choice="1" hint="Provide the project type" label="Project / Outage Type" mandatory="true" max_length="40" name="job_category" type="choice">
+            <choice>
+                <element label="Callout (&lt;24 Hours)" sequence="0" value="callout"/>
+                <element label="Resident Field Engineer" sequence="1" value="resident_field_engineer"/>
+                <element label="TDI" sequence="2" value="tdi"/>
+                <element label="TDM" sequence="3" value="tdm"/>
+                <element label="Boiler/HRSG - No JCE" sequence="4" value="boiler_hrsg"/>
+                <element label="Long Term Assignment (&gt;6 Months)" sequence="6" value="long_term"/>
+                <element label="Planned Outage" sequence="7" value="planned_outage"/>
+                <element label="Forced Outage" sequence="8" value="forced_outage"/>
+            </choice>
+        </element>
+        <element choice="1" hint="Provide the Job Type" label="Job Type" mandatory="true" max_length="40" name="job_type" type="choice">
+            <choice>
+                <element label="Transactional" sequence="2" value="transactional"/>
+                <element label="Contractual" sequence="3" value="contractual"/>
+            </choice>
+        </element>
+        <element choice="1" label="Job type standard exists" max_length="40" name="job_type_standard_exists" type="choice">
+            <choice>
+                <element label="No" value="no"/>
+                <element label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element choice="1" label="Job Type Transactional" max_length="40" name="job_type_transactional" type="choice">
+            <choice>
+                <element label="Firm Price" value="firm_price"/>
+                <element label="T&amp;M" value="t_and_m"/>
+            </choice>
+        </element>
+        <element choice="1" label="Do you have Scope for Gas/Steam Turbine?" max_length="40" name="long_term_standard" type="choice">
+            <choice>
+                <element label="Yes" sequence="1" value="yes"/>
+                <element label="No" sequence="2" value="no"/>
+            </choice>
+        </element>
+        <element label="GE GTM Non-Standard PO1" max_length="40" name="non_stnd_gtmpo_1" type="string"/>
+        <element label="GE GTM Non-Standard P10" max_length="40" name="non_stnd_gtmpo_10" type="string"/>
+        <element label="GE GTM Non-Standard PO2" max_length="40" name="non_stnd_gtmpo_2" type="string"/>
+        <element label="GE GTM Non-Standard PO3" max_length="40" name="non_stnd_gtmpo_3" type="string"/>
+        <element label="GE GTM Non-Standard PO4" max_length="40" name="non_stnd_gtmpo_4" type="string"/>
+        <element label="GE GTM Non-Standard PO5" max_length="40" name="non_stnd_gtmpo_5" type="string"/>
+        <element label="GE GTM Non-Standard PO6" max_length="40" name="non_stnd_gtmpo_6" type="string"/>
+        <element label="GE GTM Non-Standard PO7" max_length="40" name="non_stnd_gtmpo_7" type="string"/>
+        <element label="GE GTM Non-Standard PO8" max_length="40" name="non_stnd_gtmpo_8" type="string"/>
+        <element label="GE GTM Non-Standard PO9" max_length="40" name="non_stnd_gtmpo_9" type="string"/>
+        <element choice="1" label="Enter No. of PO's for Gen/Auxiliary Non-Standard scope (PO 2/3)" max_length="40" name="non_stnd_gtmpo_cnt" type="choice">
+            <choice>
+                <element label="0" sequence="0" value="0"/>
+                <element label="1" sequence="1" value="1"/>
+                <element label="2" sequence="2" value="2"/>
+                <element label="3" sequence="3" value="3"/>
+                <element label="4" sequence="4" value="4"/>
+                <element label="5" sequence="5" value="5"/>
+                <element label="6" sequence="6" value="6"/>
+                <element label="7" sequence="7" value="7"/>
+                <element label="8" sequence="8" value="8"/>
+                <element label="9" sequence="9" value="9"/>
+                <element label="10" sequence="10" value="10"/>
+            </choice>
+        </element>
+        <element label="Non-Stnd Scope PO Number" max_length="40" name="non_stnd_scope_po_number" type="string"/>
+        <element label="Outage Comments" max_length="7000" name="outage_comments" type="string_full_utf8"/>
+        <element hint="Provide the Outage Planned End Date" label="Project Completion Date" max_length="40" name="outage_end_date" type="glide_date"/>
+        <element choice="1" dependent="equipment_type" dependent_on_field="equipment_type" label="Outage/Event Sub Type" max_length="40" name="outage_event_sub_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Aero" label="B1" sequence="1" value="b1"/>
+                <element dependent_value="Aero" label="B2" sequence="2" value="b2"/>
+                <element dependent_value="Aero" label="B3" sequence="3" value="b3"/>
+                <element dependent_value="Aero" label="B4" sequence="4" value="b4"/>
+                <element dependent_value="Aero" label="B5" sequence="5" value="b5"/>
+                <element dependent_value="Aero" label="B6" sequence="6" value="b6"/>
+                <element dependent_value="Aero" label="B7" sequence="7" value="b7"/>
+                <element dependent_value="Aero" label="B8" sequence="8" value="b8"/>
+                <element dependent_value="Aero" label="B9" sequence="9" value="b9"/>
+                <element dependent_value="Aero" label="B10" sequence="10" value="b10"/>
+                <element dependent_value="Aero" label="B11" sequence="11" value="b11"/>
+                <element dependent_value="Aero" label="B12" sequence="12" value="b12"/>
+                <element dependent_value="Aero" label="Other" sequence="13" value="other"/>
+                <element dependent_value="Boiler" label="Other" sequence="39" value="other"/>
+                <element dependent_value="Gas Turbine (GT)" label="CI (A-Inspection)" sequence="40" value="ci_a_inspection"/>
+                <element dependent_value="Gas Turbine (GT)" label="HGP(B-Inspection)" sequence="41" value="hgp_b_inspection"/>
+                <element dependent_value="Gas Turbine (GT)" label="MI(C-Inspection)" sequence="42" value="mi_c_inspection"/>
+                <element dependent_value="Gas Turbine (GT)" label="CM&amp;U" sequence="43" value="cmu"/>
+                <element dependent_value="Gas Turbine (GT)" label="Other" sequence="44" value="other"/>
+                <element dependent_value="generator" label="Minor" sequence="50" value="Minor"/>
+                <element dependent_value="generator" label="Major" sequence="51" value="Major"/>
+                <element dependent_value="generator" label="CM&amp;U" sequence="52" value="CM&amp;U"/>
+                <element dependent_value="generator" label="Other" sequence="53" value="other"/>
+                <element dependent_value="Nuclear" label="Minor" sequence="60" value="minor"/>
+                <element dependent_value="Nuclear" label="Major" sequence="61" value="major"/>
+                <element dependent_value="Nuclear" label="CM&amp;U" sequence="62" value="cmu"/>
+                <element dependent_value="Nuclear" label="Other" sequence="63" value="other"/>
+                <element dependent_value="O&amp;G" label="Other" sequence="70" value="other"/>
+                <element dependent_value="Steam Turbine (ST)" label="Major" sequence="81" value="Major"/>
+                <element dependent_value="Steam Turbine (ST)" label="Minor" sequence="82" value="Minor"/>
+                <element dependent_value="Steam Turbine (ST)" label="CM&amp;U" sequence="83" value="CM&amp;U"/>
+                <element dependent_value="Steam Turbine (ST)" label="Other" sequence="89" value="other"/>
+            </choice>
+        </element>
+        <element choice="1" label="Outage/Event Type" max_length="40" name="outage_event_type" type="choice">
+            <choice>
+                <element label="Aero" sequence="1" value="aero"/>
+                <element label="Boiler" sequence="2" value="boiler"/>
+                <element label="Gas Turbine" sequence="3" value="gas_turbine"/>
+                <element label="Nuclear" sequence="4" value="nuclear"/>
+                <element label="Steam Turbine" sequence="5" value="steam_turbine"/>
+                <element label="O&amp;G" sequence="6" value="og"/>
+                <element label="Generator" sequence="7" value="generator"/>
+            </choice>
+        </element>
+        <element label="Outage Notification Date" max_length="40" name="outage_notification_date" type="glide_date"/>
+        <element label="Outage Planned End Date" max_length="40" name="outage_planned_end_date" read_only="true" type="glide_date"/>
+        <element label="Outage Planned Start Date" max_length="40" name="outage_planned_start_date" read_only="true" type="glide_date"/>
+        <element label="Outage Productivity Multipliers" max_length="40" name="outage_productivity_multipliers" type="string"/>
+        <element choice="1" hint="Select the Region for this job/outage" label="Region" mandatory="true" max_length="40" name="outage_region" type="choice">
+            <choice>
+                <element label="Asia" sequence="1" value="asia"/>
+                <element label="Europe" sequence="2" value="europe"/>
+                <element label="LA" sequence="3" value="la"/>
+                <element label="MEAI" sequence="4" value="meai"/>
+                <element label="NA" sequence="5" value="na"/>
+            </choice>
+        </element>
+        <element hint="Provide the Outage Planned Start Date" label="Project Start Date" max_length="40" name="outage_start_date" type="glide_date"/>
+        <element choice="1" label="Outage Type" max_length="40" name="outage_type" type="choice">
+            <choice>
+                <element label="Forced" value="forced"/>
+                <element label="Planned" value="planned"/>
+            </choice>
+        </element>
+        <element choice="1" label="POs Entered?" max_length="40" name="po_entered" type="choice">
+            <choice>
+                <element label="No" value="no"/>
+                <element label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element choice="3" label="Pre Outage call?" max_length="40" name="pre_outage_call" type="choice">
+            <choice>
+                <element label="No" value="no"/>
+                <element label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element choice="3" label="Process Stage" max_length="80" name="process_stage" type="workflow">
+            <choice>
+                <element label="On Hold" sequence="100" value="hold"/>
+                <element label="SM Review" sequence="150" value="sm_review"/>
+                <element label="For JCE Estimation" sequence="160" value="for_jce_estimation"/>
+                <element label="JCE Review" sequence="170" value="jce_review"/>
+                <element label="SIT Review" sequence="200" value="sit_review"/>
+                <element label="For SM Validation" sequence="300" value="for_sm_validation"/>
+                <element label="EHS Evaluation" sequence="350" value="ehs_evaluation"/>
+                <element label="For Finance Review" sequence="400" value="for_finance_review"/>
+                <element label="For SIT Approval" sequence="500" value="for_sit_approval"/>
+                <element label="EHS Breach-Closed" sequence="600" value="ehs_breach_clsd"/>
+                <element label="Complete" sequence="700" value="complete"/>
+                <element label="FullOutage" sequence="800" value="full_outage"/>
+            </choice>
+        </element>
+        <element label="Productivity Team Group" max_length="32" name="productivity_team_group" reference="sys_user_group" reference_qual="nameSTARTSWITHProductivity Team^EQ" reference_qual_condition="nameSTARTSWITHProductivity Team^EQ" type="reference"/>
+        <element hint="Provide the name of the FieldCore Productivity Team member" label="Productivity Team Member" max_length="32" name="productivity_team_member" read_only="true" reference="x_grs_site_incntv_productivity_team" reference_qual="roles=x_grs_site_incntv.productivityteam^EQ" reference_qual_condition="roles=x_grs_site_incntv.productivityteam^EQ" type="reference"/>
+        <element label="GTM Project" mandatory="true" max_length="40" name="project_number" type="string"/>
+        <element choice="1" label="Project Type" max_length="40" name="project_type" type="choice">
+            <choice/>
+        </element>
+        <element hint="Please enter the total Project Cost (in Cost Estimate)" label="Enter Total Project Cost" max_length="15" name="proj_cost" type="currency"/>
+        <element label="Enter Total Project Man-Weeks" max_length="40" name="proj_man_weeks" type="string"/>
+        <element label="Comments" max_length="5000" name="rating_fe_return_comments" type="string_full_utf8"/>
+        <element choice="1" label="Overall Satisfaction Rating:" max_length="40" name="rating_fe_unit_return" type="choice">
+            <choice>
+                <element label="1 = BELOW EXPECTATION" sequence="1" value="1"/>
+                <element label="2 = MET EXPECTATION" sequence="2" value="2"/>
+                <element label="3 = EXCEEDED EXPECTATION" sequence="3" value="3"/>
+                <element label="4 = EXCEPTIONAL" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="5000" name="rating_qty_rework_comments" type="string_full_utf8"/>
+        <element choice="1" label="Quality/Rework Rating:" max_length="40" name="rating_quality_rework" type="choice">
+            <choice>
+                <element label="1 = BELOW EXPECTATION" sequence="0" value="1"/>
+                <element label="2 = MET EXPECTATION" sequence="1" value="2"/>
+                <element label="3 = EXCEEDED EXPECTATION" sequence="2" value="3"/>
+                <element label="4 = EXCEPTIONAL" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Team Performance Rating:" max_length="40" name="rating_team_performance" type="choice">
+            <choice>
+                <element label="1 = BELOW EXPECTATION" value="1"/>
+                <element label="2 = MET EXPECTATION" value="2"/>
+                <element label="3 = EXCEEDED EXPECTATION" value="3"/>
+                <element label="4 = EXCEPTIONAL" value="4"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="5000" name="rating_team_perf_comments" type="string_full_utf8"/>
+        <element choice="1" hint="Did you have a pre-outage call or productivity review with the Productivity Team? " label="Did you review with Productivity Team member?" max_length="40" name="reviewed_with_pteam" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="Confirm by selecting &quot;Yes, I acknowledge&quot;" mandatory="true" max_length="40" name="scl_approval" type="choice">
+            <choice>
+                <element label="Yes, I Acknowledge" sequence="0" value="yes"/>
+            </choice>
+        </element>
+        <element label="SIT Final Comments" max_length="5000" name="scl_final_comments" type="string_full_utf8"/>
+        <element hint="Please select your name" label="Service Manager Name" mandatory="true" max_length="32" name="service_manager_name" reference="sys_user" type="reference"/>
+        <element label="Additional Comments" max_length="5000" name="sip_comments" type="string_full_utf8"/>
+        <element choice="3" default="new" label="Site Comp Status" max_length="40" name="site_comp_status" read_only="true" type="choice">
+            <choice>
+                <element label="SM Review" sequence="0" value="sm_review"/>
+                <element label="For SIT Approval" sequence="1" value="for_sit_approval"/>
+                <element label="SIT Review" sequence="2" value="sit_review"/>
+                <element label="On Hold" sequence="3" value="hold"/>
+                <element label="For SM Validation" sequence="4" value="for_sm_validation"/>
+                <element label="For Finance Review" sequence="5" value="for_finance_review"/>
+                <element label="EHS Evaluation" sequence="6" value="ehs_evaluation"/>
+                <element label="EHS Breach-Closed" sequence="7" value="ehs_breach_clsd"/>
+                <element label="Complete" sequence="9" value="complete"/>
+                <element label="FullOutage" sequence="10" value="full_outage"/>
+                <element label="New" sequence="11" value="new"/>
+                <element label="For JCE estimaton" sequence="12" value="for_jce_estimation"/>
+                <element label="JCE Review" sequence="13" value="jce_review"/>
+                <element label="Cancelled" sequence="14" value="cancelled"/>
+            </choice>
+        </element>
+        <element choice="1" label="Validated?" mandatory="true" max_length="40" name="sm_validation_status" type="choice">
+            <choice>
+                <element label="Validation with No Correction" sequence="1" value="Validation with No Correction"/>
+                <element label="Validated and Correction Made" sequence="2" value="Validated and Correction Made"/>
+            </choice>
+        </element>
+        <element label="Standard Scope PO Number" max_length="40" name="standard_scope_po_number" type="string"/>
+        <element label="GE GTM Standard PO1" max_length="40" name="stnd_gtmpo_1" type="string"/>
+        <element label="GE GTM Standard PO2" max_length="40" name="stnd_gtmpo_2" type="string"/>
+        <element label="GE GTM Standard PO3" max_length="40" name="stnd_gtmpo_3" type="string"/>
+        <element label="GE GTM Standard PO4" max_length="40" name="stnd_gtmpo_4" type="string"/>
+        <element label="GE GTM Standard PO5" max_length="40" name="stnd_gtmpo_5" type="string"/>
+        <element choice="1" label="Transactional SubType" max_length="40" name="tdi_transactional" type="choice">
+            <choice>
+                <element label="Fixed Price" sequence="1" value="fixed_price"/>
+                <element label="T&amp;M with JCE" sequence="2" value="TandM"/>
+                <element label="T&amp;M without JCE" sequence="3" value="tm_no_jce"/>
+            </choice>
+        </element>
+        <element hint="Please enter the total Project Hours (in Cost Estimate)" label="Enter Total Project Hours" max_length="40" name="tot_proj_hours" type="integer"/>
+        <element hint="Please enter the total Project Cost (in Cost Estimate)" label="Total Standard Scope Cost" max_length="15" name="tot_stnd_scope_cost" type="currency"/>
+        <element hint="Please enter the total Standard Scope Hours (in Cost Estimate)*" label="Total Standard Scope Hours" max_length="40" name="tot_stnd_scope_hrs" type="integer"/>
+        <element label="UI Action Current" max_length="40" name="ui_action_current" type="string"/>
+    </element>
+</database>

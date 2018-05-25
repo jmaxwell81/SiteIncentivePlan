@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="outage_event_sub_type" table="x_grs_site_incntv_outageinfo" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B1</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98ca3cabdb294b4065eff438bf9619e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:02:42</sys_updated_on>
+            <value>b1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B2</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>2</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1cca3cabdb294b4065eff438bf9619e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:02:57</sys_updated_on>
+            <value>b2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B3</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cca3cabdb294b4065eff438bf9619e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:02:58</sys_updated_on>
+            <value>b3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B4</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10ca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:03:00</sys_updated_on>
+            <value>b4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B5</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>5</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90ca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:02:55</sys_updated_on>
+            <value>b5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B6</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>6</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0ca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:02:54</sys_updated_on>
+            <value>b6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B7</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>7</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14ca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:02:52</sys_updated_on>
+            <value>b7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B8</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>8</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54ca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:02:51</sys_updated_on>
+            <value>b8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B9</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>9</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94ca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:02:50</sys_updated_on>
+            <value>b9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B10</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>10</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4ca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:02:48</sys_updated_on>
+            <value>b10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B11</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>11</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18ca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:02:47</sys_updated_on>
+            <value>b11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B12</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>12</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58ca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:02:45</sys_updated_on>
+            <value>b12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Aero</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>13</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98ca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:02:44</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Boiler</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>39</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8ca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:42:01</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Gas Turbine (GT)</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CI (A-Inspection)</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>40</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1cca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:39:35</sys_updated_on>
+            <value>ci_a_inspection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Gas Turbine (GT)</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HGP(B-Inspection)</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>41</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:39:40</sys_updated_on>
+            <value>hgp_b_inspection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Gas Turbine (GT)</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MI(C-Inspection)</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>42</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:39:44</sys_updated_on>
+            <value>mi_c_inspection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Gas Turbine (GT)</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CM&amp;U</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>43</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dcca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:39:48</sys_updated_on>
+            <value>cmu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Gas Turbine (GT)</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>44</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10ca3cabdb294b4065eff438bf9619e3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:39:52</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>generator</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Minor</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>50</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8ca3cabdb294b4065eff438bf9619e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:40:14</sys_updated_on>
+            <value>Minor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>generator</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Major</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>51</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cca3cabdb294b4065eff438bf9619e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:40:18</sys_updated_on>
+            <value>Major</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>generator</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CM&amp;U</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>52</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dcca3cabdb294b4065eff438bf9619e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:40:22</sys_updated_on>
+            <value>CM&amp;U</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>generator</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>53</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50ca3cabdb294b4065eff438bf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:40:31</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Nuclear</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Minor</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>60</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50ca3cabdb294b4065eff438bf9619e3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:40:42</sys_updated_on>
+            <value>minor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Nuclear</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Major</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>61</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90ca3cabdb294b4065eff438bf9619e3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:40:45</sys_updated_on>
+            <value>major</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Nuclear</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CM&amp;U</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>62</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0ca3cabdb294b4065eff438bf9619e3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:40:49</sys_updated_on>
+            <value>cmu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Nuclear</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>63</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14ca3cabdb294b4065eff438bf9619e3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:40:53</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>O&amp;G</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>70</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58ca3cabdb294b4065eff438bf9619e3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-18 20:41:03</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Steam Turbine (ST)</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Major</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>81</sequence>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-02-01 17:04:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7feb9b4ddb045f00ed28f209af9619f0</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-02-01 17:06:15</sys_updated_on>
+            <value>Major</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Steam Turbine (ST)</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Minor</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>82</sequence>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-02-01 17:04:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>401d9b4ddb045f00ed28f209af9619d8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-02-01 17:06:17</sys_updated_on>
+            <value>Minor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Steam Turbine (ST)</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CM&amp;U</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>83</sequence>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-02-01 17:04:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>691d9b4ddb045f00ed28f209af9619f2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-02-01 17:06:20</sys_updated_on>
+            <value>CM&amp;U</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Steam Turbine (ST)</dependent_value>
+            <element>outage_event_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>89</sequence>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-02-01 17:05:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b1ddb4ddb045f00ed28f209af9619f4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-02-01 17:06:23</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>outage_event_sub_type</element>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-07 17:03:28</sys_created_on>
+            <sys_id>cb4c75a9db121300a98ff91ebf9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>outage_event_sub_type</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_choice_x_grs_site_incntv_outageinfo_outage_event_sub_type</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:03:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

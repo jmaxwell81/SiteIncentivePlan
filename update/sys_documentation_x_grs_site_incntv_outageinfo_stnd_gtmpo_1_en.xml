@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="stnd_gtmpo_1" label="GE GTM Standard PO1" language="en" table="x_grs_site_incntv_outageinfo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>stnd_gtmpo_1</element>
+            <help/>
+            <hint/>
+            <label>GE GTM Standard PO1</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <plural>GE GTM Standard PO1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-01-05 20:12:50</sys_created_on>
+            <sys_id>b7258da4db274740ed28f209af961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>GE GTM Standard PO1</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_documentation_x_grs_site_incntv_outageinfo_stnd_gtmpo_1_en</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-05 20:12:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

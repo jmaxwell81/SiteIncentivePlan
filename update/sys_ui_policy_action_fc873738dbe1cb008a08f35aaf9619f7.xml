@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>callout_to_outage</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2017-09-29 17:45:35</sys_created_on>
+        <sys_id>fc873738dbe1cb008a08f35aaf9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>callout_to_outage</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_ui_policy_action_fc873738dbe1cb008a08f35aaf9619f7</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2017-09-29 17:45:35</sys_updated_on>
+        <table>x_grs_site_incntv_outageinfo</table>
+        <ui_policy display_value="Check for Callout and show full Outage">aaf67338dbe1cb008a08f35aaf9619d2</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

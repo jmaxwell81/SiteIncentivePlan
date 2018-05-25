@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="defect_track" table="x_grs_site_incntv_outageinfo" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defect_track</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project &amp; PO(s) are not associated with one another</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>1</sequence>
+            <sys_created_by>Raghu.Kumar</sys_created_by>
+            <sys_created_on>2018-05-04 15:49:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce0e3c72dbfd5700ed28f209af96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Raghu.Kumar</sys_updated_by>
+            <sys_updated_on>2018-05-04 15:49:23</sys_updated_on>
+            <value>Project &amp; PO(s) are not associated with one another</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defect_track</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GTM Project was not found</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>2</sequence>
+            <sys_created_by>Raghu.Kumar</sys_created_by>
+            <sys_created_on>2018-05-04 15:50:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>082e7472dbfd5700ed28f209af961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Raghu.Kumar</sys_updated_by>
+            <sys_updated_on>2018-05-04 15:50:07</sys_updated_on>
+            <value>GTM Project was not found</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defect_track</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Job Cost Estimate Attached</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>3</sequence>
+            <sys_created_by>Raghu.Kumar</sys_created_by>
+            <sys_created_on>2018-05-04 15:50:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>264ebc72dbfd5700ed28f209af9619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Raghu.Kumar</sys_updated_by>
+            <sys_updated_on>2018-05-04 15:50:42</sys_updated_on>
+            <value>No Job Cost Estimate Attached</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defect_track</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invalid document provided as JCE</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>4</sequence>
+            <sys_created_by>Raghu.Kumar</sys_created_by>
+            <sys_created_on>2018-05-04 15:51:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>026ebc72dbfd5700ed28f209af96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Raghu.Kumar</sys_updated_by>
+            <sys_updated_on>2018-05-04 15:51:09</sys_updated_on>
+            <value>Invalid document provided as JCE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defect_track</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Sales Order visible for GTM Project/PO</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>5</sequence>
+            <sys_created_by>Raghu.Kumar</sys_created_by>
+            <sys_created_on>2018-05-04 15:51:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>909e7472dbfd5700ed28f209af961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Raghu.Kumar</sys_updated_by>
+            <sys_updated_on>2018-05-04 15:51:43</sys_updated_on>
+            <value>No Sales Order visible for GTM Project/PO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defect_track</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No PO provided for Planned/Forced Outage</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>6</sequence>
+            <sys_created_by>Raghu.Kumar</sys_created_by>
+            <sys_created_on>2018-05-04 15:52:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3abeb4b2dbfd5700ed28f209af961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Raghu.Kumar</sys_updated_by>
+            <sys_updated_on>2018-05-04 15:52:26</sys_updated_on>
+            <value>No PO provided for Planned/Forced Outage</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>defect_track</element>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Raghu.Kumar</sys_created_by>
+            <sys_created_on>2018-05-04 15:49:23</sys_created_on>
+            <sys_id>264c35a9db121300a98ff91ebf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>defect_track</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_choice_x_grs_site_incntv_outageinfo_defect_track</sys_update_name>
+            <sys_updated_by>Raghu.Kumar</sys_updated_by>
+            <sys_updated_on>2018-05-04 15:49:23</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

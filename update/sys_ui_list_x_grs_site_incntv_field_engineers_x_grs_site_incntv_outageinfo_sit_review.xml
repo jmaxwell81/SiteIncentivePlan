@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="x_grs_site_incntv_outageinfo" relationship="" sys_domain="global" table="x_grs_site_incntv_field_engineers" version="2" view="SIT_Review">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_grs_site_incntv_field_engineers" element="NULL" name="x_grs_site_incntv_field_engineers" parent="x_grs_site_incntv_outageinfo" relationship="NULL" sys_domain="global" view="7b234fc4db5547008a08f35aaf96196f">f23bb76ddb6fc740ed28f209af961904</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-01-09 12:02:08</sys_created_on>
+            <sys_id>3a3bb76ddb6fc740ed28f209af961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-09 12:02:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>additional_margin_contribution</element>
+            <list_id display_value="x_grs_site_incntv_field_engineers" element="NULL" name="x_grs_site_incntv_field_engineers" parent="x_grs_site_incntv_outageinfo" relationship="NULL" sys_domain="global" view="7b234fc4db5547008a08f35aaf96196f">f23bb76ddb6fc740ed28f209af961904</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-01-09 12:02:08</sys_created_on>
+            <sys_id>ba3bb76ddb6fc740ed28f209af961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-09 12:02:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>addnl_margin_contribution</element>
+            <list_id display_value="x_grs_site_incntv_field_engineers" element="NULL" name="x_grs_site_incntv_field_engineers" parent="x_grs_site_incntv_outageinfo" relationship="NULL" sys_domain="global" view="7b234fc4db5547008a08f35aaf96196f">f23bb76ddb6fc740ed28f209af961904</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-01-09 12:02:08</sys_created_on>
+            <sys_id>3e3bb76ddb6fc740ed28f209af961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-09 12:02:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>event_start_date</element>
+            <list_id display_value="x_grs_site_incntv_field_engineers" element="NULL" name="x_grs_site_incntv_field_engineers" parent="x_grs_site_incntv_outageinfo" relationship="NULL" sys_domain="global" view="7b234fc4db5547008a08f35aaf96196f">f23bb76ddb6fc740ed28f209af961904</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-01-09 12:02:08</sys_created_on>
+            <sys_id>be3bb76ddb6fc740ed28f209af961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-09 12:02:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>event_end_date</element>
+            <list_id display_value="x_grs_site_incntv_field_engineers" element="NULL" name="x_grs_site_incntv_field_engineers" parent="x_grs_site_incntv_outageinfo" relationship="NULL" sys_domain="global" view="7b234fc4db5547008a08f35aaf96196f">f23bb76ddb6fc740ed28f209af961904</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-01-09 12:02:08</sys_created_on>
+            <sys_id>323bb76ddb6fc740ed28f209af961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-09 12:02:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>skill_set</element>
+            <list_id display_value="x_grs_site_incntv_field_engineers" element="NULL" name="x_grs_site_incntv_field_engineers" parent="x_grs_site_incntv_outageinfo" relationship="NULL" sys_domain="global" view="7b234fc4db5547008a08f35aaf96196f">f23bb76ddb6fc740ed28f209af961904</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-01-09 12:02:08</sys_created_on>
+            <sys_id>b23bb76ddb6fc740ed28f209af961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-09 12:02:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_grs_site_incntv_field_engineers</name>
+            <parent>x_grs_site_incntv_outageinfo</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-01-09 12:02:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f23bb76ddb6fc740ed28f209af961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_grs_site_incntv_field_engineers</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_list_x_grs_site_incntv_field_engineers_x_grs_site_incntv_outageinfo_SIT_Review</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-01-09 12:02:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="SIT Review" name="SIT_Review">7b234fc4db5547008a08f35aaf96196f</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

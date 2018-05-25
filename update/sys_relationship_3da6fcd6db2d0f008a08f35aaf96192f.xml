@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_grs_site_incntv_outageinfo</basic_apply_to>
+        <basic_query_from>x_grs_site_incntv_field_engineers</basic_query_from>
+        <insert_callback/>
+        <name>FE2OutageInfo</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addQuery(outage_ref,parent.sys_id);
+
+})(current, parent);]]></query_with>
+        <reference_field>name</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2017-10-03 19:36:05</sys_created_on>
+        <sys_id>3da6fcd6db2d0f008a08f35aaf96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FE2OutageInfo</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_relationship_3da6fcd6db2d0f008a08f35aaf96192f</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2017-10-03 19:36:05</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=3da6fcd6db2d0f008a08f35aaf96192f"/>
+</record_update>

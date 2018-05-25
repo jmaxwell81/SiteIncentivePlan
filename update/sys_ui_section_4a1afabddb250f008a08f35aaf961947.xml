@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="EHS Evaluation" section_id="4a1afabddb250f008a08f35aaf961947" sys_domain="global" table="x_grs_site_incntv_outageinfo" version="3" view="EHS_Evaluation">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ehs_breach</element>
+            <position>0</position>
+            <sys_created_by>karla.rios</sys_created_by>
+            <sys_created_on>2017-10-02 15:50:27</sys_created_on>
+            <sys_id>d21afabddb250f008a08f35aaf96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EHS Evaluation" display_value="EHS Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="01f8af97db554b008a08f35aaf961903">4a1afabddb250f008a08f35aaf961947</sys_ui_section>
+            <sys_updated_by>karla.rios</sys_updated_by>
+            <sys_updated_on>2017-10-02 15:50:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ehs_comments</element>
+            <position>1</position>
+            <sys_created_by>karla.rios</sys_created_by>
+            <sys_created_on>2017-10-02 15:50:27</sys_created_on>
+            <sys_id>561afabddb250f008a08f35aaf96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EHS Evaluation" display_value="EHS Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="01f8af97db554b008a08f35aaf961903">4a1afabddb250f008a08f35aaf961947</sys_ui_section>
+            <sys_updated_by>karla.rios</sys_updated_by>
+            <sys_updated_on>2017-10-02 15:50:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>EHS Evaluation</caption>
+            <header>false</header>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>karla.rios</sys_created_by>
+            <sys_created_on>2017-10-02 15:50:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a1afabddb250f008a08f35aaf961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>EHS Evaluation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_section_4a1afabddb250f008a08f35aaf961947</sys_update_name>
+            <sys_updated_by>karla.rios</sys_updated_by>
+            <sys_updated_on>2017-10-02 15:50:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="EHS Evaluation" name="EHS_Evaluation">01f8af97db554b008a08f35aaf961903</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

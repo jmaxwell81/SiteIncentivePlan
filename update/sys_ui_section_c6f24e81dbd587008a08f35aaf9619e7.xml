@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="SIT Review" section_id="c6f24e81dbd587008a08f35aaf9619e7" sys_domain="global" table="x_grs_site_incntv_outageinfo" version="3" view="SIT_Final_Review">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sm_validation_status</element>
+            <position>0</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-09 22:05:10</sys_created_on>
+            <sys_id>654c3b0edb9a0300ed28f209af9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SIT Review" display_value="SIT Review" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="0af24e81dbd587008a08f35aaf9619e6">c6f24e81dbd587008a08f35aaf9619e7</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-09 22:05:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>callout_to_outage</element>
+            <position>1</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-09 22:05:10</sys_created_on>
+            <sys_id>e54c3b0edb9a0300ed28f209af9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SIT Review" display_value="SIT Review" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="0af24e81dbd587008a08f35aaf9619e6">c6f24e81dbd587008a08f35aaf9619e7</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-09 22:05:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gtm_full_outage_project_number</element>
+            <position>2</position>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-11-09 22:05:10</sys_created_on>
+            <sys_id>694c3b0edb9a0300ed28f209af9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SIT Review" display_value="SIT Review" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="0af24e81dbd587008a08f35aaf9619e6">c6f24e81dbd587008a08f35aaf9619e7</sys_ui_section>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-11-09 22:05:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>SIT Review</caption>
+            <header>false</header>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-17 17:38:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6f24e81dbd587008a08f35aaf9619e7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>SIT Review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_section_c6f24e81dbd587008a08f35aaf9619e7</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-20 02:39:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="SIT Final Review" name="SIT_Final_Review">0af24e81dbd587008a08f35aaf9619e6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

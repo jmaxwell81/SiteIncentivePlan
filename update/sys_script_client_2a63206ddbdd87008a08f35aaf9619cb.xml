@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>ehs_breach</field>
+        <global>true</global>
+        <messages/>
+        <name>Form Load Show/Hide/ReadOnly</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   
+if(g_form.getValue('site_comp_status') == 'new' ) {
+	//Show only the basic fields for the form entry
+		g_form.setDisplay('outage_notification_date',false);
+		g_form.setDisplay('outage_start_date',false);
+		g_form.setDisplay('outage_end_date',false);
+		g_form.setDisplay('esn',false);
+		g_form.setDisplay('equipment_type',false);
+		g_form.setDisplay('frame_subtech_type',false);
+		g_form.setDisplay('assign_st_date',false);
+		g_form.setDisplay('assign_tentative_end_date',false);
+		g_form.setDisplay('assignment_longer_6mnths',false);
+	// 8/5/18 Added Mandatory field in intial step.# Ashok & dinesh
+	    g_form.setMandatory('outage_event_sub_type',true);
+	    g_form.setDisplay('outage_event_sub_type',true);
+
+
+//Hide TDI fields
+		g_form.setDisplay('tdi_transactional',false);
+		g_form.setDisplay('proj_man_weeks',false);
+		g_form.setDisplay('proj_cost',false);
+//Hide Long Term fields		
+		g_form.setDisplay('reviewed_with_pteam',false);
+		g_form.setDisplay('productivity_team_member',false);
+		g_form.setDisplay('productivity_team_group',false);
+		g_form.setDisplay('assignment_longer_6mnths',false);
+		g_form.setDisplay('ce_uploaded',false);
+		g_form.setDisplay('long_term_standard',false);
+	   
+//		g_form.setDisplay('gtm_po_stnd_scope',false);
+//Standard PO
+	//	g_form.setDisplay('enter_no_of_standard_scope_pos',false);		
+		g_form.setValue('enter_no_of_standard_scope_pos','0');
+		g_form.setDisplay('stnd_gtmpo_1', false);
+		g_form.setDisplay('stnd_gtmpo_2', false);
+		g_form.setDisplay('stnd_gtmpo_3', false);
+		g_form.setDisplay('stnd_gtmpo_4', false);
+		g_form.setDisplay('stnd_gtmpo_5', false);
+//Non Standard PO
+		g_form.setDisplay('non_stnd_gtmpo_cnt',false);		
+		g_form.setDisplay('non_stnd_gtmpo_1', false);
+		g_form.setDisplay('non_stnd_gtmpo_2', false);
+		g_form.setDisplay('non_stnd_gtmpo_3', false);
+		g_form.setDisplay('non_stnd_gtmpo_4', false);
+		g_form.setDisplay('non_stnd_gtmpo_5', false);
+		g_form.setDisplay('non_stnd_gtmpo_6', false);
+		g_form.setDisplay('non_stnd_gtmpo_7', false);
+		g_form.setDisplay('non_stnd_gtmpo_8', false);
+		g_form.setDisplay('non_stnd_gtmpo_9', false);
+		g_form.setDisplay('non_stnd_gtmpo_10', false);	
+		
+}	
+if(g_form.getValue('site_comp_status') == 'sm_review' ) {
+	g_form.setReadOnly('defect_track',true);
+	showHeaderFields();
+}
+else if(g_form.getValue('site_comp_status') == 'for_jce_estimation' ) {
+		showHeaderFields();		
+		g_form.setMandatory('outage_event_type',true);
+		g_form.setMandatory('outage_event_sub_type',true);	
+		g_form.setMandatory('tot_proj_hours',true);
+		g_form.setMandatory('proj_cost',true);		
+//For Standard scope, Allow SIT to enter standard cost and hours along with total hours.
+		if(g_form.getValue('long_term_standard')=='yes') {
+//			g_form.setDisplay('gtm_po_stnd_scope',true);
+			g_form.setDisplay('enter_no_of_standard_scope_pos',true);
+			g_form.setDisplay('tot_stnd_scope_hrs',true);
+			g_form.setDisplay('tot_stnd_scope_cost',true);
+// 8/5/18 Removed mandatory field from Jce estimation view.# Ashok & dinesh
+			g_form.setMandatory('tot_stnd_scope_hrs',false);
+			g_form.setMandatory('tot_stnd_scope_cost',false);
+		}
+		else {
+//			g_form.setDisplay('gtm_po_stnd_scope',false);
+			g_form.setDisplay('enter_no_of_standard_scope_pos',false);
+			g_form.setDisplay('tot_stnd_scope_hrs',false);
+			g_form.setDisplay('tot_stnd_scope_cost',false);
+			g_form.setMandatory('tot_stnd_scope_hrs',false);
+			g_form.setMandatory('tot_stnd_scope_cost',false);
+		}
+		
+	}	
+else if(g_form.getValue('site_comp_status') == 'jce_review' ) {
+		showHeaderFields();				
+		g_form.setReadOnly('jce_approved',false);
+		g_form.setMandatory('jce_approved',true);
+//		if(g_form.getValue('reviewed_with_pteam') =='yes') {
+			g_form.setDisplay('productivity_team_member', true);
+			g_form.setDisplay('productivity_team_group',true);
+//		}		
+		if(g_form.getValue('long_term_standard')!='yes') {
+//			g_form.setDisplay('gtm_po_stnd_scope',false);
+			g_form.setDisplay('enter_no_of_standard_scope_pos', false);
+			g_form.setDisplay('tot_stnd_scope_hrs',false);
+			g_form.setDisplay('tot_stnd_scope_cost',false);
+		}
+	
+	}	
+else if(g_form.getValue('site_comp_status') == 'sit_review' ) {
+	//05/23/2018- Added showHeaderFields() to reflect STRY0016886
+	showHeaderFields();	
+	}
+else if(g_form.getValue('site_comp_status') =='ehs_evaluation')	{
+		showHeaderFields();	
+		g_tabs2Sections.setActive(2);
+		g_form.setReadOnly('callout_to_outage',true);
+		g_form.setReadOnly('sm_validation_status',true);
+		if(g_form.getValue('callout_to_outage') == 'yes_some' || g_form.getValue('callout_to_outage') == 'yes_all') {
+			g_form.setVisible('gtm_full_outage_project_number',true);
+			g_form.setReadOnly('gtm_full_outage_project_number',true);
+		}
+		else {
+			g_form.setVisible('gtm_full_outage_project_number',false);
+		}
+		//Performance evaluation section
+		g_form.setReadOnly('rating_quality_rework',true);
+		g_form.setReadOnly('rating_qty_rework_comments',true);
+		g_form.setReadOnly('rating_team_performance',true);		
+		g_form.setReadOnly('rating_team_perf_comments',true);		
+		g_form.setReadOnly('rating_fe_unit_return',true);		
+		g_form.setReadOnly('rating_fe_return_comments',true);
+		g_form.setReadOnly('add_margin_fe',true);	
+}	
+else if(g_form.getValue('site_comp_status') =='ehs_breach_clsd')	{
+		showHeaderFields();
+		g_tabs2Sections.setActive(0);
+}		
+else if(g_form.getValue('site_comp_status') =='for_sm_validation')	{
+		showHeaderFields();
+		g_tabs2Sections.setActive(0);
+		g_form.setReadOnly('finance_comments',true);
+}	
+else if(g_form.getValue('site_comp_status') =='full_outage')	{
+		showHeaderFields();	
+		g_form.setReadOnly('callout_to_outage',true);
+		g_form.setReadOnly('sm_validation_status',true);
+}	
+	
+else if(g_form.getValue('site_comp_status') =='for_finance_review')	{
+		showHeaderFields();	
+		g_tabs2Sections.setActive(3);
+	//SIT Review section
+		g_form.setReadOnly('callout_to_outage',true);
+		g_form.setReadOnly('sm_validation_status',true);
+		if(g_form.getValue('callout_to_outage') == 'yes_some' || g_form.getValue('callout_to_outage') == 'yes_all') {
+			g_form.setVisible('gtm_full_outage_project_number',true);
+			g_form.setReadOnly('gtm_full_outage_project_number',true);
+		}
+		else {
+			g_form.setVisible('gtm_full_outage_project_number',false);
+		}
+	//EHS section
+		g_form.setReadOnly('ehs_breach',true);
+		g_form.setReadOnly('ehs_comments',true);	
+		//Performance evaluation section
+		g_form.setReadOnly('rating_quality_rework',true);
+		g_form.setReadOnly('rating_qty_rework_comments',true);
+		g_form.setReadOnly('rating_team_performance',true);		
+		g_form.setReadOnly('rating_team_perf_comments',true);		
+		g_form.setReadOnly('rating_fe_unit_return',true);		
+		g_form.setReadOnly('rating_fe_return_comments',true);
+		g_form.setReadOnly('add_margin_fe',true);	
+
+}
+else if(g_form.getValue('site_comp_status') =='for_sit_approval') {
+		showHeaderFields();	
+		g_tabs2Sections.setActive(4);
+    //SIT Review section
+		g_form.setReadOnly('callout_to_outage',true);
+		g_form.setReadOnly('sm_validation_status',true);
+		if(g_form.getValue('callout_to_outage') == 'yes_some' || g_form.getValue('callout_to_outage') == 'yes_all') {
+			g_form.setVisible('gtm_full_outage_project_number',true);
+			g_form.setReadOnly('gtm_full_outage_project_number',true);
+		}
+		else {
+			g_form.setVisible('gtm_full_outage_project_number',false);
+		}
+	//EHS section	
+		g_form.setReadOnly('ehs_breach',true);
+		g_form.setReadOnly('ehs_comments',true);
+	//Performance evaluation section
+		g_form.setReadOnly('rating_quality_rework',true);
+		g_form.setReadOnly('rating_qty_rework_comments',true);
+		g_form.setReadOnly('rating_team_performance',true);		
+		g_form.setReadOnly('rating_team_perf_comments',true);		
+		g_form.setReadOnly('rating_fe_unit_return',true);		
+		g_form.setReadOnly('rating_fe_return_comments',true);
+		g_form.setReadOnly('add_margin_fe',true);
+		//Finance Section
+		if(g_form.getValue('add_margin_fe') == 'no') {
+			g_form.setMandatory('finance_approval',false);
+			g_form.setMandatory('fin_attach_uploaded',false);
+			g_tabs2Sections.hideTab(3);
+		}
+		g_form.setReadOnly('finance_approval',true);
+		g_form.setReadOnly('finance_comments',true);
+		g_form.setReadOnly('finance_addnl_margin',true);
+		g_form.setReadOnly('fin_attach_uploaded',true);
+
+			
+		if(g_form.getValue('job_category') == 'tdi' || g_form.getValue('job_category') == 'tdm' || g_form.getValue('job_category') == 'boiler_hrsg') {		
+				g_form.setDisplay('tdi_transactional',true);
+		}
+		
+	}	
+else if(g_form.getValue('site_comp_status') =='complete')	{
+		showHeaderFields();	
+		g_tabs2Sections.setActive(0);
+}		
+}
+function showHeaderFields() {
+		if(g_form.getValue('job_category') == 'callout') {
+			showCalloutFields();	
+		}
+		else if(g_form.getValue('job_category') == 'resident_field_engineer') {
+			g_form.setValue('enter_no_of_standard_scope_pos','0');	
+			showREFields();			
+		}
+		else if(g_form.getValue('job_category') == 'tdi' || g_form.getValue('job_category') == 'tdm' || g_form.getValue('job_category') == 'boiler_hrsg') {
+			showTDIFields();
+		}
+		else if(g_form.getValue('job_category') == 'long_term' || g_form.getValue('job_category') == 'planned_outage' || g_form.getValue('job_category') == 'forced_outage') {
+			showLongTermFields();			
+		}	
+}
+function showCalloutFields() {
+	if(!(g_form.getValue("site_comp_status") == 'new' || g_form.getValue("site_comp_status") == 'sm_review' || g_form.getValue("site_comp_status") == 'sit_review')) {
+		g_form.setReadOnly('service_manager_name',true);
+		g_form.setReadOnly('job_category',true);
+		g_form.setReadOnly('job_type',true);
+		g_form.setReadOnly('project_number',true);
+		g_form.setReadOnly('outage_region',true);
+		g_form.setReadOnly('job_category',true);
+		g_form.setReadOnly('outage_comments',true);
+		g_form.setReadOnly('outage_notification_date',true);
+		g_form.setReadOnly('outage_start_date',true);
+		g_form.setReadOnly('outage_end_date',true);
+		g_form.setReadOnly('esn',true);
+		g_form.setReadOnly('equipment_type',true);
+		g_form.setReadOnly('frame_subtech_type',true);
+	}	
+//Hide Resident Engr fields
+		g_form.setDisplay('assign_st_date',false);
+		g_form.setDisplay('assign_tentative_end_date',false);
+		g_form.setDisplay('assignment_longer_6mnths',false);
+//Hide Long Term fields
+		hideLongTermFields();
+		//Hide TDI Fields
+
+		g_form.setDisplay('tdi_transactional',false);
+		g_form.setDisplay('proj_man_weeks',false);		
+}	
+function showREFields() {
+	if(!(g_form.getValue("site_comp_status") == 'new' || g_form.getValue("site_comp_status") == 'sm_review' || g_form.getValue("site_comp_status") == 'sit_review' )) {
+		g_form.setValue('callout_to_outage','no');	
+
+		g_form.setReadOnly('service_manager_name',true);
+		g_form.setReadOnly('job_category',true);
+		g_form.setReadOnly('job_type',true);
+		g_form.setReadOnly('project_number',true);
+		g_form.setReadOnly('outage_region',true);
+		g_form.setReadOnly('job_category',true);
+		g_form.setReadOnly('outage_comments',true);
+		g_form.setReadOnly('assign_st_date',true);
+		g_form.setReadOnly('assign_tentative_end_date',true);
+		g_form.setReadOnly('assignment_longer_6mnths',true);
+		// alert('stnd scope value',g_form.get);
+	}
+//Hide Callout fields 
+//	Hide GTM project no if not callout - 03/01/2018
+	    g_form.setDisplay('outage_notification_date',false);
+		g_form.setDisplay('outage_start_date',false);
+		g_form.setDisplay('outage_end_date',false);
+		g_form.setDisplay('esn',false);
+	    g_form.setDisplay('equipment_type',false);
+		g_form.setDisplay('frame_subtech_type',false);	
+		g_form.setVisible('gtm_full_outage_project_number',false);
+	
+//Hide Long Term fields
+		hideLongTermFields();		
+//Hide TDI Fields
+			g_form.setDisplay('tdi_transactional',false);		
+			g_form.setDisplay('proj_man_weeks',false);			
+//Make Perfomance Ratings mandatory for Resident Engineer 
+			g_form.setMandatory('rating_quality_rework',true);
+			g_form.setMandatory('rating_team_performance',true);	
+			g_form.setMandatory('rating_fe_unit_return',true);				
+}	
+function showTDIFields() {
+	if(!(g_form.getValue("site_comp_status") == 'new' || g_form.getValue("site_comp_status") == 'sm_review'  || g_form.getValue("site_comp_status") == 'sit_review')) {	
+	//Make RE fields ReadOnly
+		g_form.setReadOnly('service_manager_name',true);
+		g_form.setReadOnly('job_category',true);
+		g_form.setReadOnly('job_type',true);
+		g_form.setReadOnly('tdi_transactional',true);	
+		g_form.setReadOnly('project_number',true);
+		g_form.setReadOnly('outage_region',true);
+		g_form.setReadOnly('equipment_type',true);
+		g_form.setReadOnly('frame_subtech_type',true);		
+		g_form.setReadOnly('esn',true);
+		g_form.setReadOnly('outage_start_date',true);
+		//Change to Keep Outage End Date open for ALL Projects		
+//		g_form.setReadOnly('outage_end_date',true);
+		g_form.setReadOnly('outage_comments',true);	
+		g_form.setReadOnly('proj_man_weeks',true);
+		g_form.setReadOnly('proj_cost',true);		
+	}	
+// Hide Callout Fields 01/03/2018
+		g_form.setVisible('gtm_full_outage_project_number',false);
+// Hide Resident Field Engr fields	
+		g_form.setDisplay('assign_st_date',false);
+		g_form.setDisplay('assign_tentative_end_date',false);
+		g_form.setDisplay('assignment_longer_6mnths',false);
+		g_form.setDisplay('outage_notification_date',false);	
+//Hide Long Term fields
+		hideLongTermFields();	
+//Make Perfomance Ratings mandatory for TDI 
+	g_form.setMandatory('rating_quality_rework',true);
+	g_form.setMandatory('rating_team_performance',true);	
+	g_form.setMandatory('rating_fe_unit_return',true);		
+}	
+function showLongTermFields() {
+	// Long Term Assignment Details
+// Fields to be editable for status - NEW / SM_REVIEW / SIT_REVIEW	
+	if(!(g_form.getValue("site_comp_status") == 'new' || g_form.getValue("site_comp_status") == 'sm_review' || g_form.getValue("site_comp_status") == 'sit_review')) {
+		g_form.setReadOnly('service_manager_name',true);
+		g_form.setReadOnly('job_category',true);
+		g_form.setReadOnly('job_type',true);
+	//	g_form.setReadOnly('project_number',true);
+		g_form.setReadOnly('outage_region',true);
+		g_form.setReadOnly('esn',true);
+	//	g_form.setReadOnly('outage_start_date',true);
+		//Change to Keep Outage End Date open for ALL Projects
+	//	g_form.setReadOnly('outage_end_date',true);
+		g_form.setReadOnly('outage_comments',true);
+// Hide Callout Fields 01/03/2018
+		g_form.setVisible('gtm_full_outage_project_number',false);
+//Long Term related fields
+		if (g_form.getValue('site_comp_status') != 'jce_review') {
+			g_form.setReadOnly('equipment_type',true);
+			g_form.setReadOnly('frame_subtech_type',true);
+			g_form.setReadOnly('long_term_standard',true);			
+		}	
+		g_form.setReadOnly('reviewed_with_pteam',true);
+		g_form.setReadOnly('productivity_team_member',true);
+		g_form.setReadOnly('productivity_team_group',true);
+		g_form.setReadOnly('ce_uploaded',true);
+//		g_form.setReadOnly('gtm_po_stnd_scope',true);
+	//	g_form.setReadOnly('enter_no_of_standard_scope_pos',true);
+	//	g_form.setReadOnly('non_stnd_gtmpo_cnt',true);
+		if(g_form.getValue("site_comp_status") != 'jce_review' ) {
+			g_form.setReadOnly('jce_approved',true);
+		}
+
+	if(g_form.getValue('long_term_standard')!='yes' && g_form.getValue('site_comp_status') != 'for_jce_estimation') {
+//			g_form.setDisplay('gtm_po_stnd_scope',false);
+			g_form.setDisplay('enter_no_of_standard_scope_pos',false);
+			g_form.setDisplay('tot_stnd_scope_hrs',false);
+			g_form.setDisplay('tot_stnd_scope_cost',false);
+		}
+	}	
+	else 	{
+		if(g_form.getValue("site_comp_status") == 'sm_review') {
+				g_form.setReadOnly('service_manager_name',true);
+				g_form.setReadOnly('job_category',true);			
+		}
+		g_form.setMandatory('job_type',true);
+		g_form.setMandatory('project_number',true);
+		g_form.setMandatory('outage_region',true);
+		g_form.setMandatory('equipment_type',true);
+		g_form.setMandatory('frame_subtech_type',true);
+		g_form.setMandatory('esn',true);
+		g_form.setMandatory('outage_start_date',true);
+		g_form.setMandatory('outage_end_date',true);
+	//	g_form.setMandatory('outage_comments',true);
+//Long Term related fields
+		g_form.setMandatory('long_term_standard',true);
+		g_form.setMandatory('reviewed_with_pteam',true);
+		g_form.setMandatory('ce_uploaded',true);
+		g_form.setMandatory('non_stnd_gtmpo_cnt',true);			
+		
+	}	
+		
+	// Long Term Assignment Details
+/*	1/17/2017 - Wanted these 2 fields to be editible in the JCE review stage.
+	if(g_form.getValue('site_comp_status') != 'for_jce_estimation') {
+		g_form.setReadOnly('outage_event_type',true);
+		g_form.setReadOnly('outage_event_sub_type',true);		
+	} */
+	//Long Term Assignment Fields Allow Hours and project cost to be entered for following stages
+	if(!(g_form.getValue('site_comp_status') == 'for_jce_estimation' || g_form.getValue('site_comp_status') == 'jce_review' || g_form.getValue('site_comp_status') == 'sit_review' )) {
+		g_form.setReadOnly('tot_stnd_scope_hrs',true);
+		g_form.setReadOnly('tot_stnd_scope_cost',true);				
+		g_form.setReadOnly('proj_cost',true);
+		g_form.setReadOnly('tot_proj_hours',true);		
+//Added these 2 fields as editable in the JCE review stage.
+		g_form.setReadOnly('outage_event_type',true);
+		g_form.setReadOnly('outage_event_sub_type',true);		
+	}
+//Hide Callout / RE fields
+		g_form.setDisplay('assign_st_date',false);
+		g_form.setDisplay('assign_tentative_end_date',false);
+		g_form.setDisplay('assignment_longer_6mnths',false);	
+		g_form.setDisplay('outage_notification_date',false);	
+
+//Hide TDI Fields
+	//TDI made to display, ReadOnly - 01/08/2018
+		//	g_form.setDisplay('tdi_transactional',false);
+			g_form.setReadOnly('tdi_transactional',true);	
+		g_form.setDisplay('proj_man_weeks',false);
+	
+			
+//Make Perfomance Ratings mandatory for LongTerm
+			g_form.setMandatory('rating_quality_rework',true);
+			g_form.setMandatory('rating_team_performance',true);	
+			g_form.setMandatory('rating_fe_unit_return',true);	
+}
+function hideLongTermFields() {
+			g_form.setDisplay('long_term_standard',false);
+			g_form.setDisplay('reviewed_with_pteam',false);
+			g_form.setDisplay('productivity_team_member',false);
+			g_form.setDisplay('productivity_team_group',false);
+			g_form.setDisplay('ce_uploaded',false);
+//			g_form.setDisplay('gtm_po_stnd_scope',false);
+			g_form.setDisplay('enter_no_of_standard_scope_pos',false);
+			g_form.setDisplay('non_stnd_gtmpo_cnt',false);		
+			g_form.setDisplay('outage_event_type',false);
+			g_form.setDisplay('outage_event_sub_type',false);
+			g_form.setDisplay('tot_stnd_scope_hrs',false);
+			g_form.setDisplay('tot_stnd_scope_cost',false);				
+			g_form.setDisplay('proj_cost',false);
+			g_form.setDisplay('tot_proj_hours',false);	
+			g_form.setDisplay('jce_approved',false);
+	        
+			//Hiding Standard scope for Callout & TDI
+//For testing below line
+		//	g_form.setDisplay('enter_no_of_standard_scope_pos',true);
+		//	g_form.setValue('enter_no_of_standard_scope_pos','1');
+	    //    alert("before setting mandatory false");
+		//	g_form.setMandatory('enter_no_of_standard_scope_pos',false);				
+}	]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2017-09-18 23:57:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a63206ddbdd87008a08f35aaf9619cb</sys_id>
+        <sys_mod_count>173</sys_mod_count>
+        <sys_name>Form Load Show/Hide/ReadOnly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_script_client_2a63206ddbdd87008a08f35aaf9619cb</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2018-05-23 17:22:12</sys_updated_on>
+        <table>x_grs_site_incntv_outageinfo</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

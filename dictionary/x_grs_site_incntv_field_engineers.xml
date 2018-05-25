@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Field Engineers" max_length="40" name="x_grs_site_incntv_field_engineers" type="collection">
+        <element label="Additional Margin Contribution " mandatory="true" max_length="15" name="additional_margin_contribution" type="currency"/>
+        <element label="Event End Date" max_length="40" name="event_end_date" type="glide_date"/>
+        <element label="Event Start Date" max_length="40" name="event_start_date" type="glide_date"/>
+        <element label="Name" mandatory="true" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Outage Ref#" max_length="32" name="outage_ref" reference="x_grs_site_incntv_outageinfo" type="reference"/>
+        <element choice="1" label="Skill Set" max_length="40" name="skill_set" type="choice">
+            <choice>
+                <element label="Boiler/Environmental" value="boiler_environmental"/>
+                <element label="Electrical" value="electrical"/>
+                <element label="General" value="general"/>
+                <element label="Generator Specialist" value="generator_specialist"/>
+                <element label="GT Controls" value="gt_controls"/>
+                <element label="GT Mechanical" value="gt_mechanical"/>
+                <element label="Other OEM" value="other_oem"/>
+                <element label="ST Controls" value="st_controls"/>
+                <element label="ST Mechanical" value="st_mechanical"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="outage_ref"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

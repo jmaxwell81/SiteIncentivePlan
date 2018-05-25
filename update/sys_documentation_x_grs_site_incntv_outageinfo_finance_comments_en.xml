@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="finance_comments" label="Finance Review Comments" language="en" table="x_grs_site_incntv_outageinfo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>finance_comments</element>
+            <help/>
+            <hint/>
+            <label>Finance Review Comments</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <plural>Finance Review Comments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2017-09-18 20:10:14</sys_created_on>
+            <sys_id>8f4fa3d9db9d87008a08f35aaf961985</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Finance Review Comments</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_documentation_x_grs_site_incntv_outageinfo_finance_comments_en</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:13:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

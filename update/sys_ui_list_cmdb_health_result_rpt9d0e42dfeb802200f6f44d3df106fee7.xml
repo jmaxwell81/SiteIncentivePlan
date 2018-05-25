@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="cmdb_health_result" version="2" view="RPT9d0e42dfeb802200f6f44d3df106fee7">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ci</element>
+            <list_id display_value="cmdb_health_result" element="NULL" name="cmdb_health_result" parent="NULL" relationship="NULL" sys_domain="global" view="0b7d3ca6f8a2030059a64c78fda74aca">c37d3ca6f8a2030059a64c78fda74acb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-02-15 12:33:16</sys_created_on>
+            <sys_id>67256629db5c57008a08f35aaf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-02-15 12:33:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>task</element>
+            <list_id display_value="cmdb_health_result" element="NULL" name="cmdb_health_result" parent="NULL" relationship="NULL" sys_domain="global" view="0b7d3ca6f8a2030059a64c78fda74aca">c37d3ca6f8a2030059a64c78fda74acb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-02-15 12:33:16</sys_created_on>
+            <sys_id>eb256629db5c57008a08f35aaf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-02-15 12:33:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>class_name</element>
+            <list_id display_value="cmdb_health_result" element="NULL" name="cmdb_health_result" parent="NULL" relationship="NULL" sys_domain="global" view="0b7d3ca6f8a2030059a64c78fda74aca">c37d3ca6f8a2030059a64c78fda74acb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-02-15 12:33:16</sys_created_on>
+            <sys_id>6f256629db5c57008a08f35aaf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-02-15 12:33:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>metric</element>
+            <list_id display_value="cmdb_health_result" element="NULL" name="cmdb_health_result" parent="NULL" relationship="NULL" sys_domain="global" view="0b7d3ca6f8a2030059a64c78fda74aca">c37d3ca6f8a2030059a64c78fda74acb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-02-15 12:33:16</sys_created_on>
+            <sys_id>ef256629db5c57008a08f35aaf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-02-15 12:33:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>source</element>
+            <list_id display_value="cmdb_health_result" element="NULL" name="cmdb_health_result" parent="NULL" relationship="NULL" sys_domain="global" view="0b7d3ca6f8a2030059a64c78fda74aca">c37d3ca6f8a2030059a64c78fda74acb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-02-15 12:33:16</sys_created_on>
+            <sys_id>63256629db5c57008a08f35aaf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-02-15 12:33:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>cmdb_health_result</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Krishna.Chaitanya</sys_created_by>
+            <sys_created_on>2018-02-15 12:33:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c37d3ca6f8a2030059a64c78fda74acb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_health_result</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_list_cmdb_health_result_RPT9d0e42dfeb802200f6f44d3df106fee7</sys_update_name>
+            <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+            <sys_updated_on>2018-02-15 12:33:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt9d0e42dfeb802200f6f44d3df106fee7" name="RPT9d0e42dfeb802200f6f44d3df106fee7">0b7d3ca6f8a2030059a64c78fda74aca</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

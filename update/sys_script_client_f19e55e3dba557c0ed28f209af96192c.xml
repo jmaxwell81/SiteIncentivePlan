@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages>Values on the form have changed.\nDo you really want to save this record?</messages>
+        <name>Change Message Alert</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+  if(g_form.modified){
+    return confirm("Values on the form have changed.\nDo you really want to save this record?");
+  }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Raghu.Kumar</sys_created_by>
+        <sys_created_on>2018-04-24 15:51:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f19e55e3dba557c0ed28f209af96192c</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Change Message Alert</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_script_client_f19e55e3dba557c0ed28f209af96192c</sys_update_name>
+        <sys_updated_by>Raghu.Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-24 18:17:10</sys_updated_on>
+        <table>x_grs_site_incntv_outageinfo</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

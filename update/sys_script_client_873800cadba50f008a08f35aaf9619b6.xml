@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>job_category</field>
+        <global>true</global>
+        <messages/>
+        <name>Job Category Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+if(g_form.getValue('job_category')=='resident_field_engineer'){
+		HideCalloutFields();
+		HideLongTermFields();
+		HideTDIFields();
+	
+	// 9/5/18 Added Mandatory field in intial step.# Ashok & dinesh
+		g_form.setDisplay('outage_event_sub_type',false);
+	   
+	//Make Resident field engr fields available
+		g_form.setDisplay('assign_st_date',true);
+		g_form.setDisplay('assign_tentative_end_date',true);
+		g_form.setDisplay('assignment_longer_6mnths',true);
+		g_form.setMandatory('assign_st_date',true);
+		g_form.setMandatory('assign_tentative_end_date',true);
+		g_form.setMandatory('assignment_longer_6mnths',true);
+		g_form.setValue('job_type',"");
+	//Hide Standard Scope PO 01/16/2018 -- Check later where this can be fit in one of the hide modules.
+		g_form.setMandatory('enter_no_of_standard_scope_pos',false);
+		g_form.setDisplay('enter_no_of_standard_scope_pos', false);
+		g_form.setValue('enter_no_of_standard_scope_pos','0');
+	
+	
+	
+	}
+	else if(g_form.getValue('job_category')=='callout') {
+		HideResidentEngrFields();
+		HideLongTermFields();
+		HideTDIFields();
+
+		g_form.setDisplay('outage_notification_date',true);
+		g_form.setDisplay('outage_start_date',true);
+		g_form.setDisplay('outage_end_date',true);
+		g_form.setDisplay('esn',true);
+		g_form.setDisplay('equipment_type',true);
+		g_form.setDisplay('frame_subtech_type',true);
+		g_form.setMandatory('outage_notification_date',true);
+		g_form.setMandatory('outage_start_date',true);
+		g_form.setMandatory('outage_end_date',true);
+		g_form.setMandatory('esn',true);
+		g_form.setMandatory('equipment_type',true);
+		g_form.setMandatory('frame_subtech_type',true);
+		// 9/5/18 Added Mandatory field in intial step.# Ashok & dinesh
+		g_form.setMandatory('outage_event_sub_type',true);
+	
+		g_form.setValue('job_type',"");		
+	}
+	else if(g_form.getValue('job_category')=='long_term' || g_form.getValue('job_category')=='planned_outage' || g_form.getValue('job_category') =='forced_outage') {
+		HideResidentEngrFields(); // CALLOUT and LONG TERM have lot of common fields
+		HideTDIFields();
+		g_form.hideAllFieldMsgs();
+		HideCalloutFields();
+		//Common fields
+		// 9/5/18 Added Mandatory field in intial step.# Ashok & dinesh
+		g_form.setMandatory('outage_event_sub_type',true);
+		
+		g_form.setDisplay('outage_start_date',true);
+		g_form.setDisplay('outage_end_date',true);
+		g_form.setDisplay('esn',true);
+		g_form.setDisplay('equipment_type',true);
+		g_form.setDisplay('frame_subtech_type',true);
+		g_form.setMandatory('outage_start_date',true);
+		g_form.setMandatory('outage_end_date',true);
+		g_form.showFieldMsg('outage_start_date','Provide Planned Outage Start Date','info');
+		g_form.showFieldMsg('outage_end_date','Provide Planned Outage End Date','info');		
+		g_form.setMandatory('esn',true);
+		g_form.setMandatory('equipment_type',true);
+		g_form.setMandatory('frame_subtech_type',true);
+//set Long term fields available
+		g_form.setDisplay('reviewed_with_pteam',true);
+		g_form.setDisplay('ce_uploaded',true);
+		g_form.setDisplay('long_term_standard',true);	
+		g_form.setMandatory('reviewed_with_pteam',true);
+		g_form.setMandatory('ce_uploaded',true);
+		g_form.setMandatory('long_term_standard',true);	
+		g_form.setValue('job_type',"");
+		//04/18 
+		g_form.setDisplay('tot_proj_hours',true);
+		g_form.setDisplay('proj_cost',true);		
+//Below fields are made available on condition basis		
+//		g_form.setDisplay('gtm_po_stnd_scope',false);	
+		g_form.setDisplay('enter_no_of_standard_scope_pos',false);
+		g_form.setDisplay('non_stnd_gtmpo_cnt',false);	
+// 8/5/18 Hide Outage Notification field.
+		//g_form.setDisplay('outage_notification_date',false);
+		//g_form.setMandatory('outage_notification_date',false);
+				
+	}
+	else if(g_form.getValue('job_category') == 'tdi' || g_form.getValue('job_category') == 'tdm' || g_form.getValue('job_category') == 'boiler_hrsg') {
+		HideCalloutFields();
+		HideResidentEngrFields();
+		HideLongTermFields();
+//Common fields
+		// 9/5/18 Added Mandatory field in intial step.# Ashok & dinesh
+		g_form.setMandatory('outage_event_sub_type',true);
+		
+		g_form.setDisplay('outage_start_date',true);
+		g_form.setDisplay('outage_end_date',true);
+		g_form.setDisplay('esn',true);
+		g_form.setDisplay('equipment_type',true);
+		g_form.setDisplay('frame_subtech_type',true);
+		g_form.setMandatory('outage_start_date',true);
+		g_form.setMandatory('outage_end_date',true);
+		g_form.setMandatory('esn',true);
+		g_form.setMandatory('equipment_type',true);
+		g_form.setMandatory('frame_subtech_type',true);
+//TDI Related fields
+		g_form.setDisplay('proj_man_weeks',true);
+		g_form.setDisplay('proj_cost',true);	
+		g_form.setMandatory('proj_man_weeks',true);
+		g_form.setMandatory('proj_cost',true);	
+		g_form.setValue('job_type',"");
+	}	
+function HideCalloutFields() {
+	//Hide Callout fields
+		g_form.setMandatory('outage_notification_date',false);	
+		g_form.setMandatory('outage_start_date',false);
+		g_form.setMandatory('outage_end_date',false);
+		g_form.setMandatory('esn',false);
+		g_form.setMandatory('equipment_type',false);
+		g_form.setMandatory('frame_subtech_type',false);	
+		g_form.setDisplay('outage_notification_date',false);
+		g_form.setDisplay('outage_start_date',false);
+		g_form.setDisplay('outage_end_date',false);
+		g_form.setDisplay('esn',false);
+		g_form.setDisplay('equipment_type',false);
+		g_form.setDisplay('frame_subtech_type',false);
+		g_form.setValue('outage_notification_date',"");
+		g_form.setValue('outage_start_date',"");
+		g_form.setValue('outage_end_date',"");
+		g_form.setValue('esn',"");
+		g_form.setValue('equipment_type',"");
+		g_form.setValue('frame_subtech_type',"");
+	// 9/5/18 Added Mandatory field in intial step.# Ashok & dinesh
+		//g_form.setDisplay('outage_event_sub_type',true);
+		g_form.setMandatory('outage_event_sub_type',false);
+	
+	
+	
+}
+function HideResidentEngrFields() {
+//Set Resident fields unavailable
+	
+		g_form.setMandatory('assign_st_date',false);
+		g_form.setMandatory('assign_tentative_end_date',false);
+		g_form.setMandatory('assignment_longer_6mnths',false);
+		g_form.setDisplay('assign_st_date',false);
+		g_form.setDisplay('assign_tentative_end_date',false);
+		g_form.setDisplay('assignment_longer_6mnths',false);
+		g_form.setValue('assign_st_date',"");
+		g_form.setValue('assign_tentative_end_date',"");
+		g_form.setValue('assignment_longer_6mnths',"");	
+	//g_form.setValue('outage_event_sub_type',"");	
+}
+function HideLongTermFields() {
+//set Long term fields Unavailable
+		g_form.setMandatory('reviewed_with_pteam',false);
+		g_form.setMandatory('productivity_team_member',false);	
+		g_form.setMandatory('productivity_team_group',false);	
+		g_form.setMandatory('ce_uploaded',false);
+		g_form.setMandatory('long_term_standard',false);
+//		g_form.setMandatory('gtm_po_stnd_scope',false);
+		g_form.setMandatory('enter_no_of_standard_scope_pos',false);
+		g_form.setMandatory('non_stnd_gtmpo_cnt',false);	
+		g_form.setValue('reviewed_with_pteam',"");
+		g_form.setValue('productivity_team_member',"");
+		g_form.setValue('productivity_team_group',"");
+		g_form.setValue('ce_uploaded',"");
+		g_form.setValue('long_term_standard',"");		
+//		g_form.setValue('gtm_po_stnd_scope',"");	
+		g_form.setValue('enter_no_of_standard_scope_pos','0');
+		g_form.setValue('non_stnd_gtmpo_cnt',"");			
+		g_form.setDisplay('reviewed_with_pteam',false);
+		g_form.setDisplay('productivity_team_member',false);
+		g_form.setDisplay('productivity_team_group',false);	
+		g_form.setDisplay('ce_uploaded',false);
+		g_form.setDisplay('long_term_standard',false);		
+//		g_form.setDisplay('gtm_po_stnd_scope',false);	
+		g_form.setDisplay('enter_no_of_standard_scope_pos',false);
+		g_form.setDisplay('non_stnd_gtmpo_cnt',false);		
+		//04/18 
+		g_form.setDisplay('tot_proj_hours',false);
+	
+}
+function HideTDIFields() {
+	//Set TDI Related fields Unavailable
+		g_form.setMandatory('proj_man_weeks',false);
+		g_form.setMandatory('proj_cost',false);		
+		g_form.setMandatory('tdi_transactional',false);
+		g_form.setDisplay('proj_man_weeks',false);
+		g_form.setDisplay('proj_cost',false);	
+		g_form.setDisplay('tdi_transactional',false);	
+		g_form.setValue('proj_man_weeks',"");
+		g_form.setValue('proj_cost',"");	
+		g_form.setValue('tdi_transactional',"");	
+
+}	
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2017-10-02 21:38:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>873800cadba50f008a08f35aaf9619b6</sys_id>
+        <sys_mod_count>95</sys_mod_count>
+        <sys_name>Job Category Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_script_client_873800cadba50f008a08f35aaf9619b6</sys_update_name>
+        <sys_updated_by>Raghu.Kumar</sys_updated_by>
+        <sys_updated_on>2018-05-09 18:20:24</sys_updated_on>
+        <table>x_grs_site_incntv_outageinfo</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

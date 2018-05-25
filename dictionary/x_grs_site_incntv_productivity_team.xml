@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Productivity Team" max_length="40" name="x_grs_site_incntv_productivity_team" type="collection">
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="SSO" max_length="40" name="sso" type="string"/>
+        <element label="Technology" max_length="40" name="technology" type="string"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

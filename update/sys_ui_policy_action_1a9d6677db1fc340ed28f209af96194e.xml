@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>rating_team_perf_comments</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2018-01-03 19:53:45</sys_created_on>
+        <sys_id>1a9d6677db1fc340ed28f209af96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rating_team_perf_comments</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_ui_policy_action_1a9d6677db1fc340ed28f209af96194e</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2018-01-03 19:53:45</sys_updated_on>
+        <table>x_grs_site_incntv_outageinfo</table>
+        <ui_policy display_value="Make comments mandatory if Rating is 1 or 4">b840667fdbdbc340ed28f209af961982</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

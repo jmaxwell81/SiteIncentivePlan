@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>callout_to_outage</field>
+        <global>true</global>
+        <messages/>
+        <name>Show/hide section on callout to outage</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+if(g_form.getValue('callout_to_outage') == 'yes_all' && g_form.getValue('site_comp_status') =='for_sm_validation') {
+	g_form.hideFieldMsg('callout_to_outage');
+	g_form.showFieldMsg('callout_to_outage','This closes workflow','error'); 
+	g_form.setMandatory('add_margin_fe',false);
+	g_form.setVisible('gtm_full_outage_project_number',true);
+	g_form.setMandatory('gtm_full_outage_project_number',true);
+	
+	//Performance evaluation section
+	g_form.setMandatory('rating_quality_rework',false);
+	g_form.setMandatory('rating_team_performance',false);		
+	g_form.setMandatory('rating_fe_unit_return',false);		
+	g_form.setReadOnly('rating_quality_rework',true);
+	g_form.setReadOnly('rating_qty_rework_comments',true);
+	g_form.setReadOnly('rating_team_performance',true);		
+	g_form.setReadOnly('rating_team_perf_comments',true);		
+	g_form.setReadOnly('rating_fe_unit_return',true);		
+	g_form.setReadOnly('rating_fe_return_comments',true);	
+	g_form.setReadOnly('add_margin_fe',true);
+}
+else if((g_form.getValue('callout_to_outage') == 'no' || g_form.getValue('callout_to_outage') == 'yes_some') && g_form.getValue('site_comp_status') =='for_sm_validation') {
+	g_form.hideFieldMsg('callout_to_outage');
+	g_form.showFieldMsg('callout_to_outage','Continue to "Performance Evaluation" tab to fill in the ratings','info'); 
+	if(g_form.getValue('callout_to_outage') == 'yes_some')
+		g_form.showFieldMsg('callout_to_outage','REMOVE Field Engineers which moved onto Full Outage, then click on "Submit Form"','info'); 		
+	g_form.setMandatory('add_margin_fe',true);
+	if (g_form.getValue('callout_to_outage') == 'yes_some') {
+		g_form.setVisible('gtm_full_outage_project_number',true);
+		g_form.setMandatory('gtm_full_outage_project_number',true);
+	}
+	else if (g_form.getValue('callout_to_outage') == 'no') {
+		g_form.setMandatory('gtm_full_outage_project_number',false);		
+		g_form.setVisible('gtm_full_outage_project_number',false);
+	}
+	//Performance evaluation section
+	g_form.setReadOnly('rating_quality_rework',false);
+	g_form.setMandatory('rating_quality_rework',true);
+	g_form.setReadOnly('rating_qty_rework_comments',false);
+	g_form.setReadOnly('rating_team_performance',false);	
+	g_form.setMandatory('rating_team_performance',true);	
+	g_form.setReadOnly('rating_team_perf_comments',false);		
+	g_form.setReadOnly('rating_fe_unit_return',false);
+	g_form.setMandatory('rating_fe_unit_return',true);		
+	g_form.setReadOnly('rating_fe_return_comments',false);	
+}
+	
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2017-09-24 19:56:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a732613db154b008a08f35aaf961917</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>Show/hide section on callout to outage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_script_client_5a732613db154b008a08f35aaf961917</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2017-11-09 21:49:27</sys_updated_on>
+        <table>x_grs_site_incntv_outageinfo</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Additional Margin PO List" max_length="40" name="x_grs_site_incntv_additional_margin_po_list" type="collection">
+        <element choice="1" label="Additional Margin Billing Status" max_length="40" name="additional_margin_billing_status" type="choice">
+            <choice>
+                <element label="Billed/to be Billed - Agreed GE/FieldCore" value="Billed_to_be_billed"/>
+                <element label="Conceded by GE" value="conceded_by_ge"/>
+            </choice>
+        </element>
+        <element label="Additional Margin CM Dollars" max_length="40" name="cm_dollars" type="currency"/>
+        <element label="Short Description" max_length="5000" name="margin_po_comments" type="string_full_utf8"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Outage Ref#" max_length="32" name="outage_ref" read_only="true" reference="x_grs_site_incntv_outageinfo" type="reference"/>
+        <element label="GE GoTo Market PO Number #" mandatory="true" max_length="40" name="po_number" type="string"/>
+        <index name="index">
+            <element name="outage_ref"/>
+        </index>
+    </element>
+</database>

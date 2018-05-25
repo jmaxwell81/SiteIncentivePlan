@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>tdi_transactional</field>
+        <global>true</global>
+        <messages/>
+        <name>Transactional SubType</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+	  if (g_form.getValue('tdi_transactional') == 'tm_no_jce') {
+		  g_form.setMandatory('ce_uploaded', false);
+	  }
+      return;
+   }
+if((g_form.getValue('job_category') == 'long_term' || g_form.getValue('job_category') == 'planned_outage' || g_form.getValue('job_category') == 'forced_outage' )
+   && g_form.getValue('tdi_transactional') == 'tm_no_jce') 
+{
+	g_form.setMandatory('ce_uploaded', false);
+//03/03/2018: R4 changes - Make productivity Team member mandatory field for all except tm_no_jce
+	g_form.setMandatory('productivity_team_member',false);
+	g_form.setMandatory('productivity_team_group',false);	
+} 
+else if ((g_form.getValue('job_category') == 'long_term' || g_form.getValue('job_category') == 'planned_outage' || g_form.getValue('job_category') == 'forced_outage' )
+   && (g_form.getValue('tdi_transactional') == 'TandM' || g_form.getValue('tdi_transactional') == 'fixed_price'))	{
+	g_form.setMandatory('ce_uploaded', true);
+	g_form.setMandatory('productivity_team_member',true);
+	g_form.setMandatory('productivity_team_group',true);
+}
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2018-01-08 22:25:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c60cb4e1dbe7c740ed28f209af9619f8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Transactional SubType</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_script_client_c60cb4e1dbe7c740ed28f209af9619f8</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2018-04-18 22:02:55</sys_updated_on>
+        <table>x_grs_site_incntv_outageinfo</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

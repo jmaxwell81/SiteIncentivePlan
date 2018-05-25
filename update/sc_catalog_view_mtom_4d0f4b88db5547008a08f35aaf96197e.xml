@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="FieldCore Operations">29fe8f0cdb5547008a08f35aaf9619b1</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2017-09-14 20:36:47</sys_created_on>
+        <sys_id>4d0f4b88db5547008a08f35aaf96197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FieldCore Operations.catalog_fieldcore_operations</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_fieldcore_operations">090f4b88db5547008a08f35aaf96197e</sys_portal_page>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_4d0f4b88db5547008a08f35aaf96197e</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2017-09-14 20:36:47</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

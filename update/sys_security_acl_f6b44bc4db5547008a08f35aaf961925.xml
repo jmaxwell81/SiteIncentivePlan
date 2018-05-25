@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Default access control on x_grs_site_incntv_field_engineers</description>
+        <name>x_grs_site_incntv_field_engineers</name>
+        <operation display_value="create">create</operation>
+        <script><![CDATA[if(current.outage_ref.site_comp_status == 'for_sit_approval' || current.outage_ref.site_comp_status == 'ehs_evaluation' || current.outage_ref.site_comp_status == 'for_finance_review' || current.outage_ref.site_comp_status == 'complete') 
+	answer = false;
+else
+	answer = true;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>Krishna.Chaitanya</sys_created_by>
+        <sys_created_on>2017-09-14 19:51:51</sys_created_on>
+        <sys_id>f6b44bc4db5547008a08f35aaf961925</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_grs_site_incntv_field_engineers</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_security_acl_f6b44bc4db5547008a08f35aaf961925</sys_update_name>
+        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
+        <sys_updated_on>2017-11-06 19:17:04</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
