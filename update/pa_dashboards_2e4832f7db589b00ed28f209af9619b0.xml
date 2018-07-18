@@ -11,26 +11,26 @@
         <name>Site Incentive Reporting Dashboard</name>
         <no_tabs>false</no_tabs>
         <order/>
-        <owner display_value="">9ddcdff4db1b3e0025b472ec0f96190d</owner>
-        <restrict_to_roles/>
+        <owner display_value="Sreenivasulu Reddy">9ddcdff4db1b3e0025b472ec0f96190d</owner>
+        <restrict_to_roles>pa_viewer,pa_contributor</restrict_to_roles>
         <role_override>true</role_override>
         <roles/>
-        <should_migrate_permissions>true</should_migrate_permissions>
+        <should_migrate_permissions>false</should_migrate_permissions>
         <sys_class_name>pa_dashboards</sys_class_name>
         <sys_created_by>srini.reddy</sys_created_by>
         <sys_created_on>2018-02-22 13:43:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2e4832f7db589b00ed28f209af9619b0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Site Incentive Reporting Dashboard</sys_name>
         <sys_overrides/>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
         <sys_policy/>
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>pa_dashboards_2e4832f7db589b00ed28f209af9619b0</sys_update_name>
-        <sys_updated_by>srini.reddy</sys_updated_by>
-        <sys_updated_on>2018-02-22 13:43:27</sys_updated_on>
+        <sys_updated_by>krishna.tangeti</sys_updated_by>
+        <sys_updated_on>2018-07-17 15:19:30</sys_updated_on>
         <users/>
         <visible_to>2</visible_to>
     </pa_dashboards>

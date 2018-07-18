@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
-        <group_id display_value="">60d7d1b1db85c300ed28f209af961967</group_id>
+        <group_id display_value="Site Incentive Team" name="Site Incentive Team">60d7d1b1db85c300ed28f209af961967</group_id>
         <report_id display_value="Aging of Site Incentive Forms by Step">8e995fb9db1897008a08f35aaf96194a</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>srini.reddy</sys_created_by>

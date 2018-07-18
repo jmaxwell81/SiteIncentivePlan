@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="sf_user_import" max_length="40" name="u_sf_user_import" sizeclass="9529" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Employee_SSO" max_length="40" name="u_employee_sso" type="string"/>
+    </element>
+</database>

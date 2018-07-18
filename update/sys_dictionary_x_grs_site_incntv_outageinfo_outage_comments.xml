@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Outage Comments</column_label>
+        <column_label>SM NOTES</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -55,14 +55,14 @@
         <sys_created_by>Krishna.Chaitanya</sys_created_by>
         <sys_created_on>2017-09-05 21:06:36</sys_created_on>
         <sys_id>879af8abdb294b4065eff438bf9619db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Outage Comments</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SM NOTES</sys_name>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
         <sys_policy/>
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sys_dictionary_x_grs_site_incntv_outageinfo_outage_comments</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-11-17 21:32:46</sys_updated_on>
+        <sys_updated_by>503045517</sys_updated_by>
+        <sys_updated_on>2018-07-06 16:19:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Additional Margin PO List" max_length="40" name="x_grs_site_incntv_additional_margin_po_list" type="collection">
-        <element choice="1" label="Additional Margin Billing Status" max_length="40" name="additional_margin_billing_status" type="choice">
+        <element choice="1" label="Status of Invoicing to GE's Customer" max_length="40" name="additional_margin_billing_status" type="choice">
             <choice>
                 <element label="Billed/to be Billed - Agreed GE/FieldCore" value="Billed_to_be_billed"/>
                 <element label="Conceded by GE" value="conceded_by_ge"/>
             </choice>
         </element>
-        <element label="Additional Margin CM Dollars" max_length="40" name="cm_dollars" type="currency"/>
+        <element label="Calculated Additional Margin" max_length="15" name="cm_dollars" type="currency"/>
         <element label="Short Description" max_length="5000" name="margin_po_comments" type="string_full_utf8"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Outage Ref#" max_length="32" name="outage_ref" read_only="true" reference="x_grs_site_incntv_outageinfo" type="reference"/>
-        <element label="GE GoTo Market PO Number #" mandatory="true" max_length="40" name="po_number" type="string"/>
+        <element label="GTM PO for Additional Margin" mandatory="true" max_length="40" name="po_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Additional Margin" max_length="40" name="type_of_additional_margin" type="choice">
+            <choice>
+                <element label="Parts" sequence="0" value="parts"/>
+                <element label="Repairs" sequence="1" value="repairs"/>
+                <element label="Services" sequence="2" value="services"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="outage_ref"/>
         </index>

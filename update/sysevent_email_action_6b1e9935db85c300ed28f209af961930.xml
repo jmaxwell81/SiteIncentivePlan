@@ -42,7 +42,7 @@
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups>60d7d1b1db85c300ed28f209af961967</recipient_groups>
+        <recipient_groups name="Site Incentive Team">60d7d1b1db85c300ed28f209af961967</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>

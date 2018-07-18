@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA New Tab">fcec75e6db931300a98ff91ebf96199b</canvas_page>
+        <name>New Tab</name>
+        <page display_value="PA New Tab">b0ec75e6db931300a98ff91ebf96199b</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>krishna.tangeti</sys_created_by>
+        <sys_created_on>2018-07-17 15:19:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bcec75e6db931300a98ff91ebf96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>pa_tabs_bcec75e6db931300a98ff91ebf96199d</sys_update_name>
+        <sys_updated_by>krishna.tangeti</sys_updated_by>
+        <sys_updated_on>2018-07-17 15:19:30</sys_updated_on>
+    </pa_tabs>
+</record_update>

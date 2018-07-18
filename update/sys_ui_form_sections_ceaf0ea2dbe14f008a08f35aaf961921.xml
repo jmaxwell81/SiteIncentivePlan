@@ -15,6 +15,20 @@
             <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
             <sys_updated_on>2017-10-04 20:40:29</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-06 16:02:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f2dd147db831300a98ff91ebf9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_grs_site_incntv_outageinfo" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">ceaf0ea2dbe14f008a08f35aaf961921</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">d32dd147db831300a98ff91ebf9619ac</sys_ui_section>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-06 16:02:14</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_grs_site_incntv_outageinfo</name>
             <roles/>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="OutageInfo" max_length="40" name="x_grs_site_incntv_outageinfo" type="collection">
+    <element extends="task" label="OutageInfo" max_length="40" name="x_grs_site_incntv_outageinfo" sizeclass="2264" type="collection">
+        <element attributes="omit_sys_original=true" label="Actual total project cost" max_length="20" name="actual_total_project" type="currency"/>
         <element label="Addnl Margin POs" max_length="40" name="addnl_margin_po" type="string"/>
-        <element choice="1" label="Did the FE/site team drive Parts/Repairs/Services Addnl margin for this event?" mandatory="true" max_length="40" name="add_margin_fe" type="choice">
+        <element choice="1" label="Did FE/team drive Additional Margin(Parts/Repairs/Services)?" max_length="40" name="add_margin_fe" type="choice">
             <choice>
                 <element label="Yes" sequence="1" value="yes"/>
                 <element label="No" sequence="2" value="no"/>
@@ -41,7 +42,16 @@
                 <element label="Yes, Uploaded" value="yes"/>
             </choice>
         </element>
+        <element label="Calculated Addtional Margin" max_length="50" name="cm_dollar" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Currently Additional Comment" max_length="255" name="currently_additional_comment" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Currently Outage Comment" max_length="255" name="currently_outage_comment" type="string_full_utf8"/>
         <element label="Defect Track" max_length="1500" name="defect_track" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Did your outage have a CDSi?" max_length="40" name="did_your_outage_cdsi" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
         <element choice="1" label="Was there an EHS breach?" mandatory="true" max_length="40" name="ehs_breach" type="choice">
             <choice>
                 <element label="No" value="no"/>
@@ -159,7 +169,7 @@
                 <element label="Forced Outage" sequence="8" value="forced_outage"/>
             </choice>
         </element>
-        <element choice="1" hint="Provide the Job Type" label="Job Type" mandatory="true" max_length="40" name="job_type" type="choice">
+        <element choice="1" hint="Provide the Job Type" label="Job Type" max_length="40" name="job_type" type="choice">
             <choice>
                 <element label="Transactional" sequence="2" value="transactional"/>
                 <element label="Contractual" sequence="3" value="contractual"/>
@@ -209,7 +219,7 @@
             </choice>
         </element>
         <element label="Non-Stnd Scope PO Number" max_length="40" name="non_stnd_scope_po_number" type="string"/>
-        <element label="Outage Comments" max_length="7000" name="outage_comments" type="string_full_utf8"/>
+        <element label="SM NOTES" max_length="7000" name="outage_comments" type="string_full_utf8"/>
         <element hint="Provide the Outage Planned End Date" label="Project Completion Date" max_length="40" name="outage_end_date" type="glide_date"/>
         <element choice="1" dependent="equipment_type" dependent_on_field="equipment_type" label="Outage/Event Sub Type" max_length="40" name="outage_event_sub_type" type="choice" use_dependent_field="true">
             <choice>
@@ -278,6 +288,8 @@
                 <element label="Planned" value="planned"/>
             </choice>
         </element>
+        <element label="Parent Form Number" max_length="50" name="parentoutage" type="string"/>
+        <element label="Performance Multiplier" max_length="40" name="performance_multi" type="integer"/>
         <element choice="1" label="POs Entered?" max_length="40" name="po_entered" type="choice">
             <choice>
                 <element label="No" value="no"/>
@@ -308,11 +320,17 @@
         </element>
         <element label="Productivity Team Group" max_length="32" name="productivity_team_group" reference="sys_user_group" reference_qual="nameSTARTSWITHProductivity Team^EQ" reference_qual_condition="nameSTARTSWITHProductivity Team^EQ" type="reference"/>
         <element hint="Provide the name of the FieldCore Productivity Team member" label="Productivity Team Member" max_length="32" name="productivity_team_member" read_only="true" reference="x_grs_site_incntv_productivity_team" reference_qual="roles=x_grs_site_incntv.productivityteam^EQ" reference_qual_condition="roles=x_grs_site_incntv.productivityteam^EQ" type="reference"/>
-        <element label="GTM Project" mandatory="true" max_length="40" name="project_number" type="string"/>
+        <element choice="1" label="Project has cost estimate?" max_length="40" name="project_estimate" type="choice">
+            <choice>
+                <element label="Yes" sequence="1" value="yes"/>
+                <element label="No" sequence="2" value="no"/>
+            </choice>
+        </element>
+        <element label="GTM Project" max_length="40" name="project_number" type="string"/>
         <element choice="1" label="Project Type" max_length="40" name="project_type" type="choice">
             <choice/>
         </element>
-        <element hint="Please enter the total Project Cost (in Cost Estimate)" label="Enter Total Project Cost" max_length="15" name="proj_cost" type="currency"/>
+        <element hint="Please enter the total Project Cost (in Cost Estimate)" label="Estimated Total Project Cost" max_length="15" name="proj_cost" type="currency"/>
         <element label="Enter Total Project Man-Weeks" max_length="40" name="proj_man_weeks" type="string"/>
         <element label="Comments" max_length="5000" name="rating_fe_return_comments" type="string_full_utf8"/>
         <element choice="1" label="Overall Satisfaction Rating:" max_length="40" name="rating_fe_unit_return" type="choice">
@@ -341,6 +359,18 @@
             </choice>
         </element>
         <element label="Comments" max_length="5000" name="rating_team_perf_comments" type="string_full_utf8"/>
+        <element choice="1" label="Reviewed Estimated &amp; Actual Values for project." max_length="40" name="reviewed_estimated_values_for_project" type="choice">
+            <choice>
+                <element label="Yes, without corrections" sequence="1" value="yes, without corrections"/>
+                <element label="Yes, with corrections" sequence="2" value="yes, with corrections"/>
+            </choice>
+        </element>
+        <element choice="1" label="Reviewed Outage Report response" max_length="40" name="reviewed_outage_report_response" type="choice">
+            <choice>
+                <element label="Yes, without corrections" sequence="1" value="yes, without corrections"/>
+                <element label="Yes, with corrections" sequence="2" value="yes, with corrections"/>
+            </choice>
+        </element>
         <element choice="1" hint="Did you have a pre-outage call or productivity review with the Productivity Team? " label="Did you review with Productivity Team member?" max_length="40" name="reviewed_with_pteam" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="yes"/>
@@ -353,10 +383,12 @@
             </choice>
         </element>
         <element label="SIT Final Comments" max_length="5000" name="scl_final_comments" type="string_full_utf8"/>
-        <element hint="Please select your name" label="Service Manager Name" mandatory="true" max_length="32" name="service_manager_name" reference="sys_user" type="reference"/>
+        <element hint="Please select your name" label="Service Manager Name" max_length="32" name="service_manager_name" reference="sys_user" type="reference"/>
         <element label="Additional Comments" max_length="5000" name="sip_comments" type="string_full_utf8"/>
-        <element choice="3" default="new" label="Site Comp Status" max_length="40" name="site_comp_status" read_only="true" type="choice">
+        <element choice="3" default="SIT Data Entry" label="Site Comp Current Step" max_length="40" name="site_comp_status" read_only="true" type="choice">
             <choice>
+                <element label="Form Closed" value="Form Closed"/>
+                <element label="SM Repairs Review" value="sm_repairs_review"/>
                 <element label="SM Review" sequence="0" value="sm_review"/>
                 <element label="For SIT Approval" sequence="1" value="for_sit_approval"/>
                 <element label="SIT Review" sequence="2" value="sit_review"/>
@@ -371,15 +403,20 @@
                 <element label="For JCE estimaton" sequence="12" value="for_jce_estimation"/>
                 <element label="JCE Review" sequence="13" value="jce_review"/>
                 <element label="Cancelled" sequence="14" value="cancelled"/>
+                <element label="SIT Data Entry" sequence="15" value="SIT Data Entry"/>
+                <element label="SM Review" sequence="16" value="SM Review1"/>
+                <element label="Finance Review" sequence="17" value="Finance Review"/>
+                <element label="SIT Final Calc" sequence="18" value="SIT Final Calc"/>
             </choice>
         </element>
-        <element choice="1" label="Validated?" mandatory="true" max_length="40" name="sm_validation_status" type="choice">
+        <element choice="1" label="Reviewed FE/OM listed on form" mandatory="true" max_length="40" name="sm_validation_status" type="choice">
             <choice>
-                <element label="Validation with No Correction" sequence="1" value="Validation with No Correction"/>
-                <element label="Validated and Correction Made" sequence="2" value="Validated and Correction Made"/>
+                <element label="Yes, with corrections" sequence="0" value="Validation with No Correction"/>
+                <element label="Yes, without corrections" sequence="1" value="Validated and Correction Made"/>
             </choice>
         </element>
         <element label="Standard Scope PO Number" max_length="40" name="standard_scope_po_number" type="string"/>
+        <element label="Status of Invoicing to GE's Customer" max_length="50" name="status_of_invoicing_to_ge_s_customers" type="string"/>
         <element label="GE GTM Standard PO1" max_length="40" name="stnd_gtmpo_1" type="string"/>
         <element label="GE GTM Standard PO2" max_length="40" name="stnd_gtmpo_2" type="string"/>
         <element label="GE GTM Standard PO3" max_length="40" name="stnd_gtmpo_3" type="string"/>
@@ -392,9 +429,32 @@
                 <element label="T&amp;M without JCE" sequence="3" value="tm_no_jce"/>
             </choice>
         </element>
-        <element hint="Please enter the total Project Hours (in Cost Estimate)" label="Enter Total Project Hours" max_length="40" name="tot_proj_hours" type="integer"/>
+        <element hint="Please enter the total Project Hours (in Cost Estimate)" label="Estimated Total Project Hours" max_length="40" name="tot_proj_hours" type="integer"/>
         <element hint="Please enter the total Project Cost (in Cost Estimate)" label="Total Standard Scope Cost" max_length="15" name="tot_stnd_scope_cost" type="currency"/>
         <element hint="Please enter the total Standard Scope Hours (in Cost Estimate)*" label="Total Standard Scope Hours" max_length="40" name="tot_stnd_scope_hrs" type="integer"/>
+        <element label="Type of Additional Margins" max_length="50" name="type_additional_margins" type="string"/>
         <element label="UI Action Current" max_length="40" name="ui_action_current" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="outage report was submitted on time?" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+                <element label="Not Applicable" sequence="2" value="not applicable"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Were there any severe NCRs for outage?" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Was there an EHS Breach for outage?" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Actual total project hours" max_length="40" name="u_integer_3" type="integer"/>
+        <element label="Performance Rating Average" max_length="40" name="u_integer_5" type="integer"/>
+        <element label="Project Cost Productivity" max_length="40" name="u_integer_6" type="integer"/>
     </element>
 </database>

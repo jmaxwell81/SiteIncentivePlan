@@ -617,6 +617,146 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_fe_om_listed_on_form</element>
+            <position>44</position>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-10 18:27:26</sys_created_on>
+            <sys_id>59c46ad8dbd31300a98ff91ebf9619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">fb49117adb319700ed28f209af961956</sys_ui_section>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-10 18:27:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_estimated_actual_values_for_project</element>
+            <position>45</position>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-10 18:29:36</sys_created_on>
+            <sys_id>09456a1cdbd31300a98ff91ebf961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">fb49117adb319700ed28f209af961956</sys_ui_section>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-10 18:29:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_estimated_values_for_project</element>
+            <position>46</position>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-10 18:33:32</sys_created_on>
+            <sys_id>f626265cdbd31300a98ff91ebf9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">fb49117adb319700ed28f209af961956</sys_ui_section>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-10 18:33:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_outage_report_response</element>
+            <position>47</position>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-10 18:39:54</sys_created_on>
+            <sys_id>40a7669cdbd31300a98ff91ebf9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">fb49117adb319700ed28f209af961956</sys_ui_section>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-10 18:39:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>calculated_addtional_margin</element>
+            <position>48</position>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-12 19:09:51</sys_created_on>
+            <sys_id>9aa18589db171300a98ff91ebf9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">fb49117adb319700ed28f209af961956</sys_ui_section>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-12 19:09:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cm_dollar</element>
+            <position>49</position>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-12 19:12:25</sys_created_on>
+            <sys_id>f73201c9db171300a98ff91ebf9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">fb49117adb319700ed28f209af961956</sys_ui_section>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-12 19:12:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_additional_margins</element>
+            <position>50</position>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-13 05:29:59</sys_created_on>
+            <sys_id>829f8b49db5b1300a98ff91ebf9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">fb49117adb319700ed28f209af961956</sys_ui_section>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-13 05:29:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status_of_invoicing_to_ge_s_customers</element>
+            <position>51</position>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-13 05:30:46</sys_created_on>
+            <sys_id>65cfc349db5b1300a98ff91ebf9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">fb49117adb319700ed28f209af961956</sys_ui_section>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-13 05:30:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parentoutage</element>
+            <position>52</position>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-13 05:31:45</sys_created_on>
+            <sys_id>90005389db5b1300a98ff91ebf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">fb49117adb319700ed28f209af961956</sys_ui_section>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-13 05:31:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_estimate</element>
+            <position>53</position>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-17 20:52:16</sys_created_on>
+            <sys_id>9f09432edb571300a98ff91ebf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">fb49117adb319700ed28f209af961956</sys_ui_section>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-17 20:52:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

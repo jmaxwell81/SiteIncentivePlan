@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>actual_total_project</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>503045517</sys_created_by>
+        <sys_created_on>2018-07-10 13:49:53</sys_created_on>
+        <sys_data_policy display_value="Project has cost  cost estimate if yes Data policy rules are mandatory">03b4e190db531300a98ff91ebf9619b9</sys_data_policy>
+        <sys_id>f935e5d0db531300a98ff91ebf96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>actual_total_project</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_data_policy_rule_f935e5d0db531300a98ff91ebf96193e</sys_update_name>
+        <sys_updated_by>503045517</sys_updated_by>
+        <sys_updated_on>2018-07-10 13:49:53</sys_updated_on>
+        <table>x_grs_site_incntv_outageinfo</table>
+    </sys_data_policy_rule>
+</record_update>

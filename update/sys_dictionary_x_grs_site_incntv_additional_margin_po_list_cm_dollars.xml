@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Additional Margin CM Dollars</column_label>
+        <column_label>Calculated Additional Margin</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -35,7 +35,7 @@
         <function_field>false</function_field>
         <internal_type display_value="Currency">currency</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>15</max_length>
         <name>x_grs_site_incntv_additional_margin_po_list</name>
         <next_element/>
         <primary>false</primary>
@@ -55,14 +55,14 @@
         <sys_created_by>Krishna.Chaitanya</sys_created_by>
         <sys_created_on>2017-09-17 15:36:11</sys_created_on>
         <sys_id>54ca3cabdb294b4065eff438bf9619f7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Additional Margin CM Dollars</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Calculated Additional Margin</sys_name>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
         <sys_policy/>
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sys_dictionary_x_grs_site_incntv_additional_margin_po_list_cm_dollars</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-11-17 21:32:38</sys_updated_on>
+        <sys_updated_by>503045517</sys_updated_by>
+        <sys_updated_on>2018-07-10 17:54:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

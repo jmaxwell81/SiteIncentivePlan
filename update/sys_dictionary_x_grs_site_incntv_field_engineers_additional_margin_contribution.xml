@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Additional Margin Contribution </column_label>
+        <column_label>Additional Contribution Margin - per policy</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -55,14 +55,14 @@
         <sys_created_by>karla.rios</sys_created_by>
         <sys_created_on>2017-10-03 14:35:42</sys_created_on>
         <sys_id>458af8abdb294b4065eff438bf96191f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Additional Margin Contribution </sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Additional Contribution Margin - per policy</sys_name>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
         <sys_policy/>
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sys_dictionary_x_grs_site_incntv_field_engineers_additional_margin_contribution</sys_update_name>
-        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
-        <sys_updated_on>2018-01-11 14:15:29</sys_updated_on>
+        <sys_updated_by>503045517</sys_updated_by>
+        <sys_updated_on>2018-07-09 18:19:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

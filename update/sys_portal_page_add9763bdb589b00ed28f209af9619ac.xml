@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2018-05-25 19:45:47">
+<record_update node_type="sys_portal_page" unload_date="2018-07-18 12:31:57">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_2_across_knowledge">46978421370031002d2440ed9dbe5db7</layout>
         <order/>
@@ -39,7 +39,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>5060f373db1c9b00ed28f209af961922</sys_id>
@@ -50,7 +50,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>5060f373db1c9b00ed28f209af961923</sys_id>
@@ -61,7 +61,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>5460f373db1c9b00ed28f209af961922</sys_id>
@@ -72,7 +72,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>5860f373db1c9b00ed28f209af961922</sys_id>
@@ -83,7 +83,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>5c60f373db1c9b00ed28f209af961922</sys_id>
@@ -94,7 +94,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>d460f373db1c9b00ed28f209af961923</sys_id>
@@ -105,7 +105,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">5860f373db1c9b00ed28f209af961921</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>d860f373db1c9b00ed28f209af961921</sys_id>
@@ -130,7 +130,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>1860f373db1c9b00ed28f209af96191a</sys_id>
@@ -141,7 +141,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>5860f373db1c9b00ed28f209af96191c</sys_id>
@@ -152,7 +152,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>d060f373db1c9b00ed28f209af96191b</sys_id>
@@ -163,7 +163,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>d060f373db1c9b00ed28f209af96191c</sys_id>
@@ -174,7 +174,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>d460f373db1c9b00ed28f209af96191b</sys_id>
@@ -185,7 +185,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>d860f373db1c9b00ed28f209af96191b</sys_id>
@@ -196,7 +196,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">9460f373db1c9b00ed28f209af96191a</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>dc60f373db1c9b00ed28f209af96191b</sys_id>
@@ -221,7 +221,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>1460f373db1c9b00ed28f209af961921</sys_id>
@@ -232,7 +232,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>1860f373db1c9b00ed28f209af96191f</sys_id>
@@ -243,7 +243,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>9060f373db1c9b00ed28f209af961920</sys_id>
@@ -254,7 +254,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>9460f373db1c9b00ed28f209af961920</sys_id>
@@ -265,7 +265,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>9860f373db1c9b00ed28f209af961920</sys_id>
@@ -276,7 +276,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>9c60f373db1c9b00ed28f209af96191f</sys_id>
@@ -287,7 +287,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:09">9460f373db1c9b00ed28f209af96191f</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:09</sys_created_on>
                         <sys_id>9c60f373db1c9b00ed28f209af961920</sys_id>
@@ -312,7 +312,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>5060f373db1c9b00ed28f209af96191f</sys_id>
@@ -323,7 +323,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>5460f373db1c9b00ed28f209af96191d</sys_id>
@@ -334,7 +334,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>d060f373db1c9b00ed28f209af96191e</sys_id>
@@ -345,7 +345,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>d460f373db1c9b00ed28f209af96191e</sys_id>
@@ -356,7 +356,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>d860f373db1c9b00ed28f209af96191d</sys_id>
@@ -367,7 +367,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>d860f373db1c9b00ed28f209af96191e</sys_id>
@@ -378,7 +378,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2018-02-22 09:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
+                        <portal_section display_value="Created 2018-02-22 12:48:08">d060f373db1c9b00ed28f209af96191d</portal_section>
                         <sys_created_by>Krishna.Chaitanya</sys_created_by>
                         <sys_created_on>2018-02-22 17:48:08</sys_created_on>
                         <sys_id>dc60f373db1c9b00ed28f209af96191d</sys_id>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Service Manager Acknowledgements" section_id="75432d66db531300a98ff91ebf96197e" sys_domain="global" table="x_grs_site_incntv_outageinfo" version="3" view="sit_final_calc">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sm_validation_status</element>
+            <position>0</position>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-17 13:27:37</sys_created_on>
+            <sys_id>f5432d66db531300a98ff91ebf96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Manager Acknowledgements" display_value="Service Manager Acknowledgements" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="4844f487db031300a98ff91ebf96197a">75432d66db531300a98ff91ebf96197e</sys_ui_section>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-17 13:27:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_estimated_values_for_project</element>
+            <position>1</position>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-17 13:27:37</sys_created_on>
+            <sys_id>fd432d66db531300a98ff91ebf96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Manager Acknowledgements" display_value="Service Manager Acknowledgements" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="4844f487db031300a98ff91ebf96197a">75432d66db531300a98ff91ebf96197e</sys_ui_section>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-17 13:27:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_outage_report_response</element>
+            <position>2</position>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-17 13:27:37</sys_created_on>
+            <sys_id>71432d66db531300a98ff91ebf9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Manager Acknowledgements" display_value="Service Manager Acknowledgements" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="4844f487db031300a98ff91ebf96197a">75432d66db531300a98ff91ebf96197e</sys_ui_section>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-17 13:27:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Service Manager Acknowledgements</caption>
+            <header>false</header>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-17 13:27:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75432d66db531300a98ff91ebf96197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Service Manager Acknowledgements</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_section_75432d66db531300a98ff91ebf96197e</sys_update_name>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-17 13:27:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="SIT Final Calc" name="sit_final_calc">4844f487db031300a98ff91ebf96197a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

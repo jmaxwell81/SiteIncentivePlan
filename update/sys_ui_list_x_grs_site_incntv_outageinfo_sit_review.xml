@@ -115,7 +115,7 @@
             <sys_update_name>sys_ui_list_x_grs_site_incntv_outageinfo_SIT_Review</sys_update_name>
             <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
             <sys_updated_on>2017-09-14 21:48:55</sys_updated_on>
-            <sys_user display_value="">1f919424dba926009fb3f2f9af96195f</sys_user>
+            <sys_user display_value="Krishna Chaitanya">1f919424dba926009fb3f2f9af96195f</sys_user>
             <view display_value="SIT Review" name="SIT_Review">7b234fc4db5547008a08f35aaf96196f</view>
             <view_name/>
         </sys_ui_list>

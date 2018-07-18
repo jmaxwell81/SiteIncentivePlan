@@ -15,10 +15,10 @@
         <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Site Comp Status</column_label>
+        <column_label>Site Comp Current Step</column_label>
         <comments/>
         <create_roles/>
-        <default_value>new</default_value>
+        <default_value>SIT Data Entry</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -55,14 +55,14 @@
         <sys_created_by>Krishna.Chaitanya</sys_created_by>
         <sys_created_on>2017-09-14 18:11:13</sys_created_on>
         <sys_id>49ba3cabdb294b4065eff438bf961974</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Site Comp Status</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Site Comp Current Step</sys_name>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
         <sys_policy/>
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sys_dictionary_x_grs_site_incntv_outageinfo_site_comp_status</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-11-17 21:32:50</sys_updated_on>
+        <sys_updated_by>503045517</sys_updated_by>
+        <sys_updated_on>2018-07-11 21:20:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

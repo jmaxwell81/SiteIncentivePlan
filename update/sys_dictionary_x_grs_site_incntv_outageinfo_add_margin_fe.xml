@@ -15,7 +15,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Did the FE/site team drive Parts/Repairs/Services Addnl margin for this event?</column_label>
+        <column_label>Did FE/team drive Additional Margin(Parts/Repairs/Services)?</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -34,7 +34,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Choice">choice</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_grs_site_incntv_outageinfo</name>
         <next_element/>
@@ -55,14 +55,14 @@
         <sys_created_by>Krishna.Chaitanya</sys_created_by>
         <sys_created_on>2017-09-17 12:36:49</sys_created_on>
         <sys_id>a98af8abdb294b4065eff438bf961931</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Did the FE/site team drive Parts/Repairs/Services Addnl margin for this event?</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Did FE/team drive Additional Margin(Parts/Repairs/Services)?</sys_name>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
         <sys_policy/>
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sys_dictionary_x_grs_site_incntv_outageinfo_add_margin_fe</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-11-17 21:32:40</sys_updated_on>
+        <sys_updated_by>503045517</sys_updated_by>
+        <sys_updated_on>2018-07-12 12:46:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

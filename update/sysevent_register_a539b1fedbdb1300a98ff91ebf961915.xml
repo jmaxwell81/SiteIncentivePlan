@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_grs_site_incntv.site.approval</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>site.approval</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>503045517</sys_created_by>
+        <sys_created_on>2018-07-18 09:41:55</sys_created_on>
+        <sys_id>a539b1fedbdb1300a98ff91ebf961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_grs_site_incntv.site.approval</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sysevent_register_a539b1fedbdb1300a98ff91ebf961915</sys_update_name>
+        <sys_updated_by>503045517</sys_updated_by>
+        <sys_updated_on>2018-07-18 09:41:55</sys_updated_on>
+        <table>x_grs_site_incntv_outageinfo</table>
+    </sysevent_register>
+</record_update>

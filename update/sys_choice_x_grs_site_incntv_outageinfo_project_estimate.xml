@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="project_estimate" table="x_grs_site_incntv_outageinfo" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>project_estimate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>1</sequence>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-17 20:52:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0919832edb571300a98ff91ebf961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-17 20:52:37</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>project_estimate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>2</sequence>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-17 20:52:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3929832edb571300a98ff91ebf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-17 20:52:53</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>project_estimate</element>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-17 20:52:37</sys_created_on>
+            <sys_id>d429832edb571300a98ff91ebf96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>project_estimate</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_choice_x_grs_site_incntv_outageinfo_project_estimate</sys_update_name>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-17 20:52:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

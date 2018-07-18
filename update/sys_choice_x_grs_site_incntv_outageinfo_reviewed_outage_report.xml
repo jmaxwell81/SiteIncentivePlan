@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="reviewed_outage_report" table="x_grs_site_incntv_outageinfo" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reviewed_outage_report</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>0</sequence>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-10 17:33:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4681290dbd31300a98ff91ebf96192a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-10 18:18:54</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>reviewed_outage_report</element>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-10 17:33:19</sys_created_on>
+            <sys_id>64681290dbd31300a98ff91ebf96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>reviewed_outage_report</sys_name>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_choice_x_grs_site_incntv_outageinfo_reviewed_outage_report</sys_update_name>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-10 17:33:19</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

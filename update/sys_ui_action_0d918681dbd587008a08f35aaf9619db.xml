@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>submitform</action_name>
-        <active>true</active>
+        <active>false</active>
         <client>true</client>
         <comments/>
         <condition>current.site_comp_status != "new"</condition>
@@ -66,7 +66,8 @@ else if(g_form.getValue('site_comp_status') == 'for_sm_validation' && g_form.get
 else if(g_form.getValue('site_comp_status') == 'jce_review' && g_form.getValue('jce_approved') =='no') {
 	alert('JCE/Cost Estimate needs to approved to submit form. Use "Send back to SIT" button if this needs to be reviewed further by SIT')
 }	
-else
+else 
+	
 	gsftSubmit(null, g_form.getFormElement(), 'submitform');	
 }
 if (typeof window == 'undefined')
@@ -99,15 +100,15 @@ function submitForm() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0d918681dbd587008a08f35aaf9619db</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Submit Form</sys_name>
         <sys_overrides/>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
         <sys_policy/>
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sys_ui_action_0d918681dbd587008a08f35aaf9619db</sys_update_name>
-        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
-        <sys_updated_on>2017-10-05 14:31:40</sys_updated_on>
+        <sys_updated_by>503045517</sys_updated_by>
+        <sys_updated_on>2018-07-16 18:39:07</sys_updated_on>
         <table>x_grs_site_incntv_outageinfo</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

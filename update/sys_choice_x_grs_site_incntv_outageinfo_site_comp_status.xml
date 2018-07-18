@@ -6,6 +6,44 @@
             <element>site_comp_status</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Form Closed</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence/>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-09 17:36:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f26f89c0db531300a98ff91ebf9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-09 17:36:16</sys_updated_on>
+            <value>Form Closed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>site_comp_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SM Repairs Review</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence/>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-13 08:44:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7fbb385dbdb1300a98ff91ebf96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-13 08:44:27</sys_updated_on>
+            <value>sm_repairs_review</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>site_comp_status</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>SM Review</label>
             <language>en</language>
             <name>x_grs_site_incntv_outageinfo</name>
@@ -267,13 +305,89 @@
             <sys_updated_on>2018-01-03 18:14:17</sys_updated_on>
             <value>cancelled</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>site_comp_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SIT Data Entry</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>15</sequence>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-06 13:04:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1564f887db031300a98ff91ebf961922</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-06 13:06:43</sys_updated_on>
+            <value>SIT Data Entry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>site_comp_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SM Review</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>16</sequence>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-06 13:04:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40847887db031300a98ff91ebf961930</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-11 21:20:35</sys_updated_on>
+            <value>SM Review1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>site_comp_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Finance Review</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>17</sequence>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-06 13:05:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e947887db031300a98ff91ebf961927</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-10 12:28:31</sys_updated_on>
+            <value>Finance Review</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>site_comp_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SIT Final Calc</label>
+            <language>en</language>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <sequence>18</sequence>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-06 13:05:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88b47887db031300a98ff91ebf961907</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-06 13:06:50</sys_updated_on>
+            <value>SIT Final Calc</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>site_comp_status</element>
             <name>x_grs_site_incntv_outageinfo</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>system</sys_created_by>
             <sys_created_on>2017-10-07 17:03:28</sys_created_on>
-            <sys_id>1f4cb5a9db121300a98ff91ebf961953</sys_id>
+            <sys_id>31e13407db031300a98ff91ebf9619e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>site_comp_status</sys_name>
             <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>

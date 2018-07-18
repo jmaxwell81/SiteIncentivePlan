@@ -6,18 +6,18 @@
             <element>sm_validation_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Validation with No Correction</label>
+            <label>Yes, with corrections</label>
             <language>en</language>
             <name>x_grs_site_incntv_outageinfo</name>
-            <sequence>1</sequence>
+            <sequence>0</sequence>
             <sys_created_by>system</sys_created_by>
             <sys_created_on>2017-10-07 17:03:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>18ca3cabdb294b4065eff438bf9619f4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-10-07 17:03:28</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-13 17:32:19</sys_updated_on>
             <value>Validation with No Correction</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -25,18 +25,18 @@
             <element>sm_validation_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Validated and Correction Made</label>
+            <label>Yes, without corrections</label>
             <language>en</language>
             <name>x_grs_site_incntv_outageinfo</name>
-            <sequence>2</sequence>
+            <sequence>1</sequence>
             <sys_created_by>system</sys_created_by>
             <sys_created_on>2017-10-07 17:03:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>58ca3cabdb294b4065eff438bf9619f4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-10-07 17:03:28</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-13 17:32:19</sys_updated_on>
             <value>Validated and Correction Made</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

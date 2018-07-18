@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Service Manager Acknowledgements" section_id="509afd10db931300a98ff91ebf96198b" sys_domain="global" table="x_grs_site_incntv_outageinfo" version="3" view="sm_review1">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sm_validation_status</element>
+            <position>0</position>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-13 17:30:01</sys_created_on>
+            <sys_id>2164f995dbdf1300a98ff91ebf961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Manager Acknowledgements" display_value="Service Manager Acknowledgements" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="f0347487db031300a98ff91ebf9619c8">509afd10db931300a98ff91ebf96198b</sys_ui_section>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-13 17:30:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_fe_om_listed_on_form</element>
+            <position>1</position>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-13 17:30:01</sys_created_on>
+            <sys_id>a564f995dbdf1300a98ff91ebf961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Manager Acknowledgements" display_value="Service Manager Acknowledgements" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="f0347487db031300a98ff91ebf9619c8">509afd10db931300a98ff91ebf96198b</sys_ui_section>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-13 17:30:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_estimated_values_for_project</element>
+            <position>2</position>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-13 17:30:01</sys_created_on>
+            <sys_id>2964f995dbdf1300a98ff91ebf961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Manager Acknowledgements" display_value="Service Manager Acknowledgements" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="f0347487db031300a98ff91ebf9619c8">509afd10db931300a98ff91ebf96198b</sys_ui_section>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-13 17:30:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_outage_report_response</element>
+            <position>3</position>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-13 17:30:01</sys_created_on>
+            <sys_id>a964f995dbdf1300a98ff91ebf961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Manager Acknowledgements" display_value="Service Manager Acknowledgements" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="f0347487db031300a98ff91ebf9619c8">509afd10db931300a98ff91ebf96198b</sys_ui_section>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-13 17:30:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Service Manager Acknowledgements</caption>
+            <header>false</header>
+            <name>x_grs_site_incntv_outageinfo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-10 15:23:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>509afd10db931300a98ff91ebf96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Service Manager Acknowledgements</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+            <sys_update_name>sys_ui_section_509afd10db931300a98ff91ebf96198b</sys_update_name>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-10 15:23:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="SM Review1" name="sm_review1">f0347487db031300a98ff91ebf9619c8</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
