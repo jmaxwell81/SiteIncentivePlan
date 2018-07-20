@@ -3,7 +3,7 @@
     <sys_ui_related sys_domain="global" table="x_grs_site_incntv_outageinfo" version="2" view="sm_review1">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="OutageInfo - SM Review1" name="x_grs_site_incntv_outageinfo" related_list="NULL" sys_domain="global" view="f0347487db031300a98ff91ebf9619c8">91c5719cdb531300a98ff91ebf961910</list_id>
+            <list_id display_value="OutageInfo - SM Review" name="x_grs_site_incntv_outageinfo" related_list="NULL" sys_domain="global" view="f0347487db031300a98ff91ebf9619c8">91c5719cdb531300a98ff91ebf961910</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_grs_site_incntv_field_engineers.outage_ref</related_list>
@@ -17,7 +17,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="OutageInfo - SM Review1" name="x_grs_site_incntv_outageinfo" related_list="NULL" sys_domain="global" view="f0347487db031300a98ff91ebf9619c8">91c5719cdb531300a98ff91ebf961910</list_id>
+            <list_id display_value="OutageInfo - SM Review" name="x_grs_site_incntv_outageinfo" related_list="NULL" sys_domain="global" view="f0347487db031300a98ff91ebf9619c8">91c5719cdb531300a98ff91ebf961910</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_grs_site_incntv_additional_margin_po_list.outage_ref</related_list>
@@ -30,7 +30,7 @@
             <sys_updated_on>2018-07-10 15:02:05</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>OutageInfo - SM Review1</calculated_name>
+            <calculated_name>OutageInfo - SM Review</calculated_name>
             <filter/>
             <name>x_grs_site_incntv_outageinfo</name>
             <order_by/>
@@ -51,7 +51,7 @@
             <sys_updated_by>503045517</sys_updated_by>
             <sys_updated_on>2018-07-10 15:02:05</sys_updated_on>
             <sys_user/>
-            <view display_value="SM Review1" name="sm_review1">f0347487db031300a98ff91ebf9619c8</view>
+            <view display_value="SM Review" name="sm_review1">f0347487db031300a98ff91ebf9619c8</view>
             <view_name/>
         </sys_ui_related_list>
     </sys_ui_related>

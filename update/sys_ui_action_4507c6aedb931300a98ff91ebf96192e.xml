@@ -25,7 +25,7 @@
         <order>130</order>
         <script><![CDATA[function onClick2()
 {
-	if(g_form.getValue('site_comp_status') == "SM Review1") {
+	if(g_form.getValue('site_comp_status') == "sm_review") {
 		g_form.setMandatory('u_choice_2',false);
 		g_form.setMandatory('u_choice_3',false);
 		g_form.setMandatory('u_choice_4',false);
@@ -77,7 +77,7 @@ while(appRec.next()) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4507c6aedb931300a98ff91ebf96192e</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Send back</sys_name>
         <sys_overrides/>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
@@ -85,7 +85,7 @@ while(appRec.next()) {
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sys_ui_action_4507c6aedb931300a98ff91ebf96192e</sys_update_name>
         <sys_updated_by>503045517</sys_updated_by>
-        <sys_updated_on>2018-07-17 20:40:14</sys_updated_on>
+        <sys_updated_on>2018-07-18 18:04:44</sys_updated_on>
         <table>x_grs_site_incntv_outageinfo</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

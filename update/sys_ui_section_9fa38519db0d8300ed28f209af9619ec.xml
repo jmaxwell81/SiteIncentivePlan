@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>8b994b2edb571300a98ff91ebf961944</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>689c109fdb1f5300a98ff91ebf96197b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>service_manager_name</element>
             <position>1</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>4f994b2edb571300a98ff91ebf961944</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>e89c109fdb1f5300a98ff91ebf96197b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>project_number</element>
             <position>2</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>cf994b2edb571300a98ff91ebf961944</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>6c9c109fdb1f5300a98ff91ebf96197b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>job_type</element>
             <position>3</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>43994b2edb571300a98ff91ebf961945</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>ec9c109fdb1f5300a98ff91ebf96197b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>outage_event_sub_type</element>
             <position>4</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>c3994b2edb571300a98ff91ebf961945</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>609c109fdb1f5300a98ff91ebf96197c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>esn</element>
             <position>5</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>47994b2edb571300a98ff91ebf961945</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>e09c109fdb1f5300a98ff91ebf96197c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>equipment_type</element>
             <position>6</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>c7994b2edb571300a98ff91ebf961945</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>649c109fdb1f5300a98ff91ebf96197c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>frame_subtech_type</element>
             <position>7</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>4b994b2edb571300a98ff91ebf961945</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>e49c109fdb1f5300a98ff91ebf96197c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>outage_start_date</element>
             <position>8</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>cb994b2edb571300a98ff91ebf961945</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>689c109fdb1f5300a98ff91ebf96197c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,13 +131,13 @@
             <element>outage_end_date</element>
             <position>9</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>4f994b2edb571300a98ff91ebf961945</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>e89c109fdb1f5300a98ff91ebf96197c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -145,13 +145,13 @@
             <element>tot_proj_hours</element>
             <position>10</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>cf994b2edb571300a98ff91ebf961945</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>6c9c109fdb1f5300a98ff91ebf96197c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -159,13 +159,13 @@
             <element>proj_cost</element>
             <position>11</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>43994b2edb571300a98ff91ebf961946</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>ec9c109fdb1f5300a98ff91ebf96197c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -173,13 +173,13 @@
             <element>.split</element>
             <position>12</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>c3994b2edb571300a98ff91ebf961946</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>609c109fdb1f5300a98ff91ebf96197d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -187,13 +187,13 @@
             <element>site_comp_status</element>
             <position>13</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>47994b2edb571300a98ff91ebf961946</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>e09c109fdb1f5300a98ff91ebf96197d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -201,13 +201,13 @@
             <element>project_estimate</element>
             <position>14</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>c7994b2edb571300a98ff91ebf961946</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>649c109fdb1f5300a98ff91ebf96197d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -215,27 +215,27 @@
             <element>u_choice_2</element>
             <position>15</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>4b994b2edb571300a98ff91ebf961946</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>e49c109fdb1f5300a98ff91ebf96197d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>comments</element>
+            <element>sip_comments</element>
             <position>16</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>cb994b2edb571300a98ff91ebf961946</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>689c109fdb1f5300a98ff91ebf96197d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -243,13 +243,13 @@
             <element>outage_comments</element>
             <position>17</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>4f994b2edb571300a98ff91ebf961946</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>e89c109fdb1f5300a98ff91ebf96197d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -257,13 +257,13 @@
             <element>u_integer_3</element>
             <position>18</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>cf994b2edb571300a98ff91ebf961946</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>6c9c109fdb1f5300a98ff91ebf96197d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -271,13 +271,27 @@
             <element>actual_total_project</element>
             <position>19</position>
             <sys_created_by>503045518</sys_created_by>
-            <sys_created_on>2018-07-17 20:54:42</sys_created_on>
-            <sys_id>43994b2edb571300a98ff91ebf961947</sys_id>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>ec9c109fdb1f5300a98ff91ebf96197d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
             <sys_updated_by>503045518</sys_updated_by>
-            <sys_updated_on>2018-07-17 20:54:42</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_cost_productivity</element>
+            <position>20</position>
+            <sys_created_by>503045518</sys_created_by>
+            <sys_created_on>2018-07-19 16:14:08</sys_created_on>
+            <sys_id>609c109fdb1f5300a98ff91ebf96197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-Outage Info section" display_value="Pre-Outage Info section" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="Default view">9fa38519db0d8300ed28f209af9619ec</sys_ui_section>
+            <sys_updated_by>503045518</sys_updated_by>
+            <sys_updated_on>2018-07-19 16:14:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

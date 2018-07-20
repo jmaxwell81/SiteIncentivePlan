@@ -5,7 +5,7 @@
         <active>true</active>
         <client>true</client>
         <comments/>
-        <condition>current.site_comp_status == "for_finance_review" || current.site_comp_status == "sit_review" || current.site_comp_status == "for_jce_estimation" || current.site_comp_status == "ehs_evaluation"</condition>
+        <condition>javascript:checkCreatedDate()</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -25,6 +25,7 @@
         <order>120</order>
         <script><![CDATA[function onFinClick()
 {
+	
  var defectTrackList = g_form.getValue('defect_track');
 	//alert(list);
 if((g_form.getValue('site_comp_status') == "sit_review"||g_form.getValue('site_comp_status') == "for_jce_estimation") && (defectTrackList != '')){
@@ -100,7 +101,7 @@ if(appRec.next()) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>79e79a75dbd5c7008a08f35aaf96198b</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name>Send back to SM</sys_name>
         <sys_overrides/>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
@@ -108,7 +109,7 @@ if(appRec.next()) {
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sys_ui_action_79e79a75dbd5c7008a08f35aaf96198b</sys_update_name>
         <sys_updated_by>503045517</sys_updated_by>
-        <sys_updated_on>2018-07-13 19:10:39</sys_updated_on>
+        <sys_updated_on>2018-07-20 12:20:34</sys_updated_on>
         <table>x_grs_site_incntv_outageinfo</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

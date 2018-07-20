@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_grs_site_incntv.checkCreatedDate</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>checkCreatedDate</name>
+        <script><![CDATA[function checkCreatedDate(){
+	var time = gs.beginningOfThisMonth();
+	if(current.site_comp_status == "for_finance_review" || current.site_comp_status == "sit_review" || current.site_comp_status == "for_jce_estimation" || current.site_comp_status == "ehs_evaluation"){
+		if(current.sys_created_on<=gs.dateGenerate('2018-07-02','23:59:59')){
+	return true ;
+		}
+		else{
+			return false;
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>503045517</sys_created_by>
+        <sys_created_on>2018-07-20 12:24:15</sys_created_on>
+        <sys_id>fdb03c27dbd79300a98ff91ebf9619e7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>checkCreatedDate</sys_name>
+        <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
+        <sys_update_name>sys_script_include_fdb03c27dbd79300a98ff91ebf9619e7</sys_update_name>
+        <sys_updated_by>503045517</sys_updated_by>
+        <sys_updated_on>2018-07-20 12:35:41</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -3,7 +3,8 @@
     <sysrule_view action="INSERT_OR_UPDATE">
         <active>true</active>
         <advanced>false</advanced>
-        <condition table="x_grs_site_incntv_outageinfo">site_comp_status=complete^EQ<item endquery="false" field="site_comp_status" goto="false" newquery="false" operator="=" or="false" value="complete"/>
+        <condition table="x_grs_site_incntv_outageinfo">site_comp_status=complete^sys_created_on&lt;javascript:gs.dateGenerate('2018-07-03','00:00:00')^EQ<item endquery="false" field="site_comp_status" goto="false" newquery="false" operator="=" or="false" value="complete"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&lt;" or="false" value="javascript:gs.dateGenerate('2018-07-03','00:00:00')"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
@@ -24,15 +25,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>701fdce9dbdd87008a08f35aaf96196d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Show  Complete</sys_name>
         <sys_overrides/>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
         <sys_policy/>
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sysrule_view_701fdce9dbdd87008a08f35aaf96196d</sys_update_name>
-        <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
-        <sys_updated_on>2017-09-24 19:16:09</sys_updated_on>
+        <sys_updated_by>503045517</sys_updated_by>
+        <sys_updated_on>2018-07-19 20:11:57</sys_updated_on>
         <table>x_grs_site_incntv_outageinfo</table>
         <view>sc_complete</view>
     </sysrule_view>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="OutageInfo" max_length="40" name="x_grs_site_incntv_outageinfo" sizeclass="2264" type="collection">
+    <element extends="task" label="OutageInfo" max_length="40" name="x_grs_site_incntv_outageinfo" sizeclass="2337" type="collection">
         <element attributes="omit_sys_original=true" label="Actual total project cost" max_length="20" name="actual_total_project" type="currency"/>
         <element label="Addnl Margin POs" max_length="40" name="addnl_margin_po" type="string"/>
         <element choice="1" label="Did FE/team drive Additional Margin(Parts/Repairs/Services)?" max_length="40" name="add_margin_fe" type="choice">
@@ -271,7 +271,7 @@
         <element label="Outage Notification Date" max_length="40" name="outage_notification_date" type="glide_date"/>
         <element label="Outage Planned End Date" max_length="40" name="outage_planned_end_date" read_only="true" type="glide_date"/>
         <element label="Outage Planned Start Date" max_length="40" name="outage_planned_start_date" read_only="true" type="glide_date"/>
-        <element label="Outage Productivity Multipliers" max_length="40" name="outage_productivity_multipliers" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;if(current.u_choice_4 !='yes'){&#13;&#10;&#9;&#9;var a =current.project_cost_productivity /current.proj_cost*100;&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;if(a &lt; 15){&#13;&#10;&#9;&#9;&#9;return '0';&#13;&#10;&#9;&#9;}&#13;&#10;&#9;&#9;else if(a &gt;= 15){&#13;&#10;&#9;&#9;&#9;return '100';&#13;&#10;&#9;&#9;}&#13;&#10;&#9;&#9;// Add your code here&#13;&#10;&#9;&#9;//return a;  // return the calculated value&#13;&#10;&#9;}&#13;&#10;&#9;else{&#13;&#10;&#9;&#9;return '0';&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;})(current);" label="Outage Productivity Multipliers (%)" max_length="40" name="outage_productivity_multipliers" type="integer" virtual="true"/>
         <element choice="1" hint="Select the Region for this job/outage" label="Region" mandatory="true" max_length="40" name="outage_region" type="choice">
             <choice>
                 <element label="Asia" sequence="1" value="asia"/>
@@ -289,7 +289,8 @@
             </choice>
         </element>
         <element label="Parent Form Number" max_length="50" name="parentoutage" type="string"/>
-        <element label="Performance Multiplier" max_length="40" name="performance_multi" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;&#13;&#10;&#9;&#9;if(current.u_choice_4 !='yes'){&#13;&#10;&#9;&#9;var total = parseInt(current.rating_team_performance) + parseInt(current.rating_quality_rework) + parseInt(current.rating_fe_unit_return) ;&#13;&#10;&#9;&#9;&#9;var avg = parseFloat(total/3);&#13;&#10;&#9;&#9;&#9;if(avg &lt; 2){&#13;&#10;&#9;&#9;&#9;&#9;return '0';&#13;&#10;&#9;&#9;&#9;}&#13;&#10;&#9;&#9;&#9;else if(2&lt;=avg &amp;&amp; avg &lt; 3){&#13;&#10;&#9;&#9;&#9;&#9;return '100';&#13;&#10;&#9;&#9;&#9;}&#13;&#10;&#9;&#9;&#9;else if(3&lt;= avg &amp;&amp; avg &lt; 4){&#13;&#10;&#9;&#9;&#9;&#9;return '120';&#13;&#10;&#9;&#9;&#9;}&#13;&#10;&#9;&#9;&#9;else if(avg &gt;= 4){&#13;&#10;                 return '140';&#13;&#10;&#9;&#9;&#9;}&#13;&#10;//&#9;current.performance_multi = parseFloat(total/3);&#13;&#10;&#9;&#9;}&#13;&#10;&#9;else{&#13;&#10;&#9;&#9;return '0';&#13;&#10;&#9;}&#13;&#10;// Add your code here&#13;&#10;&#9;//return avg;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Performance Multiplier (%)" max_length="40" name="performance_multi" type="integer" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;&#13;&#10;&#9;&#13;&#10;&#9;&#9;var total = parseInt(current.rating_team_performance) + parseInt(current.rating_quality_rework) + parseInt(current.rating_fe_unit_return) ;&#13;&#10;&#9;&#9;&#9;var avg = parseFloat(total/3);&#13;&#10;&#9;&#9;&#9;&#13;&#10;//&#9;current.performance_rating_average = parseFloat(total/3);&#13;&#10;&#9;&#9;&#13;&#10;&#9;return avg; &#13;&#10;&#9;&#13;&#10;// Add your code here&#13;&#10;&#9;//return avg;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Performance Rating Average" max_length="40" name="performance_rating_average" type="integer" virtual="true"/>
         <element choice="1" label="POs Entered?" max_length="40" name="po_entered" type="choice">
             <choice>
                 <element label="No" value="no"/>
@@ -320,6 +321,7 @@
         </element>
         <element label="Productivity Team Group" max_length="32" name="productivity_team_group" reference="sys_user_group" reference_qual="nameSTARTSWITHProductivity Team^EQ" reference_qual_condition="nameSTARTSWITHProductivity Team^EQ" type="reference"/>
         <element hint="Provide the name of the FieldCore Productivity Team member" label="Productivity Team Member" max_length="32" name="productivity_team_member" read_only="true" reference="x_grs_site_incntv_productivity_team" reference_qual="roles=x_grs_site_incntv.productivityteam^EQ" reference_qual_condition="roles=x_grs_site_incntv.productivityteam^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;var calc = current.proj_cost - current.actual_total_project;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return calc ;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Project Cost Productivity" max_length="20" name="project_cost_productivity" type="currency" virtual="true"/>
         <element choice="1" label="Project has cost estimate?" max_length="40" name="project_estimate" type="choice">
             <choice>
                 <element label="Yes" sequence="1" value="yes"/>
@@ -384,10 +386,9 @@
         </element>
         <element label="SIT Final Comments" max_length="5000" name="scl_final_comments" type="string_full_utf8"/>
         <element hint="Please select your name" label="Service Manager Name" max_length="32" name="service_manager_name" reference="sys_user" type="reference"/>
-        <element label="Additional Comments" max_length="5000" name="sip_comments" type="string_full_utf8"/>
+        <element label="SIT NOTES" max_length="5000" name="sip_comments" type="string_full_utf8"/>
         <element choice="3" default="SIT Data Entry" label="Site Comp Current Step" max_length="40" name="site_comp_status" read_only="true" type="choice">
             <choice>
-                <element label="Form Closed" value="Form Closed"/>
                 <element label="SM Repairs Review" value="sm_repairs_review"/>
                 <element label="SM Review" sequence="0" value="sm_review"/>
                 <element label="For SIT Approval" sequence="1" value="for_sit_approval"/>
@@ -404,8 +405,6 @@
                 <element label="JCE Review" sequence="13" value="jce_review"/>
                 <element label="Cancelled" sequence="14" value="cancelled"/>
                 <element label="SIT Data Entry" sequence="15" value="SIT Data Entry"/>
-                <element label="SM Review" sequence="16" value="SM Review1"/>
-                <element label="Finance Review" sequence="17" value="Finance Review"/>
                 <element label="SIT Final Calc" sequence="18" value="SIT Final Calc"/>
             </choice>
         </element>
@@ -454,7 +453,5 @@
             </choice>
         </element>
         <element label="Actual total project hours" max_length="40" name="u_integer_3" type="integer"/>
-        <element label="Performance Rating Average" max_length="40" name="u_integer_5" type="integer"/>
-        <element label="Project Cost Productivity" max_length="40" name="u_integer_6" type="integer"/>
     </element>
 </database>

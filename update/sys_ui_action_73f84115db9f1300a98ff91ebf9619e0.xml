@@ -50,7 +50,7 @@ function submitForm() {
 	var wfRecStatus = wfRec.next();
 	gs.info("SiteComp" + wfRecStatus);
 	if(current.site_comp_status== "SIT Data Entry" && !(wfRec.next()))	{
-		current.site_comp_status="SM Review1";
+		current.site_comp_status="sm_review";
 		current.update();
 	}
 	else {
@@ -84,7 +84,7 @@ function submitForm() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>73f84115db9f1300a98ff91ebf9619e0</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name>Submit Form</sys_name>
         <sys_overrides/>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
@@ -92,7 +92,7 @@ function submitForm() {
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sys_ui_action_73f84115db9f1300a98ff91ebf9619e0</sys_update_name>
         <sys_updated_by>503045517</sys_updated_by>
-        <sys_updated_on>2018-07-17 18:40:10</sys_updated_on>
+        <sys_updated_on>2018-07-18 16:26:41</sys_updated_on>
         <table>x_grs_site_incntv_outageinfo</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

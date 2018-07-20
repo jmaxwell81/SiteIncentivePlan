@@ -2,22 +2,22 @@
 <record_update table="sysevent_register">
     <sysevent_register action="INSERT_OR_UPDATE">
         <description/>
-        <event_name>x_grs_site_incntv.scp.sm.returnfromsm</event_name>
+        <event_name>x_grs_site_incntv.scp.sit.returnfromsm</event_name>
         <fired_by/>
         <queue/>
-        <suffix>scp.sm.returnfromsm</suffix>
+        <suffix>scp.sit.returnfromsm</suffix>
         <sys_class_name>sysevent_register</sys_class_name>
         <sys_created_by>503045517</sys_created_by>
         <sys_created_on>2018-07-18 09:42:11</sys_created_on>
         <sys_id>9549b1fedbdb1300a98ff91ebf961927</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_grs_site_incntv.scp.sm.returnfromsm</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_grs_site_incntv.scp.sit.returnfromsm</sys_name>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
         <sys_policy/>
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sysevent_register_9549b1fedbdb1300a98ff91ebf961927</sys_update_name>
         <sys_updated_by>503045517</sys_updated_by>
-        <sys_updated_on>2018-07-18 12:30:48</sys_updated_on>
+        <sys_updated_on>2018-07-18 12:32:35</sys_updated_on>
         <table>x_grs_site_incntv_outageinfo</table>
     </sysevent_register>
 </record_update>

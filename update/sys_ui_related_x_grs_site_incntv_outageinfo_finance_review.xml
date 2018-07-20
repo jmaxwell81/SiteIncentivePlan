@@ -3,7 +3,7 @@
     <sys_ui_related sys_domain="global" table="x_grs_site_incntv_outageinfo" version="2" view="Finance_Review">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="OutageInfo - Finance Review" name="x_grs_site_incntv_outageinfo" related_list="NULL" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">6b0a5869dbdd87008a08f35aaf961917</list_id>
+            <list_id display_value="OutageInfo - Finance Review_arch" name="x_grs_site_incntv_outageinfo" related_list="NULL" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">6b0a5869dbdd87008a08f35aaf961917</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_grs_site_incntv_field_engineers.outage_ref</related_list>
@@ -17,7 +17,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="OutageInfo - Finance Review" name="x_grs_site_incntv_outageinfo" related_list="NULL" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">6b0a5869dbdd87008a08f35aaf961917</list_id>
+            <list_id display_value="OutageInfo - Finance Review_arch" name="x_grs_site_incntv_outageinfo" related_list="NULL" sys_domain="global" view="ccfe63d9db9d87008a08f35aaf961918">6b0a5869dbdd87008a08f35aaf961917</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_grs_site_incntv_additional_margin_po_list.outage_ref</related_list>
@@ -30,7 +30,7 @@
             <sys_updated_on>2017-09-18 23:17:02</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>OutageInfo - Finance Review</calculated_name>
+            <calculated_name>OutageInfo - Finance Review_arch</calculated_name>
             <filter/>
             <name>x_grs_site_incntv_outageinfo</name>
             <order_by/>
@@ -51,7 +51,7 @@
             <sys_updated_by>Krishna.Chaitanya</sys_updated_by>
             <sys_updated_on>2017-09-18 23:17:02</sys_updated_on>
             <sys_user/>
-            <view display_value="Finance Review" name="Finance_Review">ccfe63d9db9d87008a08f35aaf961918</view>
+            <view display_value="Finance Review_arch" name="Finance_Review">ccfe63d9db9d87008a08f35aaf961918</view>
             <view_name/>
         </sys_ui_related_list>
     </sys_ui_related>

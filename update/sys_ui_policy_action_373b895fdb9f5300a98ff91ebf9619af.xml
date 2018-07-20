@@ -2,20 +2,20 @@
 <record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <disabled>true</disabled>
-        <field>u_integer_6</field>
+        <field>rating_team_performance</field>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>503045517</sys_created_by>
-        <sys_created_on>2018-07-13 16:19:08</sys_created_on>
-        <sys_id>0424ed15dbdf1300a98ff91ebf96192d</sys_id>
+        <sys_created_on>2018-07-19 19:38:18</sys_created_on>
+        <sys_id>373b895fdb9f5300a98ff91ebf9619af</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>u_integer_6</sys_name>
+        <sys_name>rating_team_performance</sys_name>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
         <sys_policy/>
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
-        <sys_update_name>sys_ui_policy_action_0424ed15dbdf1300a98ff91ebf96192d</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_373b895fdb9f5300a98ff91ebf9619af</sys_update_name>
         <sys_updated_by>503045517</sys_updated_by>
-        <sys_updated_on>2018-07-13 16:19:08</sys_updated_on>
+        <sys_updated_on>2018-07-19 19:38:18</sys_updated_on>
         <table>x_grs_site_incntv_outageinfo</table>
         <ui_policy display_value="SM  Repair Review ReadOnly Fields">fce8f499db5f1300a98ff91ebf9619c8</ui_policy>
         <visible>ignore</visible>

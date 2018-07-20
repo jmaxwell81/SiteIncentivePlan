@@ -55,17 +55,30 @@
 	outageinfo.outage_end_date =  current.outage_ref.outage_end_date;
 	outageinfo.tot_proj_hours =  current.outage_ref.tot_proj_hours;
 	outageinfo.proj_cost =  current.outage_ref.proj_cost;
-	outageinfo.u_choice_1 =  current.outage_ref.u_choice_1;
+	outageinfo.project_estimate =  current.outage_ref.project_estimate;
 	outageinfo.u_choice_2 =  current.outage_ref.u_choice_2;
-	outageinfo.comments =  current.outage_ref.comments;
+	outageinfo.sip_comments =  current.outage_ref.sip_comments;
 	outageinfo.outage_comments =  current.outage_ref.outage_comments;
 	outageinfo.u_choice_3 =  current.outage_ref.u_choice_3;
 	outageinfo.u_choice_4 =  current.outage_ref.u_choice_4;
 	outageinfo.add_margin_fe =  current.outage_ref.add_margin_fe;
 	outageinfo.u_integer_3 =  current.outage_ref.u_integer_3;
 	outageinfo.actual_total_project =  current.outage_ref.actual_total_project;
-	outageinfo.u_integer_5 =  current.outage_ref.u_integer_5;
-	outageinfo.u_integer_6 =  current.outage_ref.u_integer_6;
+	outageinfo.performance_rating_average =  current.outage_ref.performance_rating_average;
+	outageinfo.project_cost_productivity =  current.outage_ref.project_cost_productivity;
+	
+	
+	outageinfo.sm_validation_status =  current.outage_ref.sm_validation_status;
+	outageinfo.reviewed_estimated_values_for_project =  current.outage_ref.reviewed_estimated_values_for_project;
+	outageinfo.reviewed_outage_report_response =  current.outage_ref.reviewed_outage_report_response;
+	outageinfo.rating_team_performance =  current.outage_ref.rating_team_performance;
+	outageinfo.rating_team_perf_comments =  current.outage_ref.rating_team_perf_comments;
+	outageinfo.rating_quality_rework =  current.outage_ref.rating_quality_rework;
+	outageinfo.rating_qty_rework_comments =  current.outage_ref.rating_qty_rework_comments;
+	outageinfo.rating_fe_unit_return =  current.outage_ref.rating_fe_unit_return;
+	outageinfo.rating_fe_return_comments =  current.outage_ref.rating_fe_return_comments;
+	outageinfo.finance_comments =  current.outage_ref.finance_comments;
+	
 	//Dinesh Kumar
 	
 
@@ -77,6 +90,23 @@
 	//gs.addErrorMessage("Restricting craetion of Additional Margin record based on current selection of Additional Margin form.");
 	//current.setAbortAction(true);
 	//Dinesh Kumar
+	
+	var field = new GlideRecord('x_grs_site_incntv_field_engineers');
+	field.addQuery('outage_ref',current.outage_ref);
+	field.query();
+	while(field.next()){
+		var field2 = new GlideRecord('x_grs_site_incntv_field_engineers');
+		field2.initialize();
+	//outageinfo = current;
+	field2.outage_ref = out;
+	field2.x_grs_site_incntv_field_engineers = field.x_grs_site_incntv_field_engineers;
+	field2.event_start_date = field.event_start_date;
+	field2.event_end_date = field.event_end_date;
+		field2.skill_set = field.skill_set;
+	field2.additional_margin_contribution = field.additional_margin_contribution;
+		field2.insert();
+		
+	}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -85,7 +115,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>73cbebc9db9b1300a98ff91ebf961947</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Create outageinfo record</sys_name>
         <sys_overrides/>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
@@ -93,7 +123,7 @@
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sys_script_73cbebc9db9b1300a98ff91ebf961947</sys_update_name>
         <sys_updated_by>503045517</sys_updated_by>
-        <sys_updated_on>2018-07-13 15:20:25</sys_updated_on>
+        <sys_updated_on>2018-07-19 18:47:45</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

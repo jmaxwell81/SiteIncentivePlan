@@ -6,25 +6,6 @@
             <element>site_comp_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Form Closed</label>
-            <language>en</language>
-            <name>x_grs_site_incntv_outageinfo</name>
-            <sequence/>
-            <sys_created_by>503045517</sys_created_by>
-            <sys_created_on>2018-07-09 17:36:16</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f26f89c0db531300a98ff91ebf9619a4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>503045517</sys_updated_by>
-            <sys_updated_on>2018-07-09 17:36:16</sys_updated_on>
-            <value>Form Closed</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>site_comp_status</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>SM Repairs Review</label>
             <language>en</language>
             <name>x_grs_site_incntv_outageinfo</name>
@@ -323,44 +304,6 @@
             <sys_updated_by>503045517</sys_updated_by>
             <sys_updated_on>2018-07-06 13:06:43</sys_updated_on>
             <value>SIT Data Entry</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>site_comp_status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>SM Review</label>
-            <language>en</language>
-            <name>x_grs_site_incntv_outageinfo</name>
-            <sequence>16</sequence>
-            <sys_created_by>503045517</sys_created_by>
-            <sys_created_on>2018-07-06 13:04:53</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>40847887db031300a98ff91ebf961930</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>503045517</sys_updated_by>
-            <sys_updated_on>2018-07-11 21:20:35</sys_updated_on>
-            <value>SM Review1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>site_comp_status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Finance Review</label>
-            <language>en</language>
-            <name>x_grs_site_incntv_outageinfo</name>
-            <sequence>17</sequence>
-            <sys_created_by>503045517</sys_created_by>
-            <sys_created_on>2018-07-06 13:05:16</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>2e947887db031300a98ff91ebf961927</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>503045517</sys_updated_by>
-            <sys_updated_on>2018-07-10 12:28:31</sys_updated_on>
-            <value>Finance Review</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

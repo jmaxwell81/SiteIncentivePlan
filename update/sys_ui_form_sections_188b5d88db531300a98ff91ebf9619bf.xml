@@ -18,30 +18,44 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>503045517</sys_created_by>
+            <sys_created_on>2018-07-19 16:26:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>974f9cdfdb1f5300a98ff91ebf961908</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_grs_site_incntv_outageinfo" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="08343c47db031300a98ff91ebf96195a">188b5d88db531300a98ff91ebf9619bf</sys_ui_form>
+            <sys_ui_section caption="Service Manager Acknowledgements" display_value="Service Manager Acknowledgements" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="08343c47db031300a98ff91ebf96195a">9b4f5cdfdb1f5300a98ff91ebf961931</sys_ui_section>
+            <sys_updated_by>503045517</sys_updated_by>
+            <sys_updated_on>2018-07-19 16:26:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>503045517</sys_created_by>
             <sys_created_on>2018-07-09 18:28:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>548b5d88db531300a98ff91ebf9619c1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_grs_site_incntv_outageinfo" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="08343c47db031300a98ff91ebf96195a">188b5d88db531300a98ff91ebf9619bf</sys_ui_form>
             <sys_ui_section caption="Performance Evaluation" display_value="Performance Evaluation" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="08343c47db031300a98ff91ebf96195a">988b5d88db531300a98ff91ebf9619c0</sys_ui_section>
             <sys_updated_by>503045517</sys_updated_by>
-            <sys_updated_on>2018-07-09 18:28:50</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:26:04</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>503045517</sys_created_by>
             <sys_created_on>2018-07-09 18:46:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4e8f5d8cdb531300a98ff91ebf961924</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_grs_site_incntv_outageinfo" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="08343c47db031300a98ff91ebf96195a">188b5d88db531300a98ff91ebf9619bf</sys_ui_form>
             <sys_ui_section caption="Finance Review Comments(If Any)" display_value="Finance Review Comments(If Any)" name="x_grs_site_incntv_outageinfo" sys_domain="global" view="08343c47db031300a98ff91ebf96195a">8a8f5d8cdb531300a98ff91ebf961922</sys_ui_section>
             <sys_updated_by>503045517</sys_updated_by>
-            <sys_updated_on>2018-07-09 18:46:26</sys_updated_on>
+            <sys_updated_on>2018-07-19 16:26:04</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_grs_site_incntv_outageinfo</name>
@@ -62,7 +76,7 @@
             <sys_updated_by>503045517</sys_updated_by>
             <sys_updated_on>2018-07-09 18:28:50</sys_updated_on>
             <sys_user/>
-            <view display_value="Finance Review1" name="finance_review1">08343c47db031300a98ff91ebf96195a</view>
+            <view display_value="Finance Review" name="finance_review1">08343c47db031300a98ff91ebf96195a</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

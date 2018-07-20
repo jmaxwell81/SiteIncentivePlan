@@ -5,7 +5,7 @@
         <active>true</active>
         <client>true</client>
         <comments/>
-        <condition>current.site_comp_status == "sm_review" || current.site_comp_status == "sit_review" || current.site_comp_status == "jce_review" || current.site_comp_status == "for_sm_validation"||current.site_comp_status != "new"</condition>
+        <condition>current.site_comp_status == "sm_review" || current.site_comp_status == "sit_review" || current.site_comp_status == "jce_review" || current.site_comp_status == "for_sm_validation"</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -80,7 +80,7 @@ if(appRec.next()) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0a635e37dbdbc340ed28f209af9619d7</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Cancel Form</sys_name>
         <sys_overrides/>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
@@ -88,7 +88,7 @@ if(appRec.next()) {
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sys_ui_action_0a635e37dbdbc340ed28f209af9619d7</sys_update_name>
         <sys_updated_by>503045517</sys_updated_by>
-        <sys_updated_on>2018-07-10 13:30:14</sys_updated_on>
+        <sys_updated_on>2018-07-18 18:05:18</sys_updated_on>
         <table>x_grs_site_incntv_outageinfo</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

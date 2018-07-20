@@ -36,23 +36,31 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hi,</p>
-<p>Form Number: ${number} submitted successfully.</p>
-<p>Thanks,</p>]]></message_html>
+        <message_html><![CDATA[<div>Application: FieldCore Site Incentive Plan</div>
+<div>Request No: ${number}</div>
+<div>Project Number: ${project_number}</div>
+<div>Outage Start Date: ${outage_start_date}</div>
+<div>Outage Comments: ${outage_comments}</div>
+<div>&nbsp;</div>
+<div>Additional Comments: ${sip_comments}</div>
+<div>FieldCore Site Incentive Plan form has been created by (on behalf of) Service Manager - ${service_manager_name}&nbsp;</div>
+<div>&nbsp;</div>
+<div>Please click on ${URI_REF} to view the request.</div>
+<p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Send email when form submitted</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields/>
+        <recipient_fields>service_manager_name</recipient_fields>
         <recipient_groups/>
         <recipient_users>f901c97ddb7553087ddafce9af961940</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Outageinfo ${number} submitted successfully</subject>
+        <subject>FieldCore Site Incentive Plan: ${number} - New form created</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>503045517</sys_created_by>
@@ -60,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>af7ebdb2db1f1300a98ff91ebf9619a2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Send email when form submitted</sys_name>
         <sys_overrides/>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
@@ -68,7 +76,7 @@
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sysevent_email_action_af7ebdb2db1f1300a98ff91ebf9619a2</sys_update_name>
         <sys_updated_by>503045517</sys_updated_by>
-        <sys_updated_on>2018-07-18 10:09:41</sys_updated_on>
+        <sys_updated_on>2018-07-18 19:47:55</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

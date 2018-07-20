@@ -2,7 +2,8 @@
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_grs_site_incntv_outageinfo">site_comp_status=SM Review1^EQ<item endquery="false" field="site_comp_status" goto="false" newquery="false" operator="=" or="false" value="SM Review1"/>
+        <conditions table="x_grs_site_incntv_outageinfo">site_comp_status=sm_review^sys_created_on&gt;=javascript:gs.dateGenerate('2018-07-09','00:00:00')^EQ<item endquery="false" field="site_comp_status" goto="false" newquery="false" operator="=" or="false" value="sm_review"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.dateGenerate('2018-07-09','00:00:00')"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -28,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6aae0e51db535300a98ff91ebf96192d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>SM Review 1 mandatory Flelds</sys_name>
         <sys_overrides/>
         <sys_package display_value="Site Incentive Plan" source="x_grs_site_incntv">60c650d9dbc98300ed28f209af961967</sys_package>
@@ -36,7 +37,7 @@
         <sys_scope display_value="Site Incentive Plan">60c650d9dbc98300ed28f209af961967</sys_scope>
         <sys_update_name>sys_ui_policy_6aae0e51db535300a98ff91ebf96192d</sys_update_name>
         <sys_updated_by>503045517</sys_updated_by>
-        <sys_updated_on>2018-07-13 19:25:39</sys_updated_on>
+        <sys_updated_on>2018-07-19 15:01:01</sys_updated_on>
         <table>x_grs_site_incntv_outageinfo</table>
         <ui_type>0</ui_type>
         <view/>
